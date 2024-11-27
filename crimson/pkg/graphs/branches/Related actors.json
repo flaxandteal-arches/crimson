@@ -1,0 +1,412 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "424db501-8c8e-47b8-9bfc-6ae0663fd90e",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": {
+                        "groupedCardIds": [],
+                        "sortedWidgetIds": [
+                            "17f5373b-8d21-11ef-9169-08002700567a",
+                            "8c05a6e6-8d24-11ef-ab72-08002700567a",
+                            "565c77b0-8d20-11ef-9e85-08002700567a"
+                        ]
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": "People or organisation related to the thing"
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Related actors"
+                    },
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "424db501-8c8e-47b8-9bfc-6ae0663fd90e",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Association metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "28604229-305b-4922-a857-2fc11ed9b05d",
+                    "label": {
+                        "en": "Association metatype"
+                    },
+                    "node_id": "8c05a6e6-8d24-11ef-ab72-08002700567a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "424db501-8c8e-47b8-9bfc-6ae0663fd90e",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Association type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d112705-5f45-4f02-baba-72124dced555",
+                    "label": {
+                        "en": "Association type"
+                    },
+                    "node_id": "17f5373b-8d21-11ef-9169-08002700567a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "424db501-8c8e-47b8-9bfc-6ae0663fd90e",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related people or organisations",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "d1ed4adf-e979-4ae3-a958-2da1dfcb91d5",
+                    "label": {
+                        "en": "Related people or organisations"
+                    },
+                    "node_id": "565c77b0-8d20-11ef-9e85-08002700567a",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "edgeid": "0efe8d06-4f0b-46bd-82e0-47f73bef88d2",
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "35519064-8d63-11ef-8087-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "edgeid": "31a676da-4fa7-4f2d-a7a5-838c4bbf0850",
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "17f5373b-8d21-11ef-9169-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "35519064-8d63-11ef-8087-08002700567a",
+                    "edgeid": "3551b779-8d63-11ef-8cee-08002700567a",
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "35519066-8d63-11ef-b434-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "35519064-8d63-11ef-8087-08002700567a",
+                    "edgeid": "3551b77a-8d63-11ef-a4ce-08002700567a",
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "35519067-8d63-11ef-a6f4-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "edgeid": "767db7c3-335e-40ac-a83f-a1df5ab0a720",
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "565c77b0-8d20-11ef-9e85-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "edgeid": "ca70f54b-6297-4ff6-9787-d18923b736ff",
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "8c05a6e6-8d24-11ef-ab72-08002700567a"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+            "iconclass": "fa fa-sitemap",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Related actors"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": null,
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Related actors",
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "nodeid": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "association_type",
+                    "config": {
+                        "rdmCollection": "00000000-0000-0000-0000-000000000005"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Way in which person is related to thing",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Association type",
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "nodeid": "17f5373b-8d21-11ef-9169-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 2,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": "Dates relationship held between",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dates",
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "nodeid": "35519064-8d63-11ef-8087-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": "30622bc3-8d1f-11ef-a058-08002700567a"
+                },
+                {
+                    "alias": "start_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": "Start date or first date recorded",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Start date",
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "nodeid": "35519066-8d63-11ef-b434-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": "30622bc3-8d1f-11ef-a058-08002700567a"
+                },
+                {
+                    "alias": "end_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": "End date or last date recorded",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "End date",
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "nodeid": "35519067-8d63-11ef-a6f4-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1,
+                    "sourcebranchpublication_id": "30622bc3-8d1f-11ef-a058-08002700567a"
+                },
+                {
+                    "alias": "related_people_or_organisations",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "f2b4e75d-a688-488e-b659-db13685618d5",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Person",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            },
+                            {
+                                "graphid": "961c6260-6dce-4495-a4e2-59a303628f84",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Organisation",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related people or organisations",
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "nodeid": "565c77b0-8d20-11ef-9e85-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "association_metatype",
+                    "config": {
+                        "rdmCollection": "4706dc79-ab8d-499b-921c-a63d0bf48f2f"
+                    },
+                    "datatype": "concept",
+                    "description": "Type of role held",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Association metatype",
+                    "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                    "nodeid": "8c05a6e6-8d24-11ef-ab72-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                "notes": null,
+                "publicationid": "b78276cd-9c44-11ef-bd75-08002700567a",
+                "published_time": "2024-11-06T07:40:42.226"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": null,
+                "config": {
+                    "en": ""
+                },
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "400cff70-ee93-4c85-be1a-fe16a29c80bf",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Related actors",
+                "nodegroup_id": "17aba510-8d20-11ef-a39f-08002700567a",
+                "nodeid": "17aba510-8d20-11ef-a39f-08002700567a",
+                "ontologyclass": null,
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "People or organisations related to the thing"
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

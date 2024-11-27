@@ -1,0 +1,225 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "4396a297-7435-11ef-90c9-08002700567a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Purpose"
+                    },
+                    "nodegroup_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": "#d158dd",
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "edgeid": "4b6c3540-a3d6-466b-b35d-49562bbc7cd6",
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "b8c3a868-7670-11ef-9b5f-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "edgeid": "6b50750a-b90d-4adc-a9e9-30ac803da316",
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "d231c2d3-7670-11ef-88a6-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "edgeid": "9971b0cf-9c7e-4351-947d-e82430133273",
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "f20d017f-7670-11ef-ad75-08002700567a"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "43969af2-7435-11ef-84e5-08002700567a",
+            "iconclass": "fa fa-arrow-right",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Purpose"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "purpose",
+                    "config": {
+                        "en": "",
+                        "rdmCollection": null
+                    },
+                    "datatype": "string",
+                    "description": "Purpose of an organisation or occupation",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Purpose",
+                    "nodegroup_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "nodeid": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "product",
+                    "config": {
+                        "rdmCollection": "a673a93d-880b-45b5-8201-dbd6bca7c576"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Thing produced",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Product",
+                    "nodegroup_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "nodeid": "b8c3a868-7670-11ef-9b5f-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "materials_used",
+                    "config": {
+                        "rdmCollection": "a3fae387-ab1f-41bf-ae3b-1cb26f7816a4"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Materials used",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Materials used",
+                    "nodegroup_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "nodeid": "d231c2d3-7670-11ef-88a6-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "process",
+                    "config": {
+                        "rdmCollection": "dc1d2801-4442-4d96-a47b-f1518d2f81ea"
+                    },
+                    "datatype": "concept-list",
+                    "description": "The process undertaken",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Process",
+                    "nodegroup_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                    "nodeid": "f20d017f-7670-11ef-ad75-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                "notes": null,
+                "publicationid": "82b55e15-8d1e-11ef-b7f3-08002700567a",
+                "published_time": "2024-10-18T01:59:25.323"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "purpose",
+                "config": {
+                    "en": "",
+                    "rdmCollection": null
+                },
+                "datatype": "string",
+                "description": "Purpose of an organisation or occupation",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "43969af2-7435-11ef-84e5-08002700567a",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Purpose",
+                "nodegroup_id": "4396a1d6-7435-11ef-b82c-08002700567a",
+                "nodeid": "4396a1d6-7435-11ef-b82c-08002700567a",
+                "ontologyclass": null,
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "Specific purpose"
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

@@ -1,0 +1,532 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "bdb5a44b-7511-11ef-b37d-08002700567a",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "streets",
+                        "centerX": 3,
+                        "centerY": 8.5,
+                        "colorpalette": [
+                            "#A4DB6E",
+                            "#F0C200",
+                            "#fdb462",
+                            "#22ff33",
+                            "#D29EFF"
+                        ],
+                        "defaultcolor": "#F0C200",
+                        "fillopacity": 0.2,
+                        "hovercolor": "#ff0000",
+                        "linewidth": 2,
+                        "minzoom": 15,
+                        "overlayConfigs": [],
+                        "overviewzoom": 11,
+                        "pointradius": 4,
+                        "selectRelatedSource": "",
+                        "selectRelatedSourceLayer": "",
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "selectioncolor": "#427AFF",
+                        "strokecolor": "#fff",
+                        "strokelinewidth": 4,
+                        "strokepointopacity": 1,
+                        "strokepointradius": 6,
+                        "zoom": 0
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "{\"en\": \"\"}",
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Location"
+                    },
+                    "nodegroup_id": "bdb5a1de-7511-11ef-9c2a-08002700567a",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "bdb5a6b1-7511-11ef-a52e-08002700567a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": "Date or dates when this address was occupied by this date of occupation, where only one available, use start date"
+                    },
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Date(s) of occupation"
+                    },
+                    "nodegroup_id": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "bdb5a8cd-7511-11ef-85e8-08002700567a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Operational base"
+                    },
+                    "nodegroup_id": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "bdb5a6b1-7511-11ef-a52e-08002700567a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Start date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "59b73e3f-cce7-4621-be9a-ab1f24fb6f4f",
+                    "label": {
+                        "en": "Start date"
+                    },
+                    "node_id": "bdb5a9da-7511-11ef-bfaa-08002700567a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "bdb5a6b1-7511-11ef-a52e-08002700567a",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date(s) of occupation",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "b2ad11c0-9d52-4819-8784-cbb664a7e076",
+                    "label": {
+                        "en": "Date(s) of occupation"
+                    },
+                    "node_id": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "bdb5a6b1-7511-11ef-a52e-08002700567a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "End date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "bd3f9770-d135-4fa8-ba91-ec5c33885c9d",
+                    "label": {
+                        "en": "End date"
+                    },
+                    "node_id": "bdb5aad2-7511-11ef-b3c8-08002700567a",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "bdb5a44b-7511-11ef-b37d-08002700567a",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": 0,
+                        "centerX": 3,
+                        "centerY": 8.5,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Location",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 0
+                    },
+                    "id": "bdb5ab43-7511-11ef-8bc3-08002700567a",
+                    "label": {
+                        "en": "Location"
+                    },
+                    "node_id": "bdb5a1de-7511-11ef-9c2a-08002700567a",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                }
+            ],
+            "color": "#ea7d1e",
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "edgeid": "71a6b141-a5ff-49be-82ab-a48385079469",
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "da9d720a-7511-11ef-8d5f-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "edgeid": "bdb5b057-7511-11ef-8ad9-08002700567a",
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "bdb5aad2-7511-11ef-b3c8-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "edgeid": "bdb5b162-7511-11ef-8b1c-08002700567a",
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "bdb5a566-7511-11ef-9f9c-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "edgeid": "bdb5b212-7511-11ef-9a31-08002700567a",
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "bdb5a1de-7511-11ef-9c2a-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "edgeid": "bdb5b2ae-7511-11ef-96db-08002700567a",
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "bdb5a9da-7511-11ef-bfaa-08002700567a"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "bdb58d7b-7511-11ef-9a93-08002700567a",
+            "iconclass": "fa fa-map-marker",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Operational base"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "bdb5a1de-7511-11ef-9c2a-08002700567a",
+                    "parentnodegroup_id": "bdb5a7b7-7511-11ef-b82b-08002700567a"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "parentnodegroup_id": "bdb5a7b7-7511-11ef-b82b-08002700567a"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": null,
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "en": "",
+                        "fillColor": "rgba(17,46,153,0.61)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "fa fa-users",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(17,46,153,0.97)",
+                        "lineHaloColor": "rgba(17,46,153,0.61)",
+                        "outlineColor": "rgba(17,46,153,0.97)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(17,46,153,0.97)",
+                        "pointHaloColor": "rgba(17,46,153,0.61)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": "{\"en\": \"\"}",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Location",
+                    "nodegroup_id": "bdb5a1de-7511-11ef-9c2a-08002700567a",
+                    "nodeid": "bdb5a1de-7511-11ef-9c2a-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "date_s_of_occupation",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": "Date or dates when this address was occupied by this date of occupation, where only one available, use start date",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Date(s) of occupation",
+                    "nodegroup_id": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "nodeid": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "operational_base",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "Location of organisation",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Operational base",
+                    "nodegroup_id": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "nodeid": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 4,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "start_date_n1",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": "Start date or first date recorded",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Start date",
+                    "nodegroup_id": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "nodeid": "bdb5a9da-7511-11ef-bfaa-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "end_date_n1",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": "End date or last date recorded",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "End date",
+                    "nodegroup_id": "bdb5a566-7511-11ef-9f9c-08002700567a",
+                    "nodeid": "bdb5aad2-7511-11ef-b3c8-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "building",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "d1a7344a-7229-4fb7-a2c5-836ec76d4fcd",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Place",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "rdmCollection": null,
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": "Building based in, if locator not used",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Building",
+                    "nodegroup_id": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                    "nodeid": "da9d720a-7511-11ef-8d5f-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                "notes": null,
+                "publicationid": "6aa166a5-9c16-11ef-8d70-08002700567a",
+                "published_time": "2024-11-06T02:09:16.395"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "operational_base",
+                "config": {
+                    "en": ""
+                },
+                "datatype": "semantic",
+                "description": "Location of organisation",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "bdb58d7b-7511-11ef-9a93-08002700567a",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Operational base",
+                "nodegroup_id": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                "nodeid": "bdb5a7b7-7511-11ef-b82b-08002700567a",
+                "ontologyclass": null,
+                "sortorder": 4,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "Location of business or organisation"
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

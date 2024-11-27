@@ -1,0 +1,149 @@
+{
+    "graph": [
+        {
+            "author": "Jo Kent",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "4df0e70f-772c-11ef-9ca8-08002700567a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "4df0e3f7-772c-11ef-8e91-08002700567a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Location type"
+                    },
+                    "nodegroup_id": "4df0e557-772c-11ef-b560-08002700567a",
+                    "sortorder": 2,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "4df0e70f-772c-11ef-9ca8-08002700567a",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Building type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "4df0e787-772c-11ef-a6bd-08002700567a",
+                    "label": {
+                        "en": "Building type"
+                    },
+                    "node_id": "4df0e557-772c-11ef-b560-08002700567a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [],
+            "functions_x_graphs": [],
+            "graphid": "4df0e3f7-772c-11ef-8e91-08002700567a",
+            "iconclass": "fa fa-building",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Location type"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "4df0e557-772c-11ef-b560-08002700567a",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "building_type",
+                    "config": {
+                        "rdmCollection": "3c298f79-3327-4221-8fe8-f6a7d33cfa33"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Type of building",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "4df0e3f7-772c-11ef-8e91-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Location type",
+                    "nodegroup_id": "4df0e557-772c-11ef-b560-08002700567a",
+                    "nodeid": "4df0e557-772c-11ef-b560-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "4df0e3f7-772c-11ef-8e91-08002700567a",
+                "notes": null,
+                "publicationid": "bdb591fa-8d67-11ef-a68e-08002700567a",
+                "published_time": "2024-10-18T10:43:37.571"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "building_type",
+                "config": {
+                    "rdmCollection": "3c298f79-3327-4221-8fe8-f6a7d33cfa33"
+                },
+                "datatype": "concept-list",
+                "description": "Type of building",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "4df0e3f7-772c-11ef-8e91-08002700567a",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Location type",
+                "nodegroup_id": "4df0e557-772c-11ef-b560-08002700567a",
+                "nodeid": "4df0e557-772c-11ef-b560-08002700567a",
+                "ontologyclass": null,
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "Type of building or place"
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}
