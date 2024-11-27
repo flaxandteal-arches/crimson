@@ -3,6 +3,7 @@ import createVueApplication from 'utils/create-vue-application';
 import ImportSingleCsvWithProcessing from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/ImportSingleCsvWithProcessing.vue';
 import ImportProcessingTemplate from 'templates/views/components/etl_modules/import_single_csv_with_processing.htm';
 import arches from 'arches';
+import sharedState from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/state/sharedState';
 
 ko.components.register('import_single_csv_with_processing', {
     viewModel: function(params) {
@@ -18,11 +19,14 @@ ko.components.register('import_single_csv_with_processing', {
         this.formatTime = params.formatTime;
         this.timeDifference = params.timeDifference;
 
+        sharedState.state = ko.toJS(this.state);
+        sharedState.selectedLoadEvent = ko.toJS(this.selectedLoadEvent);
+
         const mountPoint = document.getElementById('processing-import-mounting-point');
         if(mountPoint) {
             mountPoint.setAttribute('data-state', this.state);
-            mountPoint.setAttribute('data-selected-load-event', this.selectedLoadEvent);
-            console.log("mount-point: ", mountPoint.getAttribute('data-state'));
+            // mountPoint.setAttribute('data-selected-load-event', JSON.stringify(this.selectedLoadEvent));
+            console.log("mount-point: ", mountPoint.getAttribute('data-state') ,mountPoint);
         }
 
         createVueApplication(ImportSingleCsvWithProcessing).then(vueApp => {
