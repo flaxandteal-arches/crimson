@@ -207,7 +207,6 @@ const write = async function () {
     const fieldnames = fieldMapping.value.map((fieldname) => {
         return fieldname.node;
     });
-    console.log("field mapping: ", fieldMapping.value);
     formData.append("fieldnames", fieldnames);
     formData.append("fieldMapping", JSON.stringify(fieldMapping.value));
     formData.append("hasHeaders", hasHeaders.value);
@@ -232,11 +231,6 @@ const write = async function () {
 
 onMounted(async () => {
     await prefetch();
-    const mountPoint = document.getElementById('processing-import-mounting-point');
-      if (mountPoint) {
-        const initialBlock = mountPoint.getAttribute('data-initial-block');
-        console.log(initialBlock);
-      }
 });
 </script>
 

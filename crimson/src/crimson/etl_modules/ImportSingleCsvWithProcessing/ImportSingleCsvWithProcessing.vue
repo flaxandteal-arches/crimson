@@ -16,12 +16,10 @@ const selectedLoadEvent = ref(sharedState.selectedLoadEvent);
 
 watch(() => sharedState.state, (newValue) => {
     state.value = newValue;
-    console.log("state", state.value);
 });
 
 watch(() => sharedState.selectedLoadEvent, (newValue) => {
     selectedLoadEvent.value = newValue;
-    console.log("sle", selectedLoadEvent.value);
 });
 
 const currentComponent = computed(() => {
