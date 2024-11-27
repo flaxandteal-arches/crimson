@@ -1,14 +1,27 @@
 <script setup>
+import { onMounted, ref } from "vue";
 import { useGettext } from "vue3-gettext";
+import arches from 'arches';
 
 const { $gettext } = useGettext();
 const props = defineProps({selectedLoadEvent: {type: Object, default: () => {}}});
 
-const emit = defineEmits(["getGraphName"]);
+const graphName = ref();
 
-const emitGetGraphName = (graphId) => {
-    emit("getGraphName", graphId);
+const graphs = arches.resources.map((resource) => ({
+    name: resource.name,
+    graphid: resource.graphid,
+}));
+
+const getGraphName = (selectedGraphId) => {
+    if (graphs) {
+        graphName.value = graphs.find((graph) => graph.graphid === selectedGraphId).name;
+    }
 };
+
+onMounted(() => {
+    getGraphName(props.selectedLoadEvent.load_details.graph);
+});
 </script>
 
 <template>
@@ -40,11 +53,7 @@ const emitGetGraphName = (graphId) => {
                 />
                 <span
                     class="etl-loading-metadata-value"
-                    v-text="
-                        emitGetGraphName(
-                            props.selectedLoadEvent.load_details.graph
-                        )
-                    "
+                    v-text="graphName"
                 />
             </div>
         </div>

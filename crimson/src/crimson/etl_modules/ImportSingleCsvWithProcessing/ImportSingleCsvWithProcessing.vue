@@ -1,30 +1,29 @@
 <template>
 <div>
-    <component :is="currentComponent" />
+    <component :is="currentComponent" :selected-load-event = "selectedLoadEvent" />
 </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, watch } from 'vue';
 import TaskDetailsComponent from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/components/TaskDetailsComponent.vue';
 import TaskStatusComponent from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/components/TaskStatusComponent.vue';
+import sharedState from './state/sharedState.js';
 
-const state = ref('taskDetails');
-const selectedLoadEvent = ref(null);
+const state = ref(sharedState.state);
 
-onMounted(() => {
-    const mountPoint = document.getElementById('processing-import-mounting-point');
-    if (mountPoint) {
-        const stateData = mountPoint.getAttribute('data-state');
-        const selectedLoadEventData = mountPoint.getAttribute('data-selected-load-event');
-        if (stateData) {
-            state.value = stateData;
-        }
-        if(selectedLoadEventData) {
-            selectedLoadEvent.value = selectedLoadEventData;
-        }
-    }
+const selectedLoadEvent = ref(sharedState.selectedLoadEvent);
+
+watch(() => sharedState.state, (newValue) => {
+    state.value = newValue;
+    console.log("state", state.value);
 });
+
+watch(() => sharedState.selectedLoadEvent, (newValue) => {
+    selectedLoadEvent.value = newValue;
+    console.log("sle", selectedLoadEvent.value);
+});
+
 const currentComponent = computed(() => {
     return state.value == 'details' ? TaskDetailsComponent : TaskStatusComponent;
 });
