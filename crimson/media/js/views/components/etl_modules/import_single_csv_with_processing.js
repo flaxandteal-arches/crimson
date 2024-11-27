@@ -8,6 +8,8 @@ import sharedState from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/sta
 ko.components.register('import_single_csv_with_processing', {
     viewModel: function(params) {
         // pulls in params for the data manager
+        // several of these are needed for the base-import component
+        // once this is converted to vue these can be removed
         this.state = params.state;
         this.loadDetails = params.load_details || ko.observable();
         this.selectedLoadEvent = params.selectedLoadEvent ?? null;
@@ -22,12 +24,9 @@ ko.components.register('import_single_csv_with_processing', {
         sharedState.state = ko.toJS(this.state);
         sharedState.selectedLoadEvent = ko.toJS(this.selectedLoadEvent);
 
-        const mountPoint = document.getElementById('processing-import-mounting-point');
-        if(mountPoint) {
-            mountPoint.setAttribute('data-state', this.state);
-            // mountPoint.setAttribute('data-selected-load-event', JSON.stringify(this.selectedLoadEvent));
-            console.log("mount-point: ", mountPoint.getAttribute('data-state') ,mountPoint);
-        }
+        sharedState.activeTab.subscribe((newValue) => {
+            params.activeTab(newValue);
+        });
 
         createVueApplication(ImportSingleCsvWithProcessing).then(vueApp => {
             vueApp.mount('#processing-import-mounting-point');

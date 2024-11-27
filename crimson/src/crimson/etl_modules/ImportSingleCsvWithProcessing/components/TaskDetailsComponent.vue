@@ -9,6 +9,7 @@ import { ref, onMounted, watch, computed } from "vue";
 import uuid from "uuid";
 import arches from "arches";
 import Cookies from "js-cookie";
+import sharedState from '../state/sharedState.js';
 
 const toast = useToast();
 const ERROR = "error";
@@ -213,17 +214,15 @@ const write = async function () {
     formData.append("graphid", selectedResourceModel.value);
     formData.append("csvFileName", csvFileName.value);
 
-    for (let pair of formData.entries()) {
-        console.log(pair[0] + ': ' + pair[1]);
-    };
     // loading(true);
     const start = await submit("start");
+    sharedState.activeTab("import"); // this is an ko observable and is used to interact with the ko etl manager
     if (!start.ok) {
         // add error handling
         console.log(start);
     }
     formData.append("async", true);
-    console.log("here 2");
+    
     const response = await submit("write");
     if (!response.ok) {
         // add error handling
