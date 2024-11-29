@@ -24,7 +24,7 @@ from arches.app.etl_modules.decorators import load_data_async
 from arches.app.etl_modules.save import save_to_tiles
 
 details = {
-    "etlmoduleid": "",
+    "etlmoduleid": "8a56df4e-5d6c-42ac-981f-0fabfe7fe65e",
     "name": "Import Single CSV with processing",
     "description": "This module allows for additional processing when importing a csv file",
     "etl_type": "import",
