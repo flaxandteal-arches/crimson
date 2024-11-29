@@ -9,7 +9,7 @@ import { ref, onMounted, watch, computed } from "vue";
 import uuid from "uuid";
 import arches from "arches";
 import Cookies from "js-cookie";
-import sharedState from '../state/sharedState.js';
+import store from '../store/mainStore.js';
 
 const toast = useToast();
 const ERROR = "error";
@@ -215,7 +215,7 @@ const write = async function () {
 
     // loading(true);
     const start = await submit("start");
-    sharedState.activeTab("import"); // this is an ko observable and is used to interact with the ko etl manager
+    store.setActiveTab("import"); // this is an ko observable and is used to interact with the ko etl manager
     if (!start.ok) {
         // add error handling
         console.log(start);

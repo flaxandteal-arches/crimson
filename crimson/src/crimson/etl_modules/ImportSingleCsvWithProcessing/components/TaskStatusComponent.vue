@@ -2,11 +2,12 @@
 import { onMounted, ref } from "vue";
 import { useGettext } from "vue3-gettext";
 import arches from 'arches';
+import store from '../store/mainStore.js';
 
 const { $gettext } = useGettext();
-const props = defineProps({selectedLoadEvent: {type: Object, default: () => {}}});
 
 const graphName = ref();
+const state = store.state;
 
 const graphs = arches.resources.map((resource) => ({
     name: resource.name,
@@ -20,13 +21,13 @@ const getGraphName = (selectedGraphId) => {
 };
 
 onMounted(() => {
-    getGraphName(props.selectedLoadEvent.load_details.graph);
+    getGraphName(state.selectedLoadEvent?.load_details.graph);
 });
 </script>
 
 <template>
-    <div v-if="props.selectedLoadEvent">
-        {{ props.selectedLoadEvent.load_details.file_name }}
+    <div v-if="state.selectedLoadEvent">
+        {{ state.selectedLoadEvent.load_details.file_name }}
         <div 
             class="bulk-load-status" 
             style="margin-bottom: 20px"
@@ -43,7 +44,7 @@ onMounted(() => {
                 />
                 <span
                     class="etl-loading-metadata-value"
-                    v-text="props.selectedLoadEvent.load_details.file_name"
+                    v-text="state.selectedLoadEvent.load_details.file_name"
                 />
             </div>
             <div>

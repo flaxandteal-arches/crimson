@@ -3,7 +3,7 @@ import createVueApplication from 'utils/create-vue-application';
 import ImportSingleCsvWithProcessing from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/ImportSingleCsvWithProcessing.vue';
 import ImportProcessingTemplate from 'templates/views/components/etl_modules/import_single_csv_with_processing.htm';
 import arches from 'arches';
-import sharedState from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/state/sharedState';
+import store from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/store/mainStore';
 
 ko.components.register('import_single_csv_with_processing', {
     viewModel: function(params) {
@@ -21,11 +21,18 @@ ko.components.register('import_single_csv_with_processing', {
         this.formatTime = params.formatTime;
         this.timeDifference = params.timeDifference;
 
-        sharedState.state = ko.toJS(this.state);
-        sharedState.selectedLoadEvent = ko.toJS(this.selectedLoadEvent);
+        const state = store.state;
 
-        sharedState.activeTab.subscribe((newValue) => {
-            params.activeTab(newValue);
+        store.setState(ko.toJS(this.state));
+        store.setSelectedLoadEvent(ko.toJS(this.selectedLoadEvent));
+
+        ko.computed(() => {
+            const newActiveTab = state.activeTab;
+            if (!ko.isObservable(params.activeTab)) {
+                params.activeTab = ko.observable(newActiveTab);
+            } else {
+                params.activeTab(newActiveTab);
+            }
         });
 
         createVueApplication(ImportSingleCsvWithProcessing).then(vueApp => {

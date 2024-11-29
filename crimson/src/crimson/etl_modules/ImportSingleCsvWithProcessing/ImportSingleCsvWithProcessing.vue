@@ -1,29 +1,28 @@
 <template>
 <div>
-    <component :is="currentComponent" :selected-load-event = "selectedLoadEvent" />
+    <component :is="currentComponent" :selected-load-event = "store.selectedLoadEvent" />
 </div>
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue';
+import { computed, watch } from 'vue';
 import TaskDetailsComponent from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/components/TaskDetailsComponent.vue';
 import TaskStatusComponent from '@/crimson/etl_modules/ImportSingleCsvWithProcessing/components/TaskStatusComponent.vue';
-import sharedState from './state/sharedState.js';
+import store from './store/mainStore.js';
 
-const state = ref(sharedState.state);
+const state = store.state;
 
-const selectedLoadEvent = ref(sharedState.selectedLoadEvent);
-
-watch(() => sharedState.state, (newValue) => {
-    state.value = newValue;
+watch(() => state.state, (newValue) => {
+    store.setState(newValue);
 });
 
-watch(() => sharedState.selectedLoadEvent, (newValue) => {
-    selectedLoadEvent.value = newValue;
+watch(() => state.selectedLoadEvent, (newValue) => {
+    store.setSelectedLoadEvent(newValue);
 });
 
 const currentComponent = computed(() => {
-    return state.value == 'details' ? TaskDetailsComponent : TaskStatusComponent;
+    console.log(state.state);
+    return state.state == 'details' ? TaskDetailsComponent : TaskStatusComponent;
 });
 </script>
 
