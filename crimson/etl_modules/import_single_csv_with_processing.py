@@ -5,6 +5,7 @@ import json
 import os
 import uuid
 import zipfile
+import requests
 from django.contrib.auth.models import User
 from django.core.files import File
 from django.core.files.storage import default_storage
@@ -109,6 +110,15 @@ class ImportSingleCsvWithProcessing(BaseImportModule):
             self.node_lookup[graphid] = Node.objects.filter(graph_id=graphid)
         return self.node_lookup[graphid]
 
+    def data_info(self):
+        url = "http://172.17.0.1:4000/data"
+
+        response = requests.get(url)
+        print(response.json())
+        data = response.json()
+        return data
+        
+
     def cli(self, source):
         def return_with_error(error):
             return {
@@ -145,6 +155,12 @@ class ImportSingleCsvWithProcessing(BaseImportModule):
             return {"success": True, "data": _("Successfully Imported")}
         else:
             return return_with_error(written["message"])
+    
+    def process(self, request):
+        csvFile = request.POST.get("file")
+        data = self.data_info(csvFile)
+        data_json = json.dumps(data)
+        return { 'success': True, 'data': data_json }
 
     def read(self, request=None, source=None):
         """
@@ -208,6 +224,8 @@ class ImportSingleCsvWithProcessing(BaseImportModule):
                 "title": _("No csv file found"),
                 "message": _("Upload a valid csv file"),
             }
+        
+        new_data = self.data_info()
 
         with default_storage.open(csv_file_path, mode="rb") as csvfile:
             text_wrapper = io.TextIOWrapper(csvfile, encoding="utf-8")
@@ -221,7 +239,9 @@ class ImportSingleCsvWithProcessing(BaseImportModule):
                 row = cursor.fetchall()
             if len(row) > 0:
                 data["config"] = row[0][0]
-        return {"success": True, "data": data}
+
+            data.update(new_data)
+        return {"success": True, "data": data }
 
     def validate(self, loadid):
         """

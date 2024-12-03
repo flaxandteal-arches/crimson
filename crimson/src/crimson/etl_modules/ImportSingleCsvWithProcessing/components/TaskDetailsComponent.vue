@@ -1,5 +1,5 @@
 <template>
-    <Tabs class="tab-layout" value="preview">
+    <Tabs class="tab-layout" :value="state.detailsTab">
         <TabList class="custom-tab-list">
             <Tab v-for="tab in tabs" :key="tab.label" class="custom-tab" :value="tab.route">
                 <a class="flex items-center margin-2">
@@ -25,12 +25,15 @@ import TabPanels from 'primevue/tabpanels';
 import TabPanel from 'primevue/tabpanel';
 import ProcessingComponet from './ProcessingComponet.vue';
 import ErrorPreviewComponent from './ErrorPreviewComponent.vue';
+import store from '../store/mainStore.js';
 
 const tabs = ref([
-    { label: 'Processing', route: 'preview', icon: 'fa fa-cogs', component: ProcessingComponet },
+    { label: 'Processing', route: 'process', icon: 'fa fa-cogs', component: ProcessingComponet },
     { label: 'Error Check', route: 'errors', icon: 'fa fa-exclamation-triangle', component: ErrorPreviewComponent },
 ]);
 
+const state = store.state;
+console.log(state.detailsTab);
 </script>
 
 <style scoped>

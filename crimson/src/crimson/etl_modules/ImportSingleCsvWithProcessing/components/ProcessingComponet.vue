@@ -5,6 +5,8 @@ import Dropdown from "primevue/dropdown";
 import { useToast } from 'primevue/usetoast';
 import FileUpload from "primevue/fileupload";
 import InputSwitch from "primevue/inputswitch";
+import DataTable from "primevue/datatable";
+import Column from 'primevue/column';
 import { ref, onMounted, watch, computed } from "vue";
 import uuid from "uuid";
 import arches from "arches";
@@ -15,7 +17,7 @@ const toast = useToast();
 const ERROR = "error";
 const action = "read";
 const loadid = uuid.generate();
-const formData = new FormData();
+let formData = new FormData();
 const languages = arches.languages;
 const moduleid = "8a56df4e-5d6c-42ac-981f-0fabfe7fe65e";
 
@@ -35,6 +37,7 @@ const columnHeaders = ref([]);
 const allResourceModels = ref([]);
 const fileAdded = ref(false);
 const hasHeaders = ref(false);
+const numericalSummary = ref({});
 
 const ready = computed(() => {
     return selectedResourceModel.value && fieldMapping.value.find((v) => v.node);
@@ -56,6 +59,28 @@ const getGraphs = function () {
     submit("get_graphs").then(function (response) {
         allResourceModels.value = response.result;
     });
+};
+
+const processShapeData = (data) => {
+    const keys = Object.keys(data);
+    let newData = {};
+    for (let key of keys) {
+        newData[key] = data[key][0];
+    }
+    numOfCols.value = newData.Columns;
+    numOfRows.value = newData.Rows;
+};
+
+const processTableData = (data) => {
+    const columnHeaders = ["node", ...Object.keys(data[Object.keys(data)[0]])];
+    const rows = Object.keys(data).map((node) => {
+        const row = { node };
+        Object.keys(data[node]).forEach((key) => {
+            row[key] = data[node][key] !== null ? data[node][key] : 'null';
+        });
+        return row;
+    });
+    return { columnHeaders, rows };
 };
 
 const submit = async function (action) {
@@ -172,7 +197,9 @@ const formatSize = function (size) {
 };
 
 const addFile = async function (file) {
+    formData = new FormData();
     fileInfo.value = { name: file.name, size: file.size };
+    file.value = file;
     formData.append("file", file, file.name);
     let errorTitle;
     let errorText;
@@ -183,6 +210,10 @@ const addFile = async function (file) {
             errorText = response.message;
             throw new Error();
         } else {
+            console.log("response: ", response);
+            processShapeData(response.result.shape);
+            numericalSummary.value = processTableData(response.result.numericalSummary);
+            console.log("ns", numericalSummary.value);
             csvArray.value = response.result.csv;
             csvFileName.value = response.result.csv_file;
             if (response.result.config) {
@@ -204,6 +235,7 @@ const write = async function () {
     if (!ready.value) {
         return;
     }
+    formData = new FormData();
     const fieldnames = fieldMapping.value.map((fieldname) => {
         return fieldname.node;
     });
@@ -212,6 +244,8 @@ const write = async function () {
     formData.append("hasHeaders", hasHeaders.value);
     formData.append("graphid", selectedResourceModel.value);
     formData.append("csvFileName", csvFileName.value);
+
+    console.log("formData", formData);
 
     // loading(true);
     const start = await submit("start");
@@ -286,6 +320,14 @@ onMounted(async () => {
                             numOfRows
                         }}</span>
                     </div>
+                    <div>
+                        <span class="etl-loading-metadata-key">
+                            Number of Columns:
+                        </span>
+                        <span class="etl-loading-metadata-value">{{
+                            numOfCols
+                        }}</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -304,6 +346,16 @@ onMounted(async () => {
                 placeholder="Select a Resource Model"
                 class="w-full md:w-14rem target-model-dropdown"
             />
+            <div>
+                <h4>Numerical Summary</h4>
+                <DataTable :value="numericalSummary.rows" class="csv-mapping-table-container summary-tables">
+                    <Column 
+                        v-for="heading in numericalSummary.columnHeaders" 
+                        :key="heading" :field="heading" 
+                        :header="heading.toUpperCase()" 
+                    />
+                </DataTable>
+            </div>
         </div>
         <div
             v-if="fileAdded && selectedResourceModel"
@@ -402,6 +454,11 @@ onMounted(async () => {
         >
             <Button 
                 :disabled="!!!ready" 
+                label="Process" 
+                @click="process" 
+            />
+            <Button 
+                :disabled="!!!ready" 
                 label="Submit" 
                 @click="write" 
             />
@@ -416,10 +473,11 @@ onMounted(async () => {
 
 .import-single-csv-container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
+    overflow-y: scroll;
+    height: 80vh;
 }
 
 .import-single-csv-component-container {
@@ -440,5 +498,8 @@ onMounted(async () => {
 }
 input[type=file] {
     display: none;
+}
+.summary-tables {
+    max-height: 250px;
 }
 </style>
