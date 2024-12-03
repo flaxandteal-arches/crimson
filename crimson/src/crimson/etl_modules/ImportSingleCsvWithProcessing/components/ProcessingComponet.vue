@@ -38,6 +38,7 @@ const allResourceModels = ref([]);
 const fileAdded = ref(false);
 const hasHeaders = ref(false);
 const numericalSummary = ref({});
+const dataSummary = ref({});
 
 const ready = computed(() => {
     return selectedResourceModel.value && fieldMapping.value.find((v) => v.node);
@@ -213,7 +214,8 @@ const addFile = async function (file) {
             console.log("response: ", response);
             processShapeData(response.result.shape);
             numericalSummary.value = processTableData(response.result.numericalSummary);
-            console.log("ns", numericalSummary.value);
+            dataSummary.value = processTableData(response.result.dataSummary);
+            console.log("ds", dataSummary.value);
             csvArray.value = response.result.csv;
             csvFileName.value = response.result.csv_file;
             if (response.result.config) {
@@ -356,6 +358,16 @@ onMounted(async () => {
                     />
                 </DataTable>
             </div>
+            <div>
+                <h4>Data Summary</h4>
+                <DataTable :value="dataSummary.rows" class="csv-mapping-table-container summary-tables">
+                    <Column 
+                        v-for="heading in dataSummary.columnHeaders" 
+                        :key="heading" :field="heading" 
+                        :header="heading.toUpperCase()" 
+                    />
+                </DataTable>
+            </div>
         </div>
         <div
             v-if="fileAdded && selectedResourceModel"
@@ -490,6 +502,7 @@ onMounted(async () => {
 }
 .target-model-dropdown {
     width: 500px;
+    margin-bottom: 4rem;
 }
 .content-text {
     font-size: 1.5rem;
@@ -501,5 +514,6 @@ input[type=file] {
 }
 .summary-tables {
     max-height: 250px;
+    margin-bottom: 4rem;
 }
 </style>
