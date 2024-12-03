@@ -12,6 +12,10 @@ import uuid from "uuid";
 import arches from "arches";
 import Cookies from "js-cookie";
 import store from '../store/mainStore.js';
+import Accordion from 'primevue/accordion';
+import AccordionPanel from 'primevue/accordionpanel';
+import AccordionHeader from 'primevue/accordionheader';
+import AccordionContent from 'primevue/accordioncontent';
 
 const toast = useToast();
 const ERROR = "error";
@@ -42,6 +46,11 @@ const dataSummary = ref({});
 
 const ready = computed(() => {
     return selectedResourceModel.value && fieldMapping.value.find((v) => v.node);
+});
+
+const accordionValue = computed(() => {
+    console.log(selectedResourceModel.value ? null : 0);
+    return selectedResourceModel.value ? null : 0;
 });
 
 const prepRequest = (ev) => {
@@ -348,26 +357,33 @@ onMounted(async () => {
                 placeholder="Select a Resource Model"
                 class="w-full md:w-14rem target-model-dropdown"
             />
-            <div>
-                <h4>Numerical Summary</h4>
-                <DataTable :value="numericalSummary.rows" class="csv-mapping-table-container summary-tables">
-                    <Column 
-                        v-for="heading in numericalSummary.columnHeaders" 
-                        :key="heading" :field="heading" 
-                        :header="heading.toUpperCase()" 
-                    />
-                </DataTable>
-            </div>
-            <div>
-                <h4>Data Summary</h4>
-                <DataTable :value="dataSummary.rows" class="csv-mapping-table-container summary-tables">
-                    <Column 
-                        v-for="heading in dataSummary.columnHeaders" 
-                        :key="heading" :field="heading" 
-                        :header="heading.toUpperCase()" 
-                    />
-                </DataTable>
-            </div>
+            <Accordion :value="accordionValue" class="full-width">
+                <AccordionPanel value="0">
+                    <AccordionHeader>Advanced Summary</AccordionHeader>
+                        <AccordionContent>
+                            <div>
+                                <h4>Numerical Summary</h4>
+                                <DataTable :value="numericalSummary.rows" scrollable scroll-height="250px" class="csv-mapping-table-container summary-tables">
+                                    <Column 
+                                        v-for="heading in numericalSummary.columnHeaders" 
+                                        :key="heading" :field="heading" 
+                                        :header="heading.toUpperCase()" 
+                                    />
+                                </DataTable>
+                            </div>
+                            <div>
+                                <h4>Data Summary</h4>
+                                <DataTable :value="dataSummary.rows" scrollable scroll-height="250px" class="csv-mapping-table-container summary-tables">
+                                    <Column 
+                                        v-for="heading in dataSummary.columnHeaders" 
+                                        :key="heading" :field="heading" 
+                                        :header="heading.toUpperCase()" 
+                                    />
+                                </DataTable>
+                            </div>
+                        </AccordionContent>
+                </AccordionPanel>
+            </Accordion>
         </div>
         <div
             v-if="fileAdded && selectedResourceModel"
@@ -515,5 +531,8 @@ input[type=file] {
 .summary-tables {
     max-height: 250px;
     margin-bottom: 4rem;
+}
+.full-width {
+    width: 94vw
 }
 </style>
