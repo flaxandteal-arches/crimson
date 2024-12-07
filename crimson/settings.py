@@ -141,6 +141,7 @@ INSTALLED_APPS = (
     "corsheaders",
     "oauth2_provider",
     "django_celery_results",
+    "arches_doorstep",
     # "silk",
     "crimson",  # Ensure the project is listed before any other arches applications
 )
@@ -418,6 +419,15 @@ LANGUAGES = [
 # override this to permenantly display/hide the language switcher
 SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 
+ARCHES_DOORSTEP_SERVER = ":inprocess:"
+ARCHES_DOORSTEP_INI = {
+    "definitions": {
+        "goodtables": {"module": "arches_doorstep.inbuilt_processors.goodtables"},
+        "csv_checker": {"module": "arches_doorstep.inbuilt_processors.csv_checker"},
+        "spell_checker": {"module": "arches_doorstep.inbuilt_processors.spell_checker"},
+        "pii_checker": {"module": "arches_doorstep.inbuilt_processors.pii_checker"},
+    }
+}
 # Implement this class to associate custom documents to the ES resource index
 # See tests.views.search_tests.TestEsMappingModifier class for example
 # ES_MAPPING_MODIFIER_CLASSES = ["crimson.search.es_mapping_modifier.EsMappingModifier"]
