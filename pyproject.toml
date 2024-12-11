@@ -25,6 +25,8 @@ classifiers = [
 requires-python = ">=3.10"
 dependencies = [
     "arches>=7.6.0,<7.7.0",
+    "arches_doorstep[inbuilt_processors] @ git+https://github.com/flaxandteal/arches_doorstep",
+    "arches_doorstep @ git+https://github.com/flaxandteal/arches_doorstep",
 ]
 version = "0.0.1"
 
