@@ -1,0 +1,372 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "ffd69918-766d-11ef-a146-08002700567a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": "Organisations, People, Objects or Buildings referred to in a document"
+                    },
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Referenced entities"
+                    },
+                    "nodegroup_id": "ffd69827-766d-11ef-b00f-08002700567a",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "ffd69ac0-766d-11ef-a52c-08002700567a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Refers to"
+                    },
+                    "nodegroup_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "sortorder": 3,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "ffd69918-766d-11ef-a146-08002700567a",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Referenced entities",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "ffd69bf0-766d-11ef-9ec5-08002700567a",
+                    "label": {
+                        "en": "Referenced entities"
+                    },
+                    "node_id": "ffd69827-766d-11ef-b00f-08002700567a",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "ffd69ac0-766d-11ef-a52c-08002700567a",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related actors",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "ffd69c21-766d-11ef-b1ad-08002700567a",
+                    "label": {
+                        "en": "Related actors"
+                    },
+                    "node_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                }
+            ],
+            "color": "#f2e94b",
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "edgeid": "2402b0b4-07bf-415a-a467-63eb95efa70b",
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "05e7d9ec-766f-11ef-9d63-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "edgeid": "61037229-4dfc-4021-b41f-89e045b409a4",
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "dff12f64-766e-11ef-83c2-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "edgeid": "aa1d25eb-fea5-4c2f-a016-83cc229ee2fc",
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "696bd545-7670-11ef-99a3-08002700567a"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "edgeid": "ffd6a0e5-766d-11ef-bfeb-08002700567a",
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "ffd69827-766d-11ef-b00f-08002700567a"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "ffd66d56-766d-11ef-9332-08002700567a",
+            "iconclass": "fa fa-book",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Refers to"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "ffd69827-766d-11ef-b00f-08002700567a",
+                    "parentnodegroup_id": "ffd699d7-766d-11ef-9daa-08002700567a"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "referenced_processes",
+                    "config": {
+                        "rdmCollection": "0382eb49-3ea7-4179-982f-5d0c5b1c6c2d"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Referenced processes",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Referenced processes",
+                    "nodegroup_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "nodeid": "05e7d9ec-766f-11ef-9d63-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "referenced_materials",
+                    "config": {
+                        "rdmCollection": "c34a9344-796b-44fa-8ad5-62f9954a97c4"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Referenced materials",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Referenced materials",
+                    "nodegroup_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "nodeid": "696bd545-7670-11ef-99a3-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "referenced_products",
+                    "config": {
+                        "rdmCollection": "055740d6-edaf-4c82-acfe-1e03c329edba"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Referenced products",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Referenced products",
+                    "nodegroup_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "nodeid": "dff12f64-766e-11ef-83c2-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "referenced_entities",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "f2b4e75d-a688-488e-b659-db13685618d5",
+                                "inverseRelationshipConcept": "b6e95a0d-04fd-4945-b0ef-0a4342595982",
+                                "name": "Person",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "3f2c409d-68af-4459-ba4d-404693279fad",
+                                "useOntologyRelationship": false
+                            },
+                            {
+                                "graphid": "d1a7344a-7229-4fb7-a2c5-836ec76d4fcd",
+                                "inverseRelationshipConcept": "b6e95a0d-04fd-4945-b0ef-0a4342595982",
+                                "name": "Place",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "3f2c409d-68af-4459-ba4d-404693279fad",
+                                "useOntologyRelationship": false
+                            },
+                            {
+                                "graphid": "961c6260-6dce-4495-a4e2-59a303628f84",
+                                "inverseRelationshipConcept": "b6e95a0d-04fd-4945-b0ef-0a4342595982",
+                                "name": "Organisation",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "3f2c409d-68af-4459-ba4d-404693279fad",
+                                "useOntologyRelationship": false
+                            },
+                            {
+                                "graphid": "2522767f-e280-489e-9948-0ee52a5344a7",
+                                "inverseRelationshipConcept": "b6e95a0d-04fd-4945-b0ef-0a4342595982",
+                                "name": "Object",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "3f2c409d-68af-4459-ba4d-404693279fad",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": "Organisations, People, Objects or Buildings referred to in a document",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Referenced entities",
+                    "nodegroup_id": "ffd69827-766d-11ef-b00f-08002700567a",
+                    "nodeid": "ffd69827-766d-11ef-b00f-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "referenced",
+                    "config": {
+                        "graphs": [],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "{\"en\": \"\"}",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                    "hascustomalias": true,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Refers to",
+                    "nodegroup_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "nodeid": "ffd699d7-766d-11ef-9daa-08002700567a",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 6,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                "notes": null,
+                "publicationid": "7f0f6223-9c44-11ef-aeb2-08002700567a",
+                "published_time": "2024-11-06T07:39:07.519"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "referenced",
+                "config": {
+                    "graphs": [],
+                    "searchDsl": "",
+                    "searchString": ""
+                },
+                "datatype": "semantic",
+                "description": "{\"en\": \"\"}",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "ffd66d56-766d-11ef-9332-08002700567a",
+                "hascustomalias": true,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Refers to",
+                "nodegroup_id": "ffd699d7-766d-11ef-9daa-08002700567a",
+                "nodeid": "ffd699d7-766d-11ef-9daa-08002700567a",
+                "ontologyclass": null,
+                "sortorder": 6,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

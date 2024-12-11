@@ -1,0 +1,258 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "28cdb4bb-e1a0-436c-a0b8-05a6d99d734f",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Existence"
+                    },
+                    "nodegroup_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "28cdb4bb-e1a0-436c-a0b8-05a6d99d734f",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Existence",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "21180e4d-b33e-4b97-b6cb-9f89e28aa5ea",
+                    "label": {
+                        "en": "Existence"
+                    },
+                    "node_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "28cdb4bb-e1a0-436c-a0b8-05a6d99d734f",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "End date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "27d74216-0b95-42c5-8eb1-01d90d7b52a1",
+                    "label": {
+                        "en": "End date"
+                    },
+                    "node_id": "5e8112fc-69c0-11ef-b0b1-ebc520452aa9",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "28cdb4bb-e1a0-436c-a0b8-05a6d99d734f",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Start date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "933ba014-af69-402a-a231-afdbab770f3b",
+                    "label": {
+                        "en": "Start date"
+                    },
+                    "node_id": "3d7bbe7c-69c0-11ef-b0b1-ebc520452aa9",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "edgeid": "5967ccf8-61ab-4fc5-abe8-cad700d24100",
+                    "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "3d7bbe7c-69c0-11ef-b0b1-ebc520452aa9"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "edgeid": "9257f13f-7842-4b9c-ad38-3d1ac612b49a",
+                    "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "5e8112fc-69c0-11ef-b0b1-ebc520452aa9"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+            "iconclass": "fa fa-calendar-o",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Existence"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "start_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": "Start date or first date recorded",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Start date",
+                    "nodegroup_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "nodeid": "3d7bbe7c-69c0-11ef-b0b1-ebc520452aa9",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "end_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": "End date or last date recorded",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "End date",
+                    "nodegroup_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "nodeid": "5e8112fc-69c0-11ef-b0b1-ebc520452aa9",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Existence",
+                    "nodegroup_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "nodeid": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                "notes": null,
+                "publicationid": "30622bc3-8d1f-11ef-a058-08002700567a",
+                "published_time": "2024-10-18T02:04:16.701"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": null,
+                "config": {
+                    "dateFormat": "YYYY-MM-DD",
+                    "en": ""
+                },
+                "datatype": "string",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "b4e33ed4-78f4-4441-b2a8-1e9bbb3f802e",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Existence",
+                "nodegroup_id": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                "nodeid": "df0d2434-69bf-11ef-b0b1-ebc520452aa9",
+                "ontologyclass": null,
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "Dates of existence of organisation or building"
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}
