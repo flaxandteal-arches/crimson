@@ -416,7 +416,9 @@ LANGUAGES = [
 ]
 
 # override this to permenantly display/hide the language switcher
-SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
+# SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
+# We need this as it is our "canary" template and without loading i18n in urls.py it will error.
+SHOW_LANGUAGE_SWITCH = True
 
 # Implement this class to associate custom documents to the ES resource index
 # See tests.views.search_tests.TestEsMappingModifier class for example
