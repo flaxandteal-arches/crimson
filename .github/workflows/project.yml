@@ -247,6 +247,7 @@ jobs:
           buildkitd-flags: '--allow-insecure-entitlement network.host'
           driver-opts: |
               network=host
+              image=moby/buildkit:v0.16.0
       - name: Build and push Docker image
         id: buildx
         uses: docker/build-push-action@v2
