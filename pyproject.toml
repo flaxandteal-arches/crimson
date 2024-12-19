@@ -25,8 +25,8 @@ classifiers = [
 requires-python = ">=3.10"
 dependencies = [
     "arches>=7.6.0,<7.7.0",
-    "arches_doorstep[inbuilt_processors] @ git+https://github.com/flaxandteal/arches_doorstep@v0.0.1",
-    "arches_doorstep @ git+https://github.com/flaxandteal/arches_doorstep@v0.0.1",
+    "arches_doorstep[inbuilt_processors] @ git+https://github.com/flaxandteal/arches_doorstep@v0.0.2",
+    "arches_doorstep @ git+https://github.com/flaxandteal/arches_doorstep@v0.0.2",
     "fuzzywuzzy>=0.18.0",
     "scipy"
 ]
