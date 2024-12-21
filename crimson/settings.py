@@ -428,7 +428,10 @@ ARCHES_DOORSTEP_INI = {
         "csv_checker": {"module": "arches_doorstep.inbuilt_processors.csv_checker"},
         # "spell_checker": {"module": "arches_doorstep.inbuilt_processors.spell_checker"},
         "pii_checker": {"module": "arches_doorstep.inbuilt_processors.pii_checker"},
-        "date_checker": {"module": "arches_doorstep.inbuilt_processors.date_checker", "configuration": {"include": ["mapping"]}},
+        "date_checker": {
+            "module": "arches_doorstep.inbuilt_processors.date_checker",
+            "configuration": {"include": ["mapping"]},
+        },
         "dap_functions": {"module": "arches_doorstep.inbuilt_processors.dap_functions"},
     }
 }
