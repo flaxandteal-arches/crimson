@@ -430,7 +430,6 @@ ARCHES_DOORSTEP_INI = {
         "pii_checker": {"module": "arches_doorstep.inbuilt_processors.pii_checker"},
         "date_checker": {"module": "arches_doorstep.inbuilt_processors.date_checker"},
         "dap_functions": {"module": "arches_doorstep.inbuilt_processors.dap_functions"},
-
     }
 }
 # Implement this class to associate custom documents to the ES resource index
