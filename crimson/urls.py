@@ -20,8 +20,10 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.ROOT_URLCONF == __name__:
     if settings.SHOW_LANGUAGE_SWITCH is True:
         urlpatterns = i18n_patterns(*urlpatterns)
-        urlpatterns.append(path("i18n/", include("django.conf.urls.i18n"), name="set_language"))
+        urlpatterns.append(
+            path("i18n/", include("django.conf.urls.i18n"), name="set_language")
+        )
 if settings.DEBUG:
     urlpatterns += [
-        re_path(r'^static/(?P<path>.*)$$', views.serve),
+        re_path(r"^static/(?P<path>.*)$$", views.serve),
     ]
