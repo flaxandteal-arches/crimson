@@ -29,7 +29,7 @@ dependencies = [
     "fuzzywuzzy>=0.18.0",
     "scipy"
 ]
-version = "0.0.3"
+version = "0.0.4"
 
 [project.optional-dependencies]
 dev = [
