@@ -27,7 +27,8 @@ dependencies = [
     "arches_doorstep[inbuilt_processors] @ git+https://github.com/flaxandteal/arches_doorstep@v0.0.3",
     "arches_doorstep @ git+https://github.com/flaxandteal/arches_doorstep@v0.0.3",
     "fuzzywuzzy>=0.18.0",
-    "scipy"
+    "scipy",
+    'rapidfuzz>=3.11.0',
 ]
 version = "0.0.4"
 
