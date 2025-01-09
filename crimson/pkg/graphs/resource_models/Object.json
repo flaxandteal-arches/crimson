@@ -161,7 +161,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Purpose"
                     },
@@ -217,7 +217,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Object type"
                     },
@@ -274,7 +274,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Location"
                     },
@@ -1297,7 +1297,30 @@
                     "rangenode_id": "fb440b02-8cac-11ef-a5f5-08002700567a"
                 }
             ],
-            "functions_x_graphs": [],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "name": {
+                                "nodegroup_id": "ae196dc6-8cab-11ef-94db-08002700567a",
+                                "string_template": "<Name>"
+                            }
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "2522767f-e280-489e-9948-0ee52a5344a7",
+                    "id": "f57a6ecd-8d0e-41a8-9719-e908b091737c"
+                }
+            ],
             "graphid": "2522767f-e280-489e-9948-0ee52a5344a7",
             "iconclass": "fa fa-book",
             "is_editable": false,
@@ -2342,7 +2365,7 @@
                 "sortorder": 0,
                 "sourcebranchpublication_id": null
             },
-            "slug": "object",
+            "slug": "object_model",
             "subtitle": {
                 "en": "Tangible object"
             },
@@ -2352,8 +2375,8 @@
     ],
     "metadata": {
         "db": "PostgreSQL 12.2 (Debian 12.2-2.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "git hash": "8b29dffea 2025-01-03 10:18:36 +0000",
         "os": "Linux",
-        "os version": "6.8.0-49-generic"
+        "os version": "6.8.0-51-generic"
     }
 }
