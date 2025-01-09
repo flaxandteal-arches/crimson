@@ -419,7 +419,7 @@ LANGUAGES = [
 # override this to permenantly display/hide the language switcher
 # SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 # We need this as it is our "canary" template and without loading i18n in urls.py it will error.
-SHOW_LANGUAGE_SWITCH = True
+SHOW_LANGUAGE_SWITCH = False
 
 ARCHES_DOORSTEP_SERVER = ":inprocess:"
 ARCHES_DOORSTEP_INI = {
@@ -433,6 +433,14 @@ ARCHES_DOORSTEP_INI = {
             "configuration": {"include": ["mapping"]},
         },
         "dap_functions": {"module": "arches_doorstep.inbuilt_processors.dap_functions"},
+        "concept_checker": {
+            "module": "arches_doorstep.inbuilt_processors.concept_checker",
+            "configuration": {"include": ["mapping"]}
+        },
+        "resource_checker": {
+            "module": "arches_doorstep.inbuilt_processors.resource_checker",
+            "configuration": {"include": ["mapping"]}
+        }
     }
 }
 # Implement this class to associate custom documents to the ES resource index
