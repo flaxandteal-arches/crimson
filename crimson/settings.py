@@ -419,7 +419,7 @@ LANGUAGES = [
 # override this to permenantly display/hide the language switcher
 # SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 # We need this as it is our "canary" template and without loading i18n in urls.py it will error.
-SHOW_LANGUAGE_SWITCH = False
+SHOW_LANGUAGE_SWITCH = True
 
 ARCHES_DOORSTEP_SERVER = ":inprocess:"
 ARCHES_DOORSTEP_INI = {
