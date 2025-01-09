@@ -435,12 +435,12 @@ ARCHES_DOORSTEP_INI = {
         "dap_functions": {"module": "arches_doorstep.inbuilt_processors.dap_functions"},
         "concept_checker": {
             "module": "arches_doorstep.inbuilt_processors.concept_checker",
-            "configuration": {"include": ["mapping"]}
+            "configuration": {"include": ["mapping"]},
         },
         "resource_checker": {
             "module": "arches_doorstep.inbuilt_processors.resource_checker",
-            "configuration": {"include": ["mapping"]}
-        }
+            "configuration": {"include": ["mapping"]},
+        },
     }
 }
 # Implement this class to associate custom documents to the ES resource index
