@@ -84,3 +84,91 @@ for each time you want to run the project, you can just open it in localhost:800
 ```
 make run
 ```
+
+If you receive an error about ARCHES_ROOT please see the section below on how to fix
+
+### Importing Models
+
+The models should import once the make file has built the project. If this is not the case you may need to import them manually.
+
+Import the branches first:
+
+```
+make manage CMD="packages -o import_graphs -s crimson/pkg/graphs/branches/Object.json"
+```
+
+Followed by the models:
+```
+make manage CMD="packages -o import_graphs -s crimson/pkg/graphs/resource_models/Object.json"
+```
+
+You will need to do this for each model in the directories:
+```
+crimson/pkg/graphs/branches
+```
+```
+crimson/pkg/graphs/resource_models
+```
+
+### Make File
+The make file is used to run the containers as well as run any Django specific commands to manipulate arches.
+Useful commands are:
+
+```
+make build
+```
+This will start the containers and run the arches instance
+
+```
+make npm-development
+```
+This will rebuild the front end. This needs to be run if any javascript or html is edited
+
+```
+make clean
+```
+This will clear the database. This is useful if you are looking to create a fresh build
+
+```
+make docker-compose CMD="build"
+```
+This will rebuild the containers. If dependencies change, this will need to run. This is similar to make build without rebuilding the database.
+
+### Arches Root
+You can run Crimson with a base copy of arches mounted. This allows you to debug any core functionality.
+You will need to run arches-7.6.
+If you clone a copy of the arches repo into the same directory as crimson and when running the make commands you can use:
+
+```
+ARCHES_ROOT=$(pwd)/../arches make run
+```
+This will run using the cloned repo
+
+If you do not want to clone the arches repo you will need to make adjustments to the docker-compose.yml.
+
+The following volume mounts will need to be removed:
+
+```
+- ${ARCHES_ROOT}:/web_root/arches
+- ${ARCHES_ROOT}/docker/gunicorn_config.py:/web_root/arches/gunicorn_config.py
+```
+ These exist within:
+- arches
+- arches_api
+- arches_worker
+
+You will receive an error that ARCHES_ROOT is not set if these are not removed or commented out
+
+### Issues
+You may encounter an issue on build or run where the templates are not found and the application will not start.
+This is usually caused by the SHOW_LANGUAGE_SWITCH.
+
+For this to run locally it needs to be set to False, for the CI to run this needs to be set to True.
+
+This can be found in 
+```
+crimson/crimson/settings.py
+```
+
+Change this locally but do not push
+
