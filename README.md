@@ -73,19 +73,70 @@ git submodule update --init --recursive
 
 It will download the submodules needed to run the build file.
 
-4. The final step will be building up the whole project using the makefile in the root folder, using this command:
+4. The final step will be building up the whole project using the makefile in the root folder:
+
+
+You will first need to change the SHOW_LANGUAGE_SETTING in:
+```
+crimson/crimson/settings.py
+```
+Set this to False
+
+This needs to be set as False for local builds but True to pass the CI.
+Keep this change local but do not push to the repo
+
+### Option 1 With Base Arches
+
+There are 2 ways to run the build, one is with having a copy of base arches locally. This will allow you to edit and log within arches for development.
+
+You will need to clone the arches repo into the parent directory of the project and then run:
+
+```
+ARCHES_ROOT=$(pwd)/../arches make build
+```
+
+Any subsequent make command you will need to run add the `ARCHES_ROOT=$(pwd)/../arches` prefix
+
+### Option 2 Modifying Docker Compose
+
+The alternative is to make adjustments to the docker-compose file. You will need to comment out and remove the following lines from the volume mounts:
+
+```
+- ${ARCHES_ROOT}:/web_root/arches
+- ${ARCHES_ROOT}/docker/gunicorn_config.py:/web_root/arches/gunicorn_config.py
+```
+ These exist within:
+- arches
+- arches_api
+- arches_worker
+
+You can then run:
 
 ```
 make build
 ```
 
-for each time you want to run the project, you can just open it in localhost:8000 after running the script
+Once the project has built, you can run the project using:
 
 ```
 make run
 ```
 
-If you receive an error about ARCHES_ROOT please see the section below on how to fix
+### Importing Concepts
+
+The concepts should import on the initial build but if they do not you can manually import them with the following commands
+
+First import the concepts:
+
+```
+make manage CMD="packages -o import_reference_data -s crimson/pkg/reference_data/concepts/ce-arches-thes-06-11.xml -ow 'overwrite'"
+```
+
+Then import the collections
+
+```
+make manage CMD="packages -o import_reference_data -s crimson/pkg/reference_data/collections/ce-arches-coll-06-11.xml -ow 'overwrite'"
+```
 
 ### Importing Models
 
@@ -96,6 +147,7 @@ Import the branches first:
 ```
 make manage CMD="packages -o import_graphs -s crimson/pkg/graphs/branches/Object.json"
 ```
+Proceed to import each model that exists within the branches folder
 
 Followed by the models:
 ```
@@ -109,6 +161,17 @@ crimson/pkg/graphs/branches
 ```
 crimson/pkg/graphs/resource_models
 ```
+
+### Activating the Bulk Data Manager
+The Bulk Data Manager does not show by default. You will need to activate it by following the instructions here:
+
+https://arches.readthedocs.io/en/stable/administering/bulk-data-manager/
+
+### Importing the Import Single CSV with Processing
+You will need to follow the instructions in this repo to install the module:
+
+https://github.com/flaxandteal/arches_doorstep.git
+
 
 ### Make File
 The make file is used to run the containers as well as run any Django specific commands to manipulate arches.
@@ -134,41 +197,14 @@ make docker-compose CMD="build"
 ```
 This will rebuild the containers. If dependencies change, this will need to run. This is similar to make build without rebuilding the database.
 
-### Arches Root
-You can run Crimson with a base copy of arches mounted. This allows you to debug any core functionality.
-You will need to run arches-7.6.
-If you clone a copy of the arches repo into the same directory as crimson and when running the make commands you can use:
-
 ```
-ARCHES_ROOT=$(pwd)/../arches make run
+make manage CMD="your command"
 ```
-This will run using the cloned repo
 
-If you do not want to clone the arches repo you will need to make adjustments to the docker-compose.yml.
-
-The following volume mounts will need to be removed:
-
-```
-- ${ARCHES_ROOT}:/web_root/arches
-- ${ARCHES_ROOT}/docker/gunicorn_config.py:/web_root/arches/gunicorn_config.py
-```
- These exist within:
-- arches
-- arches_api
-- arches_worker
-
-You will receive an error that ARCHES_ROOT is not set if these are not removed or commented out
 
 ### Issues
-You may encounter an issue on build or run where the templates are not found and the application will not start.
-This is usually caused by the SHOW_LANGUAGE_SWITCH.
+You can encounter an error on build that states:
+    Only one python package can be used
 
-For this to run locally it needs to be set to False, for the CI to run this needs to be set to True.
-
-This can be found in 
-```
-crimson/crimson/settings.py
-```
-
-Change this locally but do not push
+If this happens during the build you can delete the `_init_.py` in the test folder.
 
