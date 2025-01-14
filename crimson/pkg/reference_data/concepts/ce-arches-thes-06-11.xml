@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/89e49032-d787-48da-84b2-14f2e8e3763d">
+    <skos:prefLabel xml:lang="en">{"id": "e9bbf489-02d9-4a4a-ade2-d3e7293b3a27", "value": "Laying"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/00000000-0000-0000-0000-000000000001">
+        <dcterms:identifier xml:lang="en">{"id": "92738e9f-b46e-4ee0-a9c4-d0e473a0bbee", "value": "http://localhost:8000/00000000-0000-0000-0000-000000000001"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/88a2aa4f-a1d3-3a60-9e46-695ef8257701"/>
+        <dcterms:title xml:lang="en-us">{"id": "d8c60bf4-e786-11e6-905a-b756ec83dad5", "value": "Arches"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "b2d0baee-71ae-4c74-9cec-85918ac80326", "value": "http://localhost:8000/00000000-0000-0000-0000-000000000001"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000004"/>
+        <dcterms:identifier xml:lang="en">{"id": "3b564c29-5f9a-4009-9e3b-06e0ae5b1ca5", "value": "http://localhost:8000/00000000-0000-0000-0000-000000000001"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:scopeNote xml:lang="en">{"id": "f51bd8bd-7ed2-4008-a823-88792787b44f", "value": "Preparatory process in textile preparation"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "21bab5c3-d9d3-4218-b752-fe7181dcc773", "value": "http://localhost:8000/89e49032-d787-48da-84b2-14f2e8e3763d"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6fcd9194-9a8c-4156-aa3b-5421695a6b10">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/aacad967-4dd3-4502-aa8e-2183b2f2a4d7">
+        <dcterms:identifier xml:lang="en">{"id": "83d28d03-b8c6-4119-a591-8ccb3b11f1a9", "value": "http://localhost:8000/aacad967-4dd3-4502-aa8e-2183b2f2a4d7"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "4f78725f-406b-457d-a156-9c711decef2f", "value": "Straightens and aligns fibres"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "ea848bd4-8aa2-4263-a5d4-9588c87a2e7f", "value": "Drawer"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "fd1e3d84-7ffa-4e7a-bafb-746cf0a457e4", "value": "Prepares fibres for processing"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4acd64f3-3992-416c-90f4-18e07a38ab0f">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "55100ac2-eca6-4db9-b379-c33b39234f90", "value": "http://localhost:8000/4acd64f3-3992-416c-90f4-18e07a38ab0f"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "c8cd136a-4a70-4b44-b613-bfaa8785b4fb", "value": "Prepares threads for weaving"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e3177141-33f7-41bb-a3bf-ae17ccd5a529", "value": "Dresser"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/825a7127-83e3-4591-bbc6-f32433e41f90">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "839a0ade-e00a-427d-bfe3-2dba1c85db11", "value": "Sorter"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "95472736-eaad-426b-ad59-15cdb026fee2", "value": "Sorts wool into different grades"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "0d098a89-a918-4924-bee6-615d64a95100", "value": "http://localhost:8000/825a7127-83e3-4591-bbc6-f32433e41f90"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/38d97959-43f9-49e3-b136-099075ffd857">
+        <skos:prefLabel xml:lang="en">{"id": "75cbabe4-5c06-4301-ae1c-dfe739e3f3ff", "value": "Beamer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "1629cdf2-cc43-468b-af2d-f5e4e7421c60", "value": "http://localhost:8000/38d97959-43f9-49e3-b136-099075ffd857"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "40e715c6-af5d-42ba-afb4-501070241a21", "value": "Puts the yarn on the loom before weaving"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cf5d9df2-1790-47b3-a30e-b34b3c80fdbe">
+        <skos:scopeNote xml:lang="en">{"id": "f9f6273f-6afa-4f9d-9fe5-b558f964fd2c", "value": "Coats yarn to prevent breaking during weaving"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "9be8a07d-137a-4ef1-909e-c9c83a9271c9", "value": "Warp sizer"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "8793a02d-0158-4617-9722-012ffaa7267a", "value": "http://localhost:8000/cf5d9df2-1790-47b3-a30e-b34b3c80fdbe"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "966190fb-8c48-4d80-ba7d-65451043f318", "value": "http://localhost:8000/6fcd9194-9a8c-4156-aa3b-5421695a6b10"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/77f19b03-30f1-4372-8af5-7b3a6062bf55">
+        <skos:scopeNote xml:lang="en">{"id": "77e5e24d-2053-4310-917a-825afd28f1dc", "value": "Prepares fibres for processing"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "daa8bf64-216a-4dd5-a09a-781d591a8864", "value": "http://localhost:8000/77f19b03-30f1-4372-8af5-7b3a6062bf55"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "1c6d93d0-2ac6-407f-9772-02914225eb76", "value": "Layer"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0795f499-c6a9-4ab9-8e00-5f11dfb08921">
+        <skos:related rdf:resource="http://localhost:8000/8f53cde5-dc63-48a8-a898-500863da01a0"/>
+        <skos:scopeNote xml:lang="en">{"id": "ad4e35cf-2ef0-4a3e-8f00-ab0b439ede04", "value": "Prepares cards for disentangling fibres"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "acb42dfb-cbf0-4e14-98a2-6e41f57a7448", "value": "http://localhost:8000/0795f499-c6a9-4ab9-8e00-5f11dfb08921"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "4468bb22-c77e-4b4b-9f8e-067c0f8fa6c1", "value": "Card lacer"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ad4cba13-24e6-4434-9cd2-344ea418ee37">
+        <skos:scopeNote xml:lang="en">{"id": "34720a1f-c12c-4fac-8545-0b5a14d8f363", "value": "Covers the roller before weaving"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "b7563282-8b28-432d-bb25-cc14630dda96", "value": "Roller coverer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ab790ba4-bc8a-4d21-864d-6810b22a072e", "value": "http://localhost:8000/ad4cba13-24e6-4434-9cd2-344ea418ee37"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0123e69f-0ca5-4817-924c-b793532b22d6">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "35e28126-1b16-4a78-9d26-9d8b55625cae", "value": "Winder"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "2891c945-05ea-4151-bcc1-b1b30e164a1c", "value": "http://localhost:8000/0123e69f-0ca5-4817-924c-b793532b22d6"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "15e7b428-6f9f-49bd-a6c9-df3e008fb29f", "value": "Winds yarn onto a bobbin"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1df271ac-7c9d-44c3-b4ea-70b8964f7b2a">
+        <skos:prefLabel xml:lang="en">{"id": "652b690a-1541-4ddd-ae51-1925a26e5295", "value": "Washer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a2992e01-1d4b-42fb-b3d4-ea91c78a9e4a", "value": "http://localhost:8000/1df271ac-7c9d-44c3-b4ea-70b8964f7b2a"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "0b220314-d8e4-4b3a-99ba-974eb5100d44", "value": "Cleans textiles"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0b99881c-fcf5-4414-8aaa-80307d78659c">
+        <skos:scopeNote xml:lang="en">{"id": "4f1eadf1-03f9-4c51-97ea-93ad62845f94", "value": "Arranges yarn onto a beam"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "adefccd9-2949-41c9-a75d-bf41b4a3fdf3", "value": "http://localhost:8000/0b99881c-fcf5-4414-8aaa-80307d78659c"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "2fc9c56e-8cd5-44ed-80d0-6b6416a4bc64", "value": "Warper"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "42dc0db9-8e91-4495-a6c0-601709728c8f", "value": "Preparer"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/89063c75-3672-4970-9e3c-3cd6512a647f">
+        <dcterms:identifier xml:lang="en">{"id": "175eeda3-bf82-452c-815b-dbe4d1c51503", "value": "http://localhost:8000/89063c75-3672-4970-9e3c-3cd6512a647f"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "41cb1efe-ae8e-4f32-91b1-ea7c7ebd3926", "value": "Combs fibres to straighten them"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/9ba20317-73cd-4214-a69d-9526f4b22a06"/>
+        <skos:prefLabel xml:lang="en">{"id": "88fd65a9-47fa-4319-a8ce-1eb66965173e", "value": "Scribbler"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ccd34126-a0d6-490b-82d4-8d07bb0e7d9d">
+        <skos:altLabel xml:lang="en">{"id": "70a2d399-90b2-4363-866c-ba284f5728cb", "value": "Comber"}</skos:altLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/3afa766a-40c2-48a5-9821-a9ff6fd88ee7"/>
+        <skos:related rdf:resource="http://localhost:8000/8f53cde5-dc63-48a8-a898-500863da01a0"/>
+        <dcterms:identifier xml:lang="en">{"id": "da738f5e-d885-4b6c-bd1d-f96dbff85148", "value": "http://localhost:8000/ccd34126-a0d6-490b-82d4-8d07bb0e7d9d"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "f40ccc44-65c2-4687-8f20-26cb70928615", "value": "Disentangles fibres before spinning"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "cd9fc6eb-0eec-4612-a148-9fbf09658d0a", "value": "Carder"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b43be735-014c-446d-8cab-ba44d0825d72">
+        <skos:prefLabel xml:lang="en">{"id": "d3a6bc24-8576-41ea-8165-6e937d87ef3a", "value": "Pegger"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "fe4a0881-28c1-4ac1-8cb2-b8a24eb78ab2", "value": "http://localhost:8000/b43be735-014c-446d-8cab-ba44d0825d72"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "cb03e452-c0c9-4808-8fdd-849d1af4c17d", "value": "Mill worker"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/285c0f3a-b150-441f-a3be-178f86e8afde">
+        <skos:prefLabel xml:lang="en">{"id": "e4f4b569-ed61-4edd-b0ec-0b6b373c9ee9", "value": "Card sewer"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "68aab110-e58f-4a7d-a374-6a76125b8aef", "value": "Prepares cards for disentangling fibres"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/8f53cde5-dc63-48a8-a898-500863da01a0"/>
+        <dcterms:identifier xml:lang="en">{"id": "59679287-e2e9-462e-b506-ea86f3879b69", "value": "http://localhost:8000/285c0f3a-b150-441f-a3be-178f86e8afde"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1c7d2ced-8519-4a53-9da5-b9cf21e50cba">
+    <skos:scopeNote xml:lang="en">{"id": "2931335a-9dae-4d37-bf53-16f91ecf1bfe", "value": "Textile finishing process in which uneven yarns are cut from the face of the fabric"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "576294db-26c5-4f81-9d9b-dfe24676b3df", "value": "Shearing"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "dd6361e5-2508-40ee-8de3-18eb338f5452", "value": "http://localhost:8000/1c7d2ced-8519-4a53-9da5-b9cf21e50cba"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/150aba7a-2297-4919-9f1a-f103605e3ba6">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "9ca6f544-c81e-47fb-8ef8-e944ce28b015", "value": "School records"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "6d36bc21-edce-4535-8b21-466de3508f6d", "value": "Education records"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "5d631104-b7c5-42d2-a6ba-a98550c19bda", "value": "http://localhost:8000/150aba7a-2297-4919-9f1a-f103605e3ba6"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b5986cce-f4b0-476c-a3ce-cc4ca93723cb">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "5323888f-e90f-4ff3-b44e-8387d0d7bb66", "value": "Worker in a mill"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "149ce4a5-592b-4e4d-9239-464e74ccb9d8", "value": "http://localhost:8000/b5986cce-f4b0-476c-a3ce-cc4ca93723cb"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8a5bb496-f486-43d6-9880-74541a4d06a9", "value": "Mill worker"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/32702826-c15a-429e-be87-84c836376011">
+    <skos:prefLabel xml:lang="en">{"id": "84bc0d01-f7ee-460a-b8d4-a65e9d0f90ef", "value": "Drawing"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/1ac2579e-5db6-4434-85b1-4ea213c08d61">
+        <dcterms:identifier xml:lang="en">{"id": "85758377-f155-43fa-84cf-8f14174ed98a", "value": "http://localhost:8000/1ac2579e-5db6-4434-85b1-4ea213c08d61"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "a01e4da3-7b82-438d-a6fd-f731a6df5810", "value": "Drawing machine"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "87d0df8c-6dbf-46ce-9f12-cdd4596c2f00", "value": "Drawing and lapping machine"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/32702826-c15a-429e-be87-84c836376011"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/8beab870-8245-4065-a294-ca3f2fbeff19">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/1ac2579e-5db6-4434-85b1-4ea213c08d61"/>
+        <skos:related rdf:resource="http://localhost:8000/32702826-c15a-429e-be87-84c836376011"/>
+        <dcterms:identifier xml:lang="en">{"id": "b3d8a733-9c0c-4147-b556-d801c1f44aea", "value": "http://localhost:8000/8beab870-8245-4065-a294-ca3f2fbeff19"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "49dbfbd6-2328-4b08-add3-559fc1ee0ff3", "value": "Drawing machine"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/3a4f5389-9335-449e-9060-08c1fe5debe4"/>
+        <skos:scopeNote xml:lang="en">{"id": "83358f9b-2aa0-4777-af5f-54bf6c4af456", "value": "Textile manufacturing machine"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/19bb7755-4b67-41a2-ae72-f3f1f06c5af5"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "5f689378-f6e9-4034-b3a6-2bbc88e8abc8", "value": "http://localhost:8000/32702826-c15a-429e-be87-84c836376011"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "19c66644-97d0-45dd-8789-ddf69730f64a", "value": "Straightening and aligning fibres"}</skos:scopeNote>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/3a4f5389-9335-449e-9060-08c1fe5debe4">
+        <skos:prefLabel xml:lang="en">{"id": "6be49580-64e1-4fa7-baca-899092d1bb14", "value": "Drawing frame"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "e792dab0-0e43-454c-abf4-512683cf1b28", "value": "Drawing machine"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/32702826-c15a-429e-be87-84c836376011"/>
+        <dcterms:identifier xml:lang="en">{"id": "d033efa5-9e05-4479-8b61-0bd6d1f8ecc5", "value": "http://localhost:8000/3a4f5389-9335-449e-9060-08c1fe5debe4"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/19bb7755-4b67-41a2-ae72-f3f1f06c5af5">
+        <skos:prefLabel xml:lang="en">{"id": "49395382-6577-4044-850f-7e6fa1c91b7f", "value": "Drawing rollers"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "4aa47be5-cae2-4552-84d6-cbb123bd1896", "value": "http://localhost:8000/19bb7755-4b67-41a2-ae72-f3f1f06c5af5"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "49b8672f-eb0e-428d-91a3-80c47df22f92", "value": "Drawing machine"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/32702826-c15a-429e-be87-84c836376011"/>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/88a2aa4f-a1d3-3a60-9e46-695ef8257701">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/90b6622b-ba67-4276-9f2d-8dcac013ce90">
+        <skos:narrower rdf:resource="http://localhost:8000/7b1058a6-c74c-48ee-8ce3-d69638da8d55"/>
+        <skos:narrower rdf:resource="http://localhost:8000/3d3992b8-d074-46f5-bcb8-7ba8ba839217"/>
+        <skos:prefLabel xml:lang="en">{"id": "0f4c2328-176e-47ed-95fd-5e4bb0c0f9fb", "value": "Process"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "1935bbea-c170-4607-a143-b2da42bbb56c", "value": "Series of actions"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "5c99a1e7-60c7-47da-bdf4-435a16c0ba0c", "value": "http://localhost:8000/90b6622b-ba67-4276-9f2d-8dcac013ce90"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "db36cbf0-afc3-4694-ac63-f29a0388e4d1", "value": "http://localhost:8000/90b6622b-ba67-4276-9f2d-8dcac013ce90"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "89eeefd6-d443-434b-8c49-d5591f34e57e", "value": "http://localhost:8000/90b6622b-ba67-4276-9f2d-8dcac013ce90"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b31416b6-a062-47f7-8b69-8be423e68590">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/a57941f9-0eba-4703-a3e1-15cb3e20e937"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6cb40eea-3c2e-4ef5-90d9-81f755a4a760"/>
+        <skos:scopeNote xml:lang="en">{"id": "8c48d84b-54af-423b-8155-e5f5f9204227", "value": "Locations including build structures"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/b5538a1e-6655-39f0-b5b1-6a136b7bd893"/>
+        <skos:prefLabel xml:lang="en">{"id": "74e32dd7-25ca-4b9d-9e53-aac71121c22b", "value": "Location type"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "ea9f72ba-6534-48be-b71f-146e6e442789", "value": "Congruence Engine entity"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c99e7370-d01c-4905-aefc-4ba6f1728f59", "value": "http://www.semanticweb.org/ontologies/congruence-engine#CongruenceEngineEntity"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a86c51aa-38e4-3338-93f6-a22d4a77cd01">
+        <skos:narrower rdf:resource="http://localhost:8000/7b104d84-bfdb-4db8-90d4-e1925915082f"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "bdfe0c16-25ef-4138-959e-557d86aaa0dd", "value": "Activity based label applied to a person"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/20727538-8f11-35c6-86d7-5655be715be6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/98e16056-311f-417e-8557-5d7a87305842"/>
+        <skos:prefLabel xml:lang="en">{"id": "96a57845-437b-4890-a816-59a6ba366568", "value": "Occupation"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "32182cbf-8402-4a11-b4d1-1ca3eec2233a", "value": "http://www.semanticweb.org/ontologies/congruence-engine#Occupation"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d3e4d35c-0edd-46a0-8551-d03fced5de5f">
+        <skos:narrower rdf:resource="http://localhost:8000/0e7f333d-d14b-460a-8ba9-b82585f8363e"/>
+        <skos:narrower rdf:resource="http://localhost:8000/836551d8-0f2e-4ce4-9b33-a6578a856ca8"/>
+        <skos:narrower rdf:resource="http://localhost:8000/71074e3a-69ce-4433-836b-5a63948530eb"/>
+        <skos:narrower rdf:resource="http://localhost:8000/ce9a948c-e292-4072-a946-3815fc6cb1fb"/>
+        <skos:narrower rdf:resource="http://localhost:8000/100633dd-58e2-4004-8f43-721a0adff80c"/>
+        <skos:prefLabel xml:lang="en">{"id": "03e2dc55-84eb-4c45-8af4-020eabf9c836", "value": "Role"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/0168446c-63d4-4707-bc92-3056f571ae1a"/>
+        <skos:narrower rdf:resource="http://localhost:8000/5fe0657e-cb69-4dfe-bbfc-fdad2596e135"/>
+        <dcterms:identifier xml:lang="en">{"id": "4ccab086-aa87-4fa2-bf05-2625a3cccd25", "value": "http://localhost:8000/d3e4d35c-0edd-46a0-8551-d03fced5de5f"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "4c01dc6a-b6be-4fdc-b3c4-f6e490091b69", "value": "Roles held by people or organisations"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/418bc511-7ae0-3f68-ba8a-a51c5727932b">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/959ec44d-1d15-41f0-8987-a33d76fdb3fd"/>
+        <dcterms:identifier xml:lang="en">{"id": "78c575fe-9a85-4632-9a25-1a015a83e52c", "value": "http://www.semanticweb.org/ontologies/congruence-engine#Material"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "8fa09d1e-b3be-45cc-8313-ed3f6354a182", "value": "Substance from which things are manufactured"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "dc0937e4-b98e-4906-bb92-1939774e30cf", "value": "Material"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b5538a1e-6655-39f0-b5b1-6a136b7bd893">
+        <skos:narrower rdf:resource="http://localhost:8000/b548629e-2474-4c4a-8238-eaa5ddf0b60a"/>
+        <dcterms:identifier xml:lang="en">{"id": "312ea432-7ece-4d0e-ba4d-5e614fe717eb", "value": "http://www.semanticweb.org/ontologies/congruence-engine#Building"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/9314c13b-27d9-4431-b6d8-02297114d2af"/>
+        <skos:narrower rdf:resource="http://localhost:8000/df516a42-ac18-4599-83c6-ba2d7dcffae9"/>
+        <skos:narrower rdf:resource="http://localhost:8000/9c779ede-893c-4e17-8379-7a57b958223f"/>
+        <skos:prefLabel xml:lang="en">{"id": "fbe66522-c846-46f6-aa03-b738f596d987", "value": "Building"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "47e0b25c-feca-4bf5-8acf-653f17258705", "value": "Man made structure"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/208c9517-a8e2-413c-ada3-d89c5d37758b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/13a0d17f-0797-490e-98cf-6ac1a266a628"/>
+        <skos:narrower rdf:resource="http://localhost:8000/c41f4fed-23d7-4f5c-88b3-65f6fbe29d32"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/28d33f50-88b9-35ce-8caa-209bb0a424c0">
+        <skos:narrower rdf:resource="http://localhost:8000/ac1984a4-59d0-41e3-bde9-e7166070f155"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6e467d76-a50c-4626-a37f-1ba6cef3913f"/>
+        <skos:scopeNote xml:lang="en">{"id": "3bd58b9a-7c59-464e-a8bc-c39199b9799b", "value": "Tangible or intangible result of a process"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/b759c45a-7b6e-4785-9c47-0106b9f6bb72"/>
+        <skos:narrower rdf:resource="http://localhost:8000/00908b95-47a0-4d08-9cff-72b45ae6517f"/>
+        <dcterms:identifier xml:lang="en">{"id": "d58fc8a4-eef5-42fc-8a7f-56832e382153", "value": "http://www.semanticweb.org/ontologies/congruence-engine#Product"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "bd7ec862-3e9a-4f89-9dc5-4a89edb2386b", "value": "Product"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ce289745-3820-40e2-97ad-128abbd8782e">
+        <skos:prefLabel xml:lang="en">{"id": "c7b36850-23e7-4c05-b601-6cec6fd482ac", "value": "Object"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "69e6f640-9057-4c72-b614-4e51381f220b", "value": "Tangible artefact"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/7a5bddc3-78ef-4228-a315-74e10e54a6bf"/>
+        <skos:narrower rdf:resource="http://localhost:8000/61df10a2-3836-4470-bcef-ba9e52bb4997"/>
+        <skos:narrower rdf:resource="http://localhost:8000/e0398247-768c-4bc9-9737-a95e3ba73b1f"/>
+        <dcterms:identifier xml:lang="en">{"id": "d65bf452-3c12-459a-a66e-0bae91f266e3", "value": "http://localhost:8000/ce289745-3820-40e2-97ad-128abbd8782e"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "3384204d-bd38-471f-b49a-72103ce156e1", "value": "Thing in the Congruence Engine universe"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/37a8ffc7-5d5b-40a4-864b-ae03ebe854dd">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/455373ba-cabb-42cf-aaac-c383d2b34810">
+        <skos:prefLabel xml:lang="en">{"id": "0578a1c4-3653-49ad-b0d5-70908d93ee5d", "value": "Rope"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "920dc736-2ff7-4ddd-bbc3-6165217ccc5d", "value": "http://localhost:8000/455373ba-cabb-42cf-aaac-c383d2b34810"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/19e75ed9-6cf9-44d8-8d85-1f78e615d5e8"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "a93e89c8-7781-4ef0-8316-ae459de26d54", "value": "Thick fibre"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/37a8ffc7-5d5b-40a4-864b-ae03ebe854dd"/>
+      </skos:Concept>
+    </skos:related>
+    <dcterms:identifier xml:lang="en">{"id": "b291d7ae-dc46-414f-bb72-d1f9f78001aa", "value": "http://localhost:8000/37a8ffc7-5d5b-40a4-864b-ae03ebe854dd"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/19e75ed9-6cf9-44d8-8d85-1f78e615d5e8">
+        <skos:scopeNote xml:lang="en">{"id": "37ead6ce-2f64-43e3-b3f4-a44647f803c2", "value": "Rope machine"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "0e3428a0-6a59-4371-8f01-59230adaaf6a", "value": "http://localhost:8000/19e75ed9-6cf9-44d8-8d85-1f78e615d5e8"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "f3526bd6-4523-4bc0-b379-79e853a3aef4", "value": "Wire rope machine"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/455373ba-cabb-42cf-aaac-c383d2b34810"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "533ddfc4-7743-428b-91b6-08f87584a848", "value": "Rope-making machine"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "67bf6ac9-023f-4e1e-9ac8-7678b20464c8", "value": "Textile manufacturing machine"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4213d02d-4ff6-4571-82ce-a9ed52eed38e">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fcdaf70e-3df7-491e-8141-043f070c41fd">
+        <dcterms:identifier xml:lang="en">{"id": "411ce9e2-149a-4f30-808e-8647e042e4b4", "value": "http://localhost:8000/fcdaf70e-3df7-491e-8141-043f070c41fd"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "1f9ea041-7889-435c-bf9d-ddeb30d89107", "value": "Examines finished goods"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "b4269e01-8ea4-452e-9653-07c976837e05", "value": "Piece examiner"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "03d5e9f2-a791-4770-ab08-33a57fbceb2a", "value": "http://localhost:8000/4213d02d-4ff6-4571-82ce-a9ed52eed38e"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/79811be1-3514-47d3-adfa-7db6ca332017">
+        <skos:prefLabel xml:lang="en">{"id": "7f80fd93-e3dc-4a42-b20d-e62acf48500b", "value": "Repairer"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "7d268039-63d0-4b63-b1f3-e2bed611018d", "value": "Mends broken threads"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "a5268de3-f6ab-4c0b-bc9a-fd21f99048fb", "value": "http://localhost:8000/79811be1-3514-47d3-adfa-7db6ca332017"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e66243a2-2a83-485e-b4f8-f7bf33fb4650">
+        <dcterms:identifier xml:lang="en">{"id": "117978da-b15d-47e8-9011-f56ce89ea4af", "value": "http://localhost:8000/e66243a2-2a83-485e-b4f8-f7bf33fb4650"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "3ce296e9-f7ad-4338-9c62-8fd74fe9a86f", "value": "Printer"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "7145b62c-9133-4cf6-8e44-16dd0f903e04", "value": "Prints designs on textiles"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1b42d7bb-f321-4475-88a6-baff837c677a">
+        <skos:prefLabel xml:lang="en">{"id": "262cdf21-a43e-4c61-835a-8915e0666f59", "value": "Cutter"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "d2b9ae38-62d6-4bf3-b6ed-fc2201cb9059", "value": "http://localhost:8000/1b42d7bb-f321-4475-88a6-baff837c677a"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "4b1a0386-e6cb-4b7b-9793-10c58d35f840", "value": "Mill worker"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b770604b-fcf0-49f2-bda6-da825af465c4">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "acf5f718-0853-4e92-8070-38f0f194144b", "value": "Winder of yarn"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "427c186e-ed06-4373-b035-99c400f55286", "value": "http://localhost:8000/b770604b-fcf0-49f2-bda6-da825af465c4"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "8f0be2bc-fb24-49b1-b08c-f7dfc512bb6e", "value": "Hanker"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/2717e651-8cc1-48e9-ade2-27ef5f7db7ff">
+        <skos:prefLabel xml:lang="en">{"id": "241a55db-1fd3-479b-93c6-2b6d611738a1", "value": "Finishing"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "69ea507f-6c14-4918-8469-ec2204237047", "value": "Process to improve the look, performance, or feel of textiles"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/05697139-d316-4121-9faa-6c30e726c575"/>
+        <skos:narrower rdf:resource="http://localhost:8000/c85bb6ca-3f47-4002-9ecc-4f4b2f89e104"/>
+        <skos:related rdf:resource="http://localhost:8000/4213d02d-4ff6-4571-82ce-a9ed52eed38e"/>
+        <skos:narrower rdf:resource="http://localhost:8000/33a6e778-4332-4ce8-a762-6073a345dc4b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/83f8392b-64e2-4456-b205-f8744d22fce9"/>
+        <dcterms:identifier xml:lang="en">{"id": "2959c7c5-cb79-4191-b0db-0935d8e9a441", "value": "http://localhost:8000/2717e651-8cc1-48e9-ade2-27ef5f7db7ff"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/1c7d2ced-8519-4a53-9da5-b9cf21e50cba"/>
+        <skos:narrower rdf:resource="http://localhost:8000/c6f14a60-57f8-49bf-b99d-9ba9e70df237"/>
+        <skos:narrower rdf:resource="http://localhost:8000/8d7a055d-9e93-4617-888b-cb8843736804"/>
+        <skos:narrower rdf:resource="http://localhost:8000/7a420fd6-b62c-4853-82be-43e17473df77"/>
+        <skos:narrower rdf:resource="http://localhost:8000/3ba42e5a-29dd-432f-b2c7-d26239f60903"/>
+        <skos:narrower rdf:resource="http://localhost:8000/15564e6d-3f49-4620-bb28-75ca0d6ef415"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6dad0783-eb39-4405-b013-7ca8bc3b1b7d"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/0640d78a-79f0-4fa4-8e4a-5988e8446913"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0bbc4bdf-c74e-4e78-a679-2084822d8696">
+        <skos:prefLabel xml:lang="en">{"id": "c6886fe9-86a6-48dc-a914-95bc3cd6de4c", "value": "Piece folder"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "52a0d312-c549-4702-9602-8137bf16e535", "value": "http://localhost:8000/0bbc4bdf-c74e-4e78-a679-2084822d8696"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "1c0df1e9-58bd-4ffd-8b45-0fc58467d50a", "value": "Folds textiles ready for packing"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4bb33381-4626-45b9-9945-f0e7216c4162">
+        <dcterms:identifier xml:lang="en">{"id": "3302eed6-18b8-4427-9e7a-add93fafc300", "value": "http://localhost:8000/4bb33381-4626-45b9-9945-f0e7216c4162"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "5ff72d02-6677-4de6-b42d-ea0819453f19", "value": "Tenter"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "be331443-58c3-4f93-9d03-37e1b8f2b52e", "value": "Attends a drying frame"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "a5d3b3c8-b92a-46e8-80dc-0d0d82f2ee07", "value": "Performs final steps in textile production"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/24099514-7fba-4add-b7bc-9eb2de3c99c3">
+        <dcterms:identifier xml:lang="en">{"id": "9e634d23-f1e9-4110-914b-b31318c9f6d1", "value": "http://localhost:8000/24099514-7fba-4add-b7bc-9eb2de3c99c3"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "f981d2f4-2859-49eb-a488-63199c8e6df2", "value": "Washes fibres to remove oils and impurities"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "3c07813e-b84e-4a0c-8406-68786ada2470", "value": "Scourer"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/64e95813-e77d-41d8-9798-9c52cdfa3023">
+        <skos:scopeNote xml:lang="en">{"id": "ea7ed913-b159-4673-a5e5-f5a3801b09ab", "value": "Applies colour to textiles"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "821d3ae8-cb3e-439c-9d87-e8f2e040594f", "value": "http://localhost:8000/64e95813-e77d-41d8-9798-9c52cdfa3023"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "bdfd4a63-20aa-4a26-9b29-9ba5c3472803", "value": "Dyer"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "a667cef0-d320-40ca-9f35-0d3841ab93e1", "value": "Finisher"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/39ccb012-7079-4212-81a1-6315602ab683">
+        <dcterms:identifier xml:lang="en">{"id": "cd8d7c06-bb1c-477a-bd8a-9fc7536098f4", "value": "http://localhost:8000/39ccb012-7079-4212-81a1-6315602ab683"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "74dd94a9-c211-4989-beeb-dafbad5d8050", "value": "Dries fibres after washing"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "2197085c-56d3-4489-b563-48276b2eb4a4", "value": "Dryer"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b92d6cad-5734-4d7c-a8e9-7517182be560">
+    <skos:prefLabel xml:lang="en">{"id": "bb92ff2c-f7ce-4cd6-82bd-ef25b4c104bb", "value": "Flax"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "f1da11dd-9198-4017-a6fb-4c3ff24141c8", "value": "Plant from which fibre is harvested"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "3b3d6cf1-cf42-4e4d-95e2-2a6dc93f1864", "value": "http://localhost:8000/b92d6cad-5734-4d7c-a8e9-7517182be560"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6b129ef6-e9c1-4687-80a2-225b01819118">
+    <dcterms:identifier xml:lang="en">{"id": "49d75601-2237-4807-a2c2-5738a06a10d5", "value": "http://localhost:8000/6b129ef6-e9c1-4687-80a2-225b01819118"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/71074e3a-69ce-4433-836b-5a63948530eb">
+        <skos:scopeNote xml:lang="en">{"id": "3345469c-3254-4ee4-b139-3789ea2f75e3", "value": "Person or organisation that established the organisation"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "87d398c6-1067-4f5a-b37a-dd959c92f85d", "value": "Founder"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/a0d02137-e378-4da5-88fe-ae1aca616882"/>
+        <skos:related rdf:resource="http://localhost:8000/6b129ef6-e9c1-4687-80a2-225b01819118"/>
+        <dcterms:identifier xml:lang="en">{"id": "1daf27c2-2ba0-4036-818b-36557382856f", "value": "http://localhost:8000/71074e3a-69ce-4433-836b-5a63948530eb"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "c7706faa-ae7f-49f0-86e6-19fd35ffa2a6", "value": "founded"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fb498e4a-360f-4268-8eb3-684c80f22e5f">
+    <dcterms:identifier xml:lang="en">{"id": "965cb4cd-706d-486c-867b-5786389bd2ce", "value": "http://localhost:8000/fb498e4a-360f-4268-8eb3-684c80f22e5f"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "4f3de288-6804-4749-8857-c45b332d0864", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "9b0b9ed4-86f0-4242-af5f-3a30e5997394", "value": "Shrinking machine"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/c85bb6ca-3f47-4002-9ecc-4f4b2f89e104">
+        <dcterms:identifier xml:lang="en">{"id": "8692ead8-3152-4227-b467-2b82f5eb650c", "value": "http://localhost:8000/c85bb6ca-3f47-4002-9ecc-4f4b2f89e104"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/fb498e4a-360f-4268-8eb3-684c80f22e5f"/>
+        <skos:scopeNote xml:lang="en">{"id": "f397e816-8caa-4992-9374-33ef67016b80", "value": "Shrinking textiles to stabilise them"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "b59bc76b-da49-410f-b543-206c454dce0e", "value": "Shrinking"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/095a3653-9558-4eb9-8e00-cc451d0d56cd">
+        <dcterms:identifier xml:lang="en">{"id": "6d5b65fb-9539-43ea-b589-fe17006ca59f", "value": "http://localhost:8000/095a3653-9558-4eb9-8e00-cc451d0d56cd"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "98744e5a-89c5-4e36-8d5f-a93098ad250b", "value": "Sewing machine"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "1ab58b84-d204-4869-a475-6e0ba3143753", "value": "Machine for sewing"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/8cb4f793-5f38-48bd-9a48-5e7577171558"/>
+        <skos:narrower rdf:resource="http://localhost:8000/3386e0d0-e7f5-4140-9266-62abc1f8dde1"/>
+        <skos:narrower rdf:resource="http://localhost:8000/25718017-46fd-40cc-bd7c-a9c9ef029754"/>
+        <skos:related rdf:resource="http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/ded9e60d-ba27-457b-8bd5-e2eb82b46e4b"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/25718017-46fd-40cc-bd7c-a9c9ef029754">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a"/>
+        <dcterms:identifier xml:lang="en">{"id": "1c8be75c-5ed9-43e3-a761-9a0a337029ca", "value": "http://localhost:8000/25718017-46fd-40cc-bd7c-a9c9ef029754"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "301273fa-3a91-439b-bc46-a6a795df4dd6", "value": "Sewing machine"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "a339f106-ccea-4ef9-a944-21b47b9992ec", "value": "Lock-stitch sewing machine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/ded9e60d-ba27-457b-8bd5-e2eb82b46e4b">
+        <dcterms:identifier xml:lang="en">{"id": "dab98cbf-bf70-48dc-9533-d555a6ec5ee1", "value": "http://localhost:8000/ded9e60d-ba27-457b-8bd5-e2eb82b46e4b"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a"/>
+        <skos:scopeNote xml:lang="en">{"id": "69c9efef-0311-4896-b288-ff476d1679a7", "value": "Sewing machine"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "47d02504-3168-4dbc-bcbf-b72975b73917", "value": "Chain-stitch sewing machine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "0681a591-87c5-4e4a-8347-4312c34b9fad", "value": "Fastening or attaching using stitches made with a needle and thread"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c8909a28-1dcd-427e-a580-738253e16a95", "value": "Sewing"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/3386e0d0-e7f5-4140-9266-62abc1f8dde1">
+        <skos:prefLabel xml:lang="en">{"id": "b92fcef7-279d-442b-a6f1-e3a3a5f527ec", "value": "Button-hole sewing machine"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "1d222cfa-4ed7-4047-868c-ea340ae7ad39", "value": "Sewing machine"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a"/>
+        <dcterms:identifier xml:lang="en">{"id": "25d07c08-2eb8-4a3b-abeb-e0a9835ed5c9", "value": "http://localhost:8000/3386e0d0-e7f5-4140-9266-62abc1f8dde1"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:related>
+    <dcterms:identifier xml:lang="en">{"id": "cf898c4c-dc9f-4c7d-a68a-16c5be41e4c8", "value": "http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/8cb4f793-5f38-48bd-9a48-5e7577171558">
+        <skos:related rdf:resource="http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a"/>
+        <dcterms:identifier xml:lang="en">{"id": "a24c93da-d84c-4881-b798-2f6316c37929", "value": "http://localhost:8000/8cb4f793-5f38-48bd-9a48-5e7577171558"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "9d96dadc-cd11-4638-8830-bc2a84830449", "value": "Sewing machine"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "678a8366-4fff-4050-a88d-ed1bdc6b535f", "value": "Twin-needle sewing machine"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6de305fd-d2cb-46b1-8715-cd0e3cc65eba">
+    <skos:prefLabel xml:lang="en">{"id": "d2edebba-75e6-4c1d-8110-62c8385edc59", "value": "Merino"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b3de2d61-78c0-4afd-b90f-fac755b2ed80", "value": "http://localhost:8000/6de305fd-d2cb-46b1-8715-cd0e3cc65eba"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "c5f12a1a-3022-4ee3-87ca-08c519c32832", "value": "Natural animal fibre"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/68cb681c-ab06-4e04-b5d6-04fc31beedc6">
+    <dcterms:identifier xml:lang="en">{"id": "cf295736-2798-4962-9467-99937191f2a5", "value": "http://localhost:8000/68cb681c-ab06-4e04-b5d6-04fc31beedc6"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/227ee812-1c1d-4c2a-ba54-1799d90b0a22">
+        <skos:prefLabel xml:lang="en">{"id": "eba3c54d-adc7-42e1-ab77-e05bab99e3a0", "value": "Alpaca"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "6003867a-4763-416f-972c-7ac94d43e0e4", "value": "http://localhost:8000/227ee812-1c1d-4c2a-ba54-1799d90b0a22"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "37b2caa4-3d5f-466a-aeef-514e66038aeb", "value": "Textile from alpaca hair"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/590f4060-5a81-4919-8cee-617c5d415836">
+        <skos:related rdf:resource="http://localhost:8000/5459037c-bd37-404c-8cb6-57cb21c625e7"/>
+        <dcterms:identifier xml:lang="en">{"id": "23d57ff7-7583-4760-8372-e305f36b58d3", "value": "http://localhost:8000/590f4060-5a81-4919-8cee-617c5d415836"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/68cb681c-ab06-4e04-b5d6-04fc31beedc6"/>
+        <skos:prefLabel xml:lang="en">{"id": "9a394954-74f7-49d9-86f2-c9f02a3a5ead", "value": "Wool-washing machine"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "69e48c05-2147-45b4-8cc0-791ee5992085", "value": "Textile manufacturing machine"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:related>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e192a5d7-ef68-423f-9025-edf5d73790c7">
+        <dcterms:identifier xml:lang="en">{"id": "0d9adb80-2db1-4fcc-ac8d-496ee4048025", "value": "http://localhost:8000/e192a5d7-ef68-423f-9025-edf5d73790c7"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "cefa5c23-1250-44a2-a660-fe6189ee07c7", "value": "Textile from Angora goats"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "ac27725c-ba52-4c42-8979-855fd7c24671", "value": "Mohair"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/4a6975a5-ff49-4714-80b2-33b4a944fdbc">
+        <skos:prefLabel xml:lang="en">{"id": "14db7794-a6ca-4d2a-b256-5f99d6f9cdd9", "value": "Wool-drying machine"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "adf90144-8500-4b14-b0f8-bd07be6216a5", "value": "http://localhost:8000/4a6975a5-ff49-4714-80b2-33b4a944fdbc"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/68cb681c-ab06-4e04-b5d6-04fc31beedc6"/>
+        <skos:scopeNote xml:lang="en">{"id": "1668465c-02d9-45f3-855b-7a1c0bfbcef4", "value": "Textile manufacturing machine"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:related>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/8b1d99e5-92bf-4e8b-9c28-12b9bd8d8a7b">
+        <dcterms:identifier xml:lang="en">{"id": "20995b1e-ed04-4d93-9c80-b41844248a9e", "value": "http://localhost:8000/8b1d99e5-92bf-4e8b-9c28-12b9bd8d8a7b"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/68cb681c-ab06-4e04-b5d6-04fc31beedc6"/>
+        <skos:scopeNote xml:lang="en">{"id": "38cfeadb-c654-4268-9a7b-81ba6298a58a", "value": "Process of washing raw wool fibre before spinning"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "d528c4f0-d25b-4f2f-9dcf-51185c5759ef", "value": "Scouring"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "d84f8de4-2905-44ed-8b16-67bbe2dcc3c4", "value": "Wool"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/474676b7-d2a7-40ba-bc07-8ae482c0b339">
+        <skos:prefLabel xml:lang="en">{"id": "55241ce9-8a76-4302-8b8a-7d0dee936798", "value": "Cashmere"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "cd4ea0b0-4c6e-4796-ae93-2321b69de3ae", "value": "http://localhost:8000/474676b7-d2a7-40ba-bc07-8ae482c0b339"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "a1459865-e1d5-42a5-9f52-e28c8a4223c0", "value": "Fibre obtained from goats"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/6de305fd-d2cb-46b1-8715-cd0e3cc65eba"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/47437f78-c8b1-4b8b-9853-f17d5744bdf1">
+        <dcterms:identifier xml:lang="en">{"id": "91b155ae-596d-493f-accc-64f241d1c01e", "value": "http://localhost:8000/47437f78-c8b1-4b8b-9853-f17d5744bdf1"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "f397092d-1c1d-42cb-ac0c-dfed9b5e9ac6", "value": "Sheeps wool"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "ef5c062d-5ad1-4e36-bf6f-a39e592029e1", "value": "Wool from sheep"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "d5ab4248-5ae4-4ca8-93e6-6dcc67ce07a4", "value": "Material made from animal fleece or hair"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/794c7edb-c236-4d63-b598-dd41554a8f95">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "ce2e3596-d247-47d2-a64c-fe8a392dd4ed", "value": "Textile manufacturing process"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "82e9cf51-5e12-477e-ba14-68aa7d8b9b1a", "value": "Stubbing"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b3c8f34c-3f92-4f46-941c-62f821a6665a", "value": "http://localhost:8000/794c7edb-c236-4d63-b598-dd41554a8f95"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/24933072-6f19-4c17-ae4b-9ca47604ddd6">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "ae6d74ab-7f72-462b-ae4c-3c8f4130af49", "value": "Attends the spinning mule"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "c57daf2e-4387-4a3f-ae23-eb694e531398", "value": "http://localhost:8000/24933072-6f19-4c17-ae4b-9ca47604ddd6"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "c3d2a821-244e-4ad6-817d-685e7417c5b5", "value": "Mule driver"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3d3992b8-d074-46f5-bcb8-7ba8ba839217">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/7511a477-44ff-4f7c-9315-7b310e0ac0a8">
+        <dcterms:identifier xml:lang="en">{"id": "972888d0-9263-4d54-9183-c91a15fc78b8", "value": "http://localhost:8000/7511a477-44ff-4f7c-9315-7b310e0ac0a8"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/3d3992b8-d074-46f5-bcb8-7ba8ba839217"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "166b4b81-f99f-4555-844f-2ba253a069dd", "value": "Sales records"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "9bebe48f-e288-48db-8439-8d5e4f07dc4b", "value": "Business records"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "3abd6c24-cda9-4c39-a77f-a703f98d2781", "value": "Commercial exchange of goods and services"}</skos:scopeNote>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/e61fa2f3-da09-4dc1-b273-08702d880b03">
+        <skos:prefLabel xml:lang="en">{"id": "d68e8785-1ed1-4079-bbb4-793a25c0f6fa", "value": "Purchase ledgers"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "64e6e07f-d082-4883-9f70-e23f91cadfc3", "value": "Business records"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "8c1987c7-c33a-42f7-aaab-81b64f553888", "value": "http://localhost:8000/e61fa2f3-da09-4dc1-b273-08702d880b03"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/3d3992b8-d074-46f5-bcb8-7ba8ba839217"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:related>
+    <dcterms:identifier xml:lang="en">{"id": "1123fdfa-ac26-4842-8eaa-03cbc0ce552a", "value": "http://localhost:8000/3d3992b8-d074-46f5-bcb8-7ba8ba839217"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "a73e4aaf-c059-4cfe-9db8-053c53a6f111", "value": "Trading"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ec9dd2c0-200a-4650-abfb-2a6dd5b588cc">
+    <dcterms:identifier xml:lang="en">{"id": "d2f0be61-c522-4c36-b0c4-1f1ce105786a", "value": "http://localhost:8000/ec9dd2c0-200a-4650-abfb-2a6dd5b588cc"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "25dd5911-802f-4f39-9e2e-1287a6df8d32", "value": "Small Christian place of worship"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "416ab035-9d75-41cc-8a7d-d1d15ee97caf", "value": "Chapel"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/33a6e778-4332-4ce8-a762-6073a345dc4b">
+    <skos:prefLabel xml:lang="en">{"id": "1fba6952-59de-43e2-87a4-c661b11201a4", "value": "Beetling"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c10ca4f5-1a06-496c-b8b9-379a28b3f3f8", "value": "Textile finishing method"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "66c6a2c1-fd5c-4e3c-8ed9-323df8306387", "value": "http://localhost:8000/33a6e778-4332-4ce8-a762-6073a345dc4b"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/92d99ca9-730a-4bbe-8bbf-72e34580bad2">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "7e0f5851-f1f0-4346-8b1e-7089e7ffa4bf", "value": "http://localhost:8000/92d99ca9-730a-4bbe-8bbf-72e34580bad2"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/33a6e778-4332-4ce8-a762-6073a345dc4b"/>
+        <skos:scopeNote xml:lang="en">{"id": "2e755ba5-bfe5-428f-946f-18d4b39518f8", "value": "Textile manufacturing machine"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "9487be19-e23f-4a28-a891-5721192ba3a0", "value": "Beetling machine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/509ac076-5947-4e64-9704-6df42404c2f8">
+    <dcterms:identifier xml:lang="en">{"id": "c9ab210d-cf7b-485c-9122-a53c3e3fca4e", "value": "http://localhost:8000/509ac076-5947-4e64-9704-6df42404c2f8"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "49c7e6b0-cbdf-4079-bc84-86cca4b4b973", "value": "Makes loops for loom"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "42bd4564-708a-429a-854c-a5bc44dc6d68", "value": "Heald maker"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/61df10a2-3836-4470-bcef-ba9e52bb4997">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "c11ebccc-93d2-475d-8f3f-1971ecdaae9a", "value": "Device used for transportation"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "27a422a0-c291-4e66-b861-5e81a88d770f", "value": "http://localhost:8000/61df10a2-3836-4470-bcef-ba9e52bb4997"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "57c8bfa2-9dbc-4f3a-b791-c94c5489a3e8", "value": "Vehicle"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3a9f0ed8-be72-444c-b196-595eb6412e59">
+    <dcterms:identifier xml:lang="en">{"id": "268f556a-5e90-461c-b832-a019d5602c38", "value": "http://localhost:8000/3a9f0ed8-be72-444c-b196-595eb6412e59"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "03f55c97-1f49-41e1-a24f-d1057d70eb1d", "value": "School"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/90db6dc0-bc68-4d7c-85fc-ca6f373d8685">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485">
+        <skos:related rdf:resource="http://localhost:8000/ffa4ca12-1621-4e9e-af94-fef1a2bf5036"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/034b1643-cbaf-456a-8ff3-b2a8662828f2"/>
+        <skos:related rdf:resource="http://localhost:8000/276d09e6-f6f5-4d81-8cca-e4a4abb75692"/>
+        <skos:related rdf:resource="http://localhost:8000/5e4307bb-2869-4867-86ea-c0466e3e6219"/>
+        <skos:related rdf:resource="http://localhost:8000/88331ae5-fae1-45fb-9cf9-5675c3f44da2"/>
+        <skos:prefLabel xml:lang="en">{"id": "8d844db6-50ab-42bc-ab3e-0fe867859713", "value": "Weaving"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5fec7ec8-56dd-4023-bc24-a3450f9d888e", "value": "http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/90db6dc0-bc68-4d7c-85fc-ca6f373d8685"/>
+        <skos:scopeNote xml:lang="en">{"id": "b602637a-3ab1-470c-9b2f-251776cf91c5", "value": "Textile manufacturing process"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/6c01efa2-7ef7-4ac5-85b9-a2f2eb2916ca"/>
+      </skos:Concept>
+    </skos:related>
+    <dcterms:identifier xml:lang="en">{"id": "19d28af3-a996-4091-af57-a1940970b7b6", "value": "http://localhost:8000/90db6dc0-bc68-4d7c-85fc-ca6f373d8685"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "95653f8e-af22-43d9-a5df-376197a4c10c", "value": "Loom"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "a68b49d4-108f-4dc8-9195-5f54b854b1ae", "value": "Vaucanson loom"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5c2297e6-0ae8-4d08-ae15-9f954cbfebd7">
+    <skos:narrower rdf:resource="http://localhost:8000/e61fa2f3-da09-4dc1-b273-08702d880b03"/>
+    <skos:prefLabel xml:lang="en">{"id": "669cac66-7f02-4fad-8db1-238d65ac1373", "value": "Financial records"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "ca4deb3f-09b8-4b4a-83ee-170dcfb241bd", "value": "Business records"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "886d5015-02f7-4e1f-b6f8-0a240a66cb06", "value": "http://localhost:8000/5c2297e6-0ae8-4d08-ae15-9f954cbfebd7"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower rdf:resource="http://localhost:8000/7511a477-44ff-4f7c-9315-7b310e0ac0a8"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/50101a45-b9e9-4b82-b961-2e9a68084036">
+    <skos:scopeNote xml:lang="en">{"id": "cfd002f0-441a-463a-bbb8-9c0b183c6572", "value": "Documentation produced by a school"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "52fff772-be5b-457c-a17e-e9f8ca7195da", "value": "Education records"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower rdf:resource="http://localhost:8000/150aba7a-2297-4919-9f1a-f103605e3ba6"/>
+    <dcterms:identifier xml:lang="en">{"id": "2bc9e391-9540-4d9c-a01c-27a6714d5765", "value": "http://localhost:8000/50101a45-b9e9-4b82-b961-2e9a68084036"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d0748101-839d-4a27-937a-566e9e063bba">
+    <skos:prefLabel xml:lang="en">{"id": "fe75632d-314b-4ff0-bdb5-fec291bd62d0", "value": "College"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d7a9cdec-fae8-42f1-88ce-824a72284ebd", "value": "http://localhost:8000/d0748101-839d-4a27-937a-566e9e063bba"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/034b1643-cbaf-456a-8ff3-b2a8662828f2">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "d12a7b58-ea1b-4dcd-a484-bd557f520b1f", "value": "http://localhost:8000/034b1643-cbaf-456a-8ff3-b2a8662828f2"}</dcterms:identifier>
+    <skos:related rdf:resource="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"/>
+    <skos:prefLabel xml:lang="en">{"id": "690cf9ef-097f-48dc-b5c1-5284931984f0", "value": "Falcon's loom"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "f4480865-7e4d-47fe-957a-a33d80448788", "value": "Loom"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7a5bddc3-78ef-4228-a315-74e10e54a6bf">
+    <dcterms:identifier xml:lang="en">{"id": "d45ff916-1390-490b-bca0-453ab7f92d99", "value": "http://localhost:8000/7a5bddc3-78ef-4228-a315-74e10e54a6bf"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2952f8fe-f7f4-47ea-a97b-ba3e8f0a5b06", "value": "Document"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/50101a45-b9e9-4b82-b961-2e9a68084036"/>
+    <skos:scopeNote xml:lang="en">{"id": "1c61d665-7e47-4689-8209-210c8f0dd680", "value": "Written material"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/161dded5-3e6c-4b81-83e0-b42511cb42f4">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "958e50ee-2c32-400c-80a4-87579ba48425", "value": "http://localhost:8000/161dded5-3e6c-4b81-83e0-b42511cb42f4"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "0e8863bd-ed5f-4731-a155-a87ad770acdc", "value": "Government records"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "8bb713c8-b4df-45c5-a4ce-b1bffe6184fc", "value": "Records created by government"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e1dcdaa1-8102-4aa3-8858-4198a2d77a4c">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "0f526a33-f17a-4cf5-aaa3-93753fbe808a", "value": "Records created by religious initiations "}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "216dae21-88b4-4cee-afb4-6a3440308d27", "value": "Religious institution records"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "2e4ee80e-d283-4c44-bfe0-666f6735df6a", "value": "http://localhost:8000/e1dcdaa1-8102-4aa3-8858-4198a2d77a4c"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ef11c3bd-73a0-4e0d-b14a-879c3f7ea1ae">
+        <skos:scopeNote xml:lang="en">{"id": "3e92db4c-c744-4952-a823-3c74dc62d5ec", "value": "Documentation produced by a company"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "392b0a0c-7060-4b78-b69e-0155d4d0da15", "value": "Company records"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "0adae0d4-3be4-4502-b46e-be9ab205c000", "value": "http://localhost:8000/ef11c3bd-73a0-4e0d-b14a-879c3f7ea1ae"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/228fa6a1-61e3-4176-91bd-e9dfac01c5f1"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/a4d2fb4f-d6d8-4995-84f1-3283f510897b"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7b104d84-bfdb-4db8-90d4-e1925915082f">
+    <dcterms:identifier xml:lang="en">{"id": "ec321792-6100-4e4c-a043-9a8941b85101", "value": "http://localhost:8000/7b104d84-bfdb-4db8-90d4-e1925915082f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "50449833-00a2-4301-b4d9-b5b8be7c98fe", "value": "Merchant"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "315c07d6-d5d8-4c63-b770-aa7f8cef7ca8", "value": "Trades in goods"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/78d08c97-a47f-448c-b4cb-5e5366c2ed19">
+    <dcterms:identifier xml:lang="en">{"id": "df8d2bc7-bc6f-4e57-a802-d90798f784aa", "value": "http://localhost:8000/78d08c97-a47f-448c-b4cb-5e5366c2ed19"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "22e4f303-6f42-4c5b-a62f-dd873ee5cc5f", "value": "Store keeper"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "f31218bb-3d17-461e-be49-1fc24bd11860", "value": "Keeps inventory of stock"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/974e2fd3-78dd-4b6a-a9d8-e29402e6efdb">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "3f03b936-4b06-453a-95d1-736e4a7698fc", "value": "http://localhost:8000/974e2fd3-78dd-4b6a-a9d8-e29402e6efdb"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "cca805df-df81-45fd-aaff-27a9d18b5123", "value": "Cotton gin"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/a36aaa48-9c8d-42fa-9433-74ee2abb86ef">
+        <skos:prefLabel xml:lang="en">{"id": "b0280197-276a-423a-a8c7-954d7d762ff5", "value": "Ginning"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/3ec4f22e-b52c-4879-9d57-91616e8a1173"/>
+        <dcterms:identifier xml:lang="en">{"id": "e78c414f-a841-485b-a27d-25dae3f69b06", "value": "http://localhost:8000/a36aaa48-9c8d-42fa-9433-74ee2abb86ef"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "623d22d0-ec35-40ae-b369-5a83c5a6a94a", "value": "Separating fibre from seeds"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/974e2fd3-78dd-4b6a-a9d8-e29402e6efdb"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "aadfc077-f891-4753-88ee-25baf90c8235", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3ec4f22e-b52c-4879-9d57-91616e8a1173">
+        <dcterms:identifier xml:lang="en">{"id": "581235a8-36fb-4d1f-8355-d8f71d3f3e4a", "value": "http://localhost:8000/3ec4f22e-b52c-4879-9d57-91616e8a1173"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "e0ae07ba-58a9-4c21-b779-d27471b98c54", "value": "Treadle churka"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "14103edc-bd6c-4a85-b9a8-105f7161390e", "value": "Cotton gin"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/a36aaa48-9c8d-42fa-9433-74ee2abb86ef"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7b9abbbb-dc3d-4f64-b136-5cde608738ed">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/ce9a948c-e292-4072-a946-3815fc6cb1fb">
+        <skos:related rdf:resource="http://localhost:8000/4bb07a47-c935-43f3-ae38-39a11b87a4bb"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "40a7ca57-d032-4825-88e6-b666f3c86e1f", "value": "Inventor"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "fb0bb68e-58c4-4b68-ae6c-c0ae2d701849", "value": "Person or group who invented an object"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "4643d7c9-d13a-45e5-8603-46afd64ff419", "value": "http://localhost:8000/ce9a948c-e292-4072-a946-3815fc6cb1fb"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/7b9abbbb-dc3d-4f64-b136-5cde608738ed"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "20c45e2a-c50b-440c-bc83-bcc26e5b3fca", "value": "invented"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "92dd115d-755f-417e-8220-ec5ca12bf841", "value": "http://localhost:8000/7b9abbbb-dc3d-4f64-b136-5cde608738ed"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1ce551f0-5eeb-4662-8be2-4e720a11305c">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1689ead3-db2f-4d49-ac23-78094598b783">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "e3913e49-4b1f-4aaf-ac0e-1f2ad06a104e", "value": "Stitching"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "dc8c46f8-0877-42b5-a0e5-6749031c6cd7", "value": "http://localhost:8000/1689ead3-db2f-4d49-ac23-78094598b783"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "69e08212-1ddb-4805-ad9c-66ce8e5a84c8", "value": "Sewing together material"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/794c7edb-c236-4d63-b598-dd41554a8f95"/>
+    <dcterms:identifier xml:lang="en">{"id": "7906a780-a6c1-430d-bd82-ddc4450298de", "value": "http://localhost:8000/1ce551f0-5eeb-4662-8be2-4e720a11305c"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"/>
+    <skos:narrower rdf:resource="http://localhost:8000/ee530494-f714-4b8b-8176-5e73581e5b8a"/>
+    <skos:scopeNote xml:lang="en">{"id": "e001a854-d176-49ef-b38f-bfd8cee2d17a", "value": "Industrial activity producing goods"}</skos:scopeNote>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/09aba692-b355-4a1f-8d07-89a6d275bbd0">
+        <skos:narrower rdf:resource="http://localhost:8000/37a8ffc7-5d5b-40a4-864b-ae03ebe854dd"/>
+        <skos:narrower rdf:resource="http://localhost:8000/974e2fd3-78dd-4b6a-a9d8-e29402e6efdb"/>
+        <skos:narrower rdf:resource="http://localhost:8000/4a6975a5-ff49-4714-80b2-33b4a944fdbc"/>
+        <skos:narrower rdf:resource="http://localhost:8000/2ae85ea4-7c03-4f99-af1a-b4d078bc3cea"/>
+        <skos:narrower rdf:resource="http://localhost:8000/590f4060-5a81-4919-8cee-617c5d415836"/>
+        <skos:narrower rdf:resource="http://localhost:8000/24426938-88ce-4852-93f8-692541d6df89"/>
+        <skos:narrower rdf:resource="http://localhost:8000/1c1acd09-85ad-4a0f-8b9b-0b1167e8e68b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6c01efa2-7ef7-4ac5-85b9-a2f2eb2916ca"/>
+        <dcterms:identifier xml:lang="en">{"id": "de93caed-c26c-4ada-83e5-0b1b8f19f786", "value": "http://localhost:8000/09aba692-b355-4a1f-8d07-89a6d275bbd0"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/d6e4db19-797a-406a-a0fe-04e1c4a386c3"/>
+        <skos:related rdf:resource="http://localhost:8000/1ce551f0-5eeb-4662-8be2-4e720a11305c"/>
+        <skos:scopeNote xml:lang="en">{"id": "ecbc286a-2eb8-44da-a4ae-d35a1d1fdfb4", "value": "Machine used in textile manufacture"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/5deea1f5-854d-4010-9b68-a14a1efcec04"/>
+        <skos:narrower rdf:resource="http://localhost:8000/7af45a17-4d73-4de2-9ef8-432e24f4d1b3"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/095a3653-9558-4eb9-8e00-cc451d0d56cd"/>
+        <skos:narrower rdf:resource="http://localhost:8000/e7a29eae-5411-4043-a353-1599d78dd8b3"/>
+        <skos:narrower rdf:resource="http://localhost:8000/04a09bdd-3668-40b0-a875-15ae09142cd7"/>
+        <skos:prefLabel xml:lang="en">{"id": "3f2b0b87-1f3c-4b4d-8c48-a3d3f1c6ddbc", "value": "Textile manufacturing machine"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/ea1985d6-4b38-425f-b80d-bb3a2091e699"/>
+        <skos:narrower rdf:resource="http://localhost:8000/fb498e4a-360f-4268-8eb3-684c80f22e5f"/>
+        <skos:narrower rdf:resource="http://localhost:8000/5bba2a01-9b65-4625-98e4-5bf27fe086fc"/>
+        <skos:narrower rdf:resource="http://localhost:8000/92d99ca9-730a-4bbe-8bbf-72e34580bad2"/>
+        <skos:narrower rdf:resource="http://localhost:8000/8beab870-8245-4065-a294-ca3f2fbeff19"/>
+        <skos:narrower rdf:resource="http://localhost:8000/2a715885-4aee-4431-bad3-cbb39f652b80"/>
+        <skos:narrower rdf:resource="http://localhost:8000/33b150a5-4ffb-4f3c-bf8f-81f98a5b6f85"/>
+        <skos:narrower rdf:resource="http://localhost:8000/66f72c78-a5de-449c-be08-0d2586cb683f"/>
+        <skos:narrower rdf:resource="http://localhost:8000/a906123d-32e1-474d-914d-b4bc4ae57c52"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "773457ff-bd19-41a7-bdc1-05bab8af07b8", "value": "Manufacturing"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/aabcf1c6-42f5-4bca-92a6-08a0ceab25a9">
+        <skos:related rdf:resource="http://localhost:8000/36fc0293-a5f9-4135-8207-1c580b815925"/>
+        <skos:related rdf:resource="http://localhost:8000/992d60f5-7a60-49ce-84a2-a7efc282e08f"/>
+        <skos:prefLabel xml:lang="en">{"id": "4006a87d-8788-4a0a-8d04-943ac20d88a8", "value": "Knitting"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/e7474fa0-7bcc-4fdd-91a5-f9795a1a1199"/>
+        <skos:scopeNote xml:lang="en">{"id": "3bc2ae95-1f51-47db-8e1a-8dc9f7176034", "value": "Forming and interlacing of loops using needles"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/24426938-88ce-4852-93f8-692541d6df89"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "7d5ae8c1-dc00-4b8f-8107-fd1fae49f54b", "value": "http://localhost:8000/aabcf1c6-42f5-4bca-92a6-08a0ceab25a9"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/5ed88543-7348-4f8c-9b45-d4cc6ea9d9bf"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c8258613-1534-4682-aabe-012de80d9660">
+        <skos:prefLabel xml:lang="en">{"id": "36c146db-bdfb-4483-8e2c-8867929c4640", "value": "Stranding"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "1af31931-5940-4402-b9f8-065d107a251f", "value": "Textile manufacturing process"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "9e3ffc29-8d1f-46a8-894d-5777146d3f91", "value": "http://localhost:8000/c8258613-1534-4682-aabe-012de80d9660"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3c74d6fb-0241-4caf-bc19-6c40189236f2">
+        <skos:prefLabel xml:lang="en">{"id": "08af70d9-529d-41ac-9f30-677c99cb10fb", "value": "Spinning"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "b0c1563b-aeb2-4303-bafe-08b01e804fec", "value": "Method of turning fibre into yarn or thread"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/1c1acd09-85ad-4a0f-8b9b-0b1167e8e68b"/>
+        <dcterms:identifier xml:lang="en">{"id": "b0d0a4a4-e147-4357-b383-544dabb03f9b", "value": "http://localhost:8000/3c74d6fb-0241-4caf-bc19-6c40189236f2"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/20d7fccf-1703-4f2b-9b9e-5ea5523c132a">
+        <skos:scopeNote xml:lang="en">{"id": "995583e8-f891-40b9-9db8-306deaa51e56", "value": "Moving heald shafts"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "c56ff618-cf55-44c8-97d7-d2239f54f360", "value": "Shedding"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "880f2b0f-afe9-4b4c-b141-f16257e754db", "value": "http://localhost:8000/20d7fccf-1703-4f2b-9b9e-5ea5523c132a"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ac1984a4-59d0-41e3-bde9-e7166070f155">
+    <skos:prefLabel xml:lang="en">{"id": "f881bd00-3b3a-4595-83ed-5e88dd8147ad", "value": "Textile"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/455373ba-cabb-42cf-aaac-c383d2b34810"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/467eccae-7fc6-4ec9-9100-23daa0505fa9">
+        <skos:related rdf:resource="http://localhost:8000/2a715885-4aee-4431-bad3-cbb39f652b80"/>
+        <dcterms:identifier xml:lang="en">{"id": "7642b452-ddc2-41c7-bf33-a59c182e45a9", "value": "http://localhost:8000/467eccae-7fc6-4ec9-9100-23daa0505fa9"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "388af0b0-061d-49a2-b6d1-fce65c455c8d", "value": "Yarn"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/8fd2244a-7ace-4ff4-884f-0f0cd8506084"/>
+        <skos:scopeNote xml:lang="en">{"id": "fd7e30a2-e02c-45f0-9d03-4c2f57650c67", "value": "Thread made of fibres"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "02365eb1-bbd5-43d7-b8c1-5302650be125", "value": "Fibre based material"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "a6ca0f22-2b52-451d-b261-c910b21cdeb6", "value": "http://localhost:8000/ac1984a4-59d0-41e3-bde9-e7166070f155"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/063e987b-6876-49c3-9c1b-15874a51a328">
+        <skos:prefLabel xml:lang="en">{"id": "02acd147-5ae7-454e-8f06-a0b0a1517490", "value": "Cloth"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/1446ccfc-336a-444d-bb51-aa3f46ea8dd0"/>
+        <skos:narrower rdf:resource="http://localhost:8000/a77dca14-1655-4258-ac2c-4b7be28e0335"/>
+        <dcterms:identifier xml:lang="en">{"id": "3ce929fb-4ac7-4326-a270-0a79004aef87", "value": "http://localhost:8000/063e987b-6876-49c3-9c1b-15874a51a328"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/06dd261f-b3c1-42cd-8da1-ff8a305e55c2"/>
+        <skos:narrower rdf:resource="http://localhost:8000/1b7ef03c-dcd8-4556-ae2e-65b3862376b3"/>
+        <skos:scopeNote xml:lang="en">{"id": "8740cc2e-f144-4735-96c9-f7b342032934", "value": "Fabric"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/cb4e50ea-371f-4785-9803-896627f14604"/>
+        <skos:narrower rdf:resource="http://localhost:8000/618c830f-d76a-4394-8215-6a1ad55b992f"/>
+        <skos:narrower rdf:resource="http://localhost:8000/777d6e9b-19d6-4155-80d9-24f33d6d68e7"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1ba6d33c-a01f-4f79-afb6-7e72b6d68d38">
+        <dcterms:identifier xml:lang="en">{"id": "1b7e6ee7-b80e-4db3-bd74-89f43373265b", "value": "http://localhost:8000/1ba6d33c-a01f-4f79-afb6-7e72b6d68d38"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "c5491d68-5a53-48eb-b5dc-4f4e8d12523c", "value": "Paper"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "02fcb462-2775-498c-b7f8-450c51c2429b", "value": "Thin, flexible material from wood pulp"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0168446c-63d4-4707-bc92-3056f571ae1a">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/9ed62aeb-3184-4895-9424-92a96e0c64d1">
+        <skos:related rdf:resource="http://localhost:8000/0168446c-63d4-4707-bc92-3056f571ae1a"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "bb5e10d3-9f08-43bd-997e-efff4aea07ce", "value": "http://localhost:8000/9ed62aeb-3184-4895-9424-92a96e0c64d1"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "f310d2c4-45e2-414b-97db-1b27fd32d23b", "value": "had architect"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <dcterms:identifier xml:lang="en">{"id": "fe9cfa8e-0c9e-48a6-b75a-13bb52fe27d6", "value": "http://localhost:8000/0168446c-63d4-4707-bc92-3056f571ae1a"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "b013fdb8-1ba0-4353-b829-05f2a31c0346", "value": "Architect"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "86e89a10-e819-454d-84db-52043b8a34c1", "value": "Person or organisation responsible for building architecture"}</skos:scopeNote>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/c944621e-4609-42fa-80af-939717948079">
+        <dcterms:identifier xml:lang="en">{"id": "4dd5e421-17d1-437d-be1a-e19c978d792f", "value": "http://localhost:8000/c944621e-4609-42fa-80af-939717948079"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "2d1924d8-f95d-428d-9a7f-4f25e74b97bf", "value": "was architect of"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/0168446c-63d4-4707-bc92-3056f571ae1a"/>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c3a870ee-71c8-4f42-821e-41a27e98da89">
+    <dcterms:identifier xml:lang="en">{"id": "e1778496-0576-4f21-80d2-fb831029dae3", "value": "http://localhost:8000/c3a870ee-71c8-4f42-821e-41a27e98da89"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "591ead11-2942-463e-99e2-35244e0b94a0", "value": "was benefactor of"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/836551d8-0f2e-4ce4-9b33-a6578a856ca8">
+        <dcterms:identifier xml:lang="en">{"id": "1e914038-8f05-4047-8fa2-aeaf4c411275", "value": "http://localhost:8000/836551d8-0f2e-4ce4-9b33-a6578a856ca8"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "88cbfdd5-929d-433a-966d-faf31cb10948", "value": "Person or organisation that donated to the building or organisation"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/02f99ea2-2201-432c-8f49-58ab9c45696b"/>
+        <skos:related rdf:resource="http://localhost:8000/c3a870ee-71c8-4f42-821e-41a27e98da89"/>
+        <skos:prefLabel xml:lang="en">{"id": "78ee9395-06d5-4158-9a6e-db34c19b1b0f", "value": "Benefactor"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2392bd84-a239-41e7-9f17-bd709e06afe5">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "a38f6d4b-fa59-4924-a105-764b2f60537b", "value": "Mill hand"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c306023c-b7e2-4fb2-85a9-30b63635756f", "value": "Worker in a mill"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "8e9f69c5-22fd-4fb7-a1c4-938fdc9f2754", "value": "http://localhost:8000/2392bd84-a239-41e7-9f17-bd709e06afe5"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5a2d07bf-8f00-4a33-9e22-9cd0a70337b4">
+    <dcterms:identifier xml:lang="en">{"id": "04c22275-ad9d-445e-8644-c51cb0adee1a", "value": "http://localhost:8000/5a2d07bf-8f00-4a33-9e22-9cd0a70337b4"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "cbf00170-d1fb-42fc-a054-01ea63cea2f5", "value": "operational base"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/eb7f5096-9434-4e6f-bf96-6becdc17b312">
+    <skos:prefLabel xml:lang="en">{"id": "c76e3778-e36d-4f47-941b-cc50eb8c029d", "value": "Machinery worker"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/509ac076-5947-4e64-9704-6df42404c2f8"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5e248bad-c2d8-4198-95e6-1f932f8537fd">
+        <dcterms:identifier xml:lang="en">{"id": "63d11a61-ed35-49fd-93b2-5aec41f27a1f", "value": "http://localhost:8000/5e248bad-c2d8-4198-95e6-1f932f8537fd"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "0a7ac625-357d-4df0-adf8-80ec5cbcb0e8", "value": "Attends machine in a mill"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "a23d7549-c3d7-40e3-8f70-492e6b2b1b77", "value": "Machine minder"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "6ddf9c9f-5463-4456-b6c0-0a4ba12c706d", "value": "http://localhost:8000/eb7f5096-9434-4e6f-bf96-6becdc17b312"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9c12dd81-ec6d-4320-a267-a6e0a55f8b70", "value": "Attends machinery in a mill"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5b9e42d6-5a18-4e5d-a80b-4f372c3fa68b">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "0a6e428c-9814-447b-835d-6f7e6964a288", "value": "http://localhost:8000/5b9e42d6-5a18-4e5d-a80b-4f372c3fa68b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "895e467a-67f8-49f3-8867-316c219e6222", "value": "was alma mater of"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/88331ae5-fae1-45fb-9cf9-5675c3f44da2">
+    <skos:prefLabel xml:lang="en">{"id": "2ece8254-7020-45a6-ab5e-2256d5f78677", "value": "Power loom"}</skos:prefLabel>
+    <skos:related rdf:resource="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"/>
+    <dcterms:identifier xml:lang="en">{"id": "9e0c9b45-aadf-491a-94f1-836cb90ebb96", "value": "http://localhost:8000/88331ae5-fae1-45fb-9cf9-5675c3f44da2"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "95e84452-8a05-44c7-a0c7-dc2e21fd3998", "value": "Loom"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d72cdd07-3c78-48a4-a8f1-dc254cf18360">
+    <skos:scopeNote xml:lang="en">{"id": "2801cb1f-700c-4b25-8eac-230230861900", "value": "Separates threads from the beam"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b6e87eb3-d5e1-48e8-9b28-5837d3183d97", "value": "Reacher"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1d2a87c8-1e9c-4e61-9193-31392663448c", "value": "http://localhost:8000/d72cdd07-3c78-48a4-a8f1-dc254cf18360"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6dad0783-eb39-4405-b013-7ca8bc3b1b7d">
+    <skos:scopeNote xml:lang="en">{"id": "2030568a-0d74-4f1a-90a8-7054660359ab", "value": "Process of adding colour to textiles"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "b4388dfb-d903-4cec-a253-a6826cf5e85d", "value": "Dyeing"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "9815d881-f718-43c9-869d-f77f5a1eccf2", "value": "http://localhost:8000/6dad0783-eb39-4405-b013-7ca8bc3b1b7d"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0e7f333d-d14b-460a-8ba9-b82585f8363e">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/9aaf3028-9ccb-4ee4-96f8-b499f6c802a2">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "7276731f-fdc6-4ddc-b1ad-513701aa622d", "value": "was designed by"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "e29d6d81-c90b-40ce-8ef1-ad3b94a6ca23", "value": "http://localhost:8000/9aaf3028-9ccb-4ee4-96f8-b499f6c802a2"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/0e7f333d-d14b-460a-8ba9-b82585f8363e"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/f0796c7e-c916-489f-8def-e6962ea37dc0">
+        <skos:related rdf:resource="http://localhost:8000/0e7f333d-d14b-460a-8ba9-b82585f8363e"/>
+        <dcterms:identifier xml:lang="en">{"id": "1e852df4-dc88-4c8e-943b-eca800e35fe2", "value": "http://localhost:8000/f0796c7e-c916-489f-8def-e6962ea37dc0"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "4b2bd144-bf4e-4a49-9b92-bc103c9ac826", "value": "designed"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "607a6e10-520e-4994-a238-247cff947fb2", "value": "Designer"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "d1a0e3db-620c-4ade-aa2e-69faf532104e", "value": "Person or organisation that designed the object"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "4890976e-5213-4c7f-9da5-39b675380386", "value": "http://localhost:8000/0e7f333d-d14b-460a-8ba9-b82585f8363e"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9dacde94-2337-4a35-98e4-bf2a8328f9f7">
+    <skos:prefLabel xml:lang="en">{"id": "61481b7b-41e7-4e66-8924-e29164bf6965", "value": "Foreman"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "e155ea07-e004-4042-9618-050541714a98", "value": "Factory supervisor"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "45ce2adf-bbb5-44b8-a663-fd785cc58723", "value": "http://localhost:8000/9dacde94-2337-4a35-98e4-bf2a8328f9f7"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3afa766a-40c2-48a5-9821-a9ff6fd88ee7">
+    <dcterms:identifier xml:lang="en">{"id": "8aa77f68-cdab-4384-9c34-8905c2e999ea", "value": "http://localhost:8000/3afa766a-40c2-48a5-9821-a9ff6fd88ee7"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2f1f9f44-2d51-43bf-98c4-cb9cb6e48f73", "value": "Combing"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/5deea1f5-854d-4010-9b68-a14a1efcec04">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "73bd3c9d-b327-4b90-9343-88962355342a", "value": "http://localhost:8000/5deea1f5-854d-4010-9b68-a14a1efcec04"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/3afa766a-40c2-48a5-9821-a9ff6fd88ee7"/>
+        <skos:scopeNote xml:lang="en">{"id": "d439da52-a5b7-4e92-9964-8ec37970d9cd", "value": "Textile manufacturing machine"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e7d0e7b3-0bc7-44aa-9405-49253b39e356", "value": "Combing machine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related rdf:resource="http://localhost:8000/ccd34126-a0d6-490b-82d4-8d07bb0e7d9d"/>
+    <skos:scopeNote xml:lang="en">{"id": "9d0042b7-75d5-4e35-b63f-3fec867c5b2a", "value": "Process of\u00a0combing fibres to straighten them"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5e4307bb-2869-4867-86ea-c0466e3e6219">
+    <skos:prefLabel xml:lang="en">{"id": "df7ee5f5-88b9-4445-9508-f9ff74e487be", "value": "de Gennes' loom"}</skos:prefLabel>
+    <skos:related rdf:resource="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "8415588f-513a-431c-9ae5-20acff5e9c92", "value": "Loom"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "938360c9-f827-4af3-aadf-dbccd4a51eed", "value": "http://localhost:8000/5e4307bb-2869-4867-86ea-c0466e3e6219"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/20727538-8f11-35c6-86d7-5655be715be6">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b424fded-5e16-46ae-85fc-1e00aa63f671">
+        <skos:prefLabel xml:lang="en">{"id": "d4e1251d-c7bc-4dbb-8012-cba0612b53d3", "value": "Packer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a87142bb-6859-478d-b257-0497273ece9c", "value": "http://localhost:8000/b424fded-5e16-46ae-85fc-1e00aa63f671"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "b60fc3b4-027e-4317-93b7-04d3be0aadb2", "value": "Packs goods"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/aad628ff-42e9-4aba-a069-41e1bdf3c68a">
+        <dcterms:identifier xml:lang="en">{"id": "009645cf-f410-4b8f-9b5a-c92c65310315", "value": "http://localhost:8000/aad628ff-42e9-4aba-a069-41e1bdf3c68a"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "436f7607-a6f4-4c89-bab8-5b16ad4ebff6", "value": "Factory supervisor"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "5bce4101-b8dc-4259-9cc3-f6cb0f176611", "value": "Manager"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "2e169d01-1cef-4c31-b532-2983798501f8", "value": "http://www.semanticweb.org/ontologies/congruence-engine#Textile_profession"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/24ce368c-4746-49e5-bcae-fc5f73d89828">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "d03f86ac-fb09-434d-9858-78ba9ce6ecbc", "value": "http://localhost:8000/24ce368c-4746-49e5-bcae-fc5f73d89828"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "ad905499-bf6d-473b-8d09-6f04ba0761d4", "value": "Overlooker"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "91247152-5443-4bfe-836a-467e7f4e3f1f", "value": "Mill superintendent or overseer"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/9dacde94-2337-4a35-98e4-bf2a8328f9f7"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f7afd90f-7ba0-48f3-a57e-f01d3bc7b6e4">
+        <skos:narrower rdf:resource="http://localhost:8000/b5986cce-f4b0-476c-a3ce-cc4ca93723cb"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "6fe9421c-9c05-40a4-a4ab-df27bc865e5b", "value": "Worker in textile production"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/2392bd84-a239-41e7-9f17-bd709e06afe5"/>
+        <skos:narrower rdf:resource="http://localhost:8000/0fa1fc7c-9a24-4d06-aa78-3d207367f306"/>
+        <skos:narrower rdf:resource="http://localhost:8000/eb7f5096-9434-4e6f-bf96-6becdc17b312"/>
+        <skos:narrower rdf:resource="http://localhost:8000/4213d02d-4ff6-4571-82ce-a9ed52eed38e"/>
+        <skos:narrower rdf:resource="http://localhost:8000/0ad0ba81-1e35-4602-ad29-063a34cac1d3"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6fcd9194-9a8c-4156-aa3b-5421695a6b10"/>
+        <dcterms:identifier xml:lang="en">{"id": "41f08b56-033c-487c-82ab-98f6b18b6337", "value": "http://localhost:8000/f7afd90f-7ba0-48f3-a57e-f01d3bc7b6e4"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/17c05423-4983-488b-bfb6-c9f479fba67f"/>
+        <skos:prefLabel xml:lang="en">{"id": "7e6a7d69-a9c7-4f3b-9712-8e9dba15d289", "value": "Textile worker"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "d3bae7d6-2a9d-4009-9536-9078ab7301b9", "value": "Textile industry occupation"}</skos:scopeNote>
+    <skos:narrower rdf:resource="http://localhost:8000/78d08c97-a47f-448c-b4cb-5e5366c2ed19"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e49eb823-7bab-49a9-8220-18904943c571">
+        <skos:prefLabel xml:lang="en">{"id": "dcde19a6-cc30-4b60-b887-3aa474d13930", "value": "Warehouseman"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "d8a2718e-2027-46e1-b2ab-5c25a4a9a108", "value": "http://localhost:8000/e49eb823-7bab-49a9-8220-18904943c571"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "260d47cc-4cb9-4b44-96ce-aa4a1d9b5d72", "value": "Textile profession"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cadec196-c92c-4145-9388-f14535fae59a">
+        <dcterms:identifier xml:lang="en">{"id": "f12f7c7a-b6e1-4626-9a19-00d7bcd08090", "value": "http://localhost:8000/cadec196-c92c-4145-9388-f14535fae59a"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "0fcb524c-9ebf-4d00-98d2-30f31e268f58", "value": "Clerk"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "ae6879ff-3da0-4ace-8766-1da0a313ec6b", "value": "Office worker"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/68804f51-a288-423b-832f-ced334f5a276">
+        <skos:prefLabel xml:lang="en">{"id": "d2a65194-3392-419a-a4c0-bbdad167f189", "value": "Stacker"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "af79c309-a1f3-4d3d-abc7-91ff0a814443", "value": "Worker in a mill"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "2ce9971a-9d30-4fc0-baf6-be4fef4f0d55", "value": "http://localhost:8000/68804f51-a288-423b-832f-ced334f5a276"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e6dd3a7e-dbde-4ebb-ae46-6b71beb7d6dc">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "77e0ab71-148d-40e2-a73d-e175f231bafd", "value": "http://localhost:8000/e6dd3a7e-dbde-4ebb-ae46-6b71beb7d6dc"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "2d9e4100-5c44-420a-9b30-17b6bf5b5323", "value": "Designer"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "703d3b53-ce56-4783-8055-dd0d294c468b", "value": "Creates designs for fabric patterns"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0640d78a-79f0-4fa4-8e4a-5988e8446913">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/2ae85ea4-7c03-4f99-af1a-b4d078bc3cea">
+        <skos:prefLabel xml:lang="en">{"id": "7bd20481-7a61-4347-8314-33a12de62247", "value": "Plaiting machine"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "4e54a72d-3129-44e2-8973-bc8817210231", "value": "Textile manufacturing machine"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "375976d2-6a32-4612-893b-7377f25347ab", "value": "http://localhost:8000/2ae85ea4-7c03-4f99-af1a-b4d078bc3cea"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:altLabel xml:lang="en">{"id": "982cc0b9-01f7-4a2c-be14-f2ac30da9418", "value": "Braiding machine"}</skos:altLabel>
+        <skos:related rdf:resource="http://localhost:8000/0640d78a-79f0-4fa4-8e4a-5988e8446913"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:altLabel xml:lang="en">{"id": "6b85dd6c-9c6e-4366-99ab-578c5a6902c2", "value": "Braiding"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "1210202a-7ced-40e4-829b-73ca7d9e7f83", "value": "Interlacing of cord or yarn"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "1ca40555-0309-4bfa-a2e0-91ebd68395c8", "value": "Plaiting"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "aca54776-b498-4ad0-9d56-3726fdd93224", "value": "http://localhost:8000/0640d78a-79f0-4fa4-8e4a-5988e8446913"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a7f53853-914a-40a8-a9df-543ada9448c5">
+    <dcterms:identifier xml:lang="en">{"id": "7db8d59d-4a95-4ae4-aef7-fcbb527c5a70", "value": "http://localhost:8000/a7f53853-914a-40a8-a9df-543ada9448c5"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "416a6abf-b613-4498-bd9a-8b7163715319", "value": "Weaves yarn into fabric"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "4ff63b64-ab43-49df-878c-a27da5f95f1e", "value": "Weaver"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5bba2a01-9b65-4625-98e4-5bf27fe086fc">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/63ece6f9-7fa3-482b-bdf0-25845c71bd69">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "2898fb9e-1629-48d6-b184-afdffb303804", "value": "http://localhost:8000/63ece6f9-7fa3-482b-bdf0-25845c71bd69"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/35bb8961-2ca6-4480-a501-5feaa2efbc78"/>
+        <skos:prefLabel xml:lang="en">{"id": "2842c684-5c59-4e31-be44-dcfb464d1e5d", "value": "Scutching"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "edfc0f4f-fdcd-4591-a763-65e530fc404d", "value": "Separating and cleaning vegetable fibre before spinning"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/5bba2a01-9b65-4625-98e4-5bf27fe086fc"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "db94997c-49eb-403a-b05d-4cfbaf3f3f89", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7eb9e595-f00b-4332-94d2-649d3cac63ee", "value": "http://localhost:8000/5bba2a01-9b65-4625-98e4-5bf27fe086fc"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "3c9f76f3-225c-4c82-a3fd-542d66354ab2", "value": "Scutching machine"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8d7a055d-9e93-4617-888b-cb8843736804">
+    <skos:scopeNote xml:lang="en">{"id": "8500bbe8-67df-4444-8ace-4ca6cedf3c60", "value": "Brushing a fabric with cards to raise a nap"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "8522c600-5ef4-4525-9549-8984e8db4c25", "value": "http://localhost:8000/8d7a055d-9e93-4617-888b-cb8843736804"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2da45878-24a0-4ef4-8b54-5489b9eddf31", "value": "Teasing"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a42a0501-f7e8-4df6-bc31-4e53cb3e890e">
+    <skos:scopeNote xml:lang="en">{"id": "eade9fab-1776-4fb9-a136-de0bfaeda519", "value": "Covering worn on the body"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "f7b4eaf0-9836-463b-85b5-12d072ae1238", "value": "Clothing"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "527e83f1-aff0-4f2d-9acb-e0079a405f82", "value": "http://localhost:8000/a42a0501-f7e8-4df6-bc31-4e53cb3e890e"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/36fc0293-a5f9-4135-8207-1c580b815925">
+    <skos:prefLabel xml:lang="en">{"id": "55ca0383-97f7-41de-bb0f-8058a9eb51dc", "value": "Flat knitting machine"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d1289b4b-1a7e-40ef-a0c7-80badc6fc072", "value": "http://localhost:8000/36fc0293-a5f9-4135-8207-1c580b815925"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related rdf:resource="http://localhost:8000/aabcf1c6-42f5-4bca-92a6-08a0ceab25a9"/>
+    <skos:scopeNote xml:lang="en">{"id": "87dbd8b6-91c8-42a9-bd1c-bf97378aac36", "value": "Knitting machine"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cefb76b7-ad33-455f-bd96-cc05ce0b0cc9">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "f1c1c624-57e6-4065-aec5-c5fd049454b6", "value": "Stocking"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a96c4432-a0e5-41a9-99ad-76e034968403", "value": "http://localhost:8000/cefb76b7-ad33-455f-bd96-cc05ce0b0cc9"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "ee23fbc4-0472-4058-b8ad-0e411e27679e", "value": "Covering worn on the leg"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7af45a17-4d73-4de2-9ef8-432e24f4d1b3">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/6c01efa2-7ef7-4ac5-85b9-a2f2eb2916ca">
+        <skos:narrower rdf:resource="http://localhost:8000/ffa4ca12-1621-4e9e-af94-fef1a2bf5036"/>
+        <skos:narrower rdf:resource="http://localhost:8000/034b1643-cbaf-456a-8ff3-b2a8662828f2"/>
+        <skos:scopeNote xml:lang="en">{"id": "f670b964-aa81-49de-a0c3-4e6f38a8df83", "value": "Textile manufacturing machine"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "d0b7ae90-96e3-4fa6-81f6-3670c3ba63f7", "value": "http://localhost:8000/6c01efa2-7ef7-4ac5-85b9-a2f2eb2916ca"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/276d09e6-f6f5-4d81-8cca-e4a4abb75692"/>
+        <skos:narrower rdf:resource="http://localhost:8000/5e4307bb-2869-4867-86ea-c0466e3e6219"/>
+        <skos:related rdf:resource="http://localhost:8000/7af45a17-4d73-4de2-9ef8-432e24f4d1b3"/>
+        <skos:narrower rdf:resource="http://localhost:8000/88331ae5-fae1-45fb-9cf9-5675c3f44da2"/>
+        <skos:narrower rdf:resource="http://localhost:8000/90db6dc0-bc68-4d7c-85fc-ca6f373d8685"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "b476f16a-9800-4b8d-9d74-0ca0d23de901", "value": "Loom"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "1125df3d-7850-4360-ac95-5bdabc539f07", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "030d80a1-9cea-4b0a-ba4b-c3015100c8ae", "value": "Loom bobbin winder"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "6b23e3ec-1d59-4db2-a4ca-da873434c550", "value": "http://localhost:8000/7af45a17-4d73-4de2-9ef8-432e24f4d1b3"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ae7319eb-ab07-4752-8d30-a0e9dd661dcb">
+    <dcterms:identifier xml:lang="en">{"id": "5eccc858-9b1a-4bd8-a153-f8b30f796fba", "value": "http://localhost:8000/ae7319eb-ab07-4752-8d30-a0e9dd661dcb"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "93bbcda4-03ee-47ce-9798-60bed017ea5b", "value": "Plant used in creating paper and fabric"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "2d587d4b-93e6-4635-a180-15b9caf75b0a", "value": "Sisal"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7b1058a6-c74c-48ee-8ce3-d69638da8d55">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/16110dee-2da8-4e35-bd78-d75c8a57865e">
+        <skos:narrower rdf:resource="http://localhost:8000/32702826-c15a-429e-be87-84c836376011"/>
+        <skos:narrower rdf:resource="http://localhost:8000/8b1d99e5-92bf-4e8b-9c28-12b9bd8d8a7b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/a36aaa48-9c8d-42fa-9433-74ee2abb86ef"/>
+        <skos:scopeNote xml:lang="en">{"id": "f574162c-894a-4f83-a48d-73437a173c4c", "value": "Processes undertaken prior to manufacturing"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/63ece6f9-7fa3-482b-bdf0-25845c71bd69"/>
+        <skos:narrower rdf:resource="http://localhost:8000/9ba20317-73cd-4214-a69d-9526f4b22a06"/>
+        <skos:narrower rdf:resource="http://localhost:8000/89e49032-d787-48da-84b2-14f2e8e3763d"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "d8b47d21-4862-4fac-93db-84283450e87a", "value": "http://localhost:8000/16110dee-2da8-4e35-bd78-d75c8a57865e"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/3afa766a-40c2-48a5-9821-a9ff6fd88ee7"/>
+        <skos:prefLabel xml:lang="en">{"id": "fe2174b2-bd5f-466d-a4be-901570053c34", "value": "Preparation"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/8f53cde5-dc63-48a8-a898-500863da01a0"/>
+        <skos:narrower rdf:resource="http://localhost:8000/5459037c-bd37-404c-8cb6-57cb21c625e7"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "56a08eee-2014-46d0-8d25-076ab67f5454", "value": "Textile process"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "51762095-64be-44f2-9389-fee3f4e44f03", "value": "Process or technique for working with textile materials"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "e48a0695-cf6c-4213-bb9e-205d5daad598", "value": "http://localhost:8000/7b1058a6-c74c-48ee-8ce3-d69638da8d55"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/2717e651-8cc1-48e9-ade2-27ef5f7db7ff"/>
+    <skos:narrower rdf:resource="http://localhost:8000/1ce551f0-5eeb-4662-8be2-4e720a11305c"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c6f14a60-57f8-49bf-b99d-9ba9e70df237">
+    <skos:prefLabel xml:lang="en">{"id": "7e122ed4-b444-4c6c-88dd-d9a93c36d081", "value": "Waterproofing"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "07e4cb97-f986-4b1e-9000-a35118e0f022", "value": "http://localhost:8000/c6f14a60-57f8-49bf-b99d-9ba9e70df237"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "0ecb4844-cc57-4164-a3b4-71e3f55322fd", "value": "Making water proof or resistant"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4bb07a47-c935-43f3-ae38-39a11b87a4bb">
+    <skos:related rdf:resource="http://localhost:8000/ce9a948c-e292-4072-a946-3815fc6cb1fb"/>
+    <dcterms:identifier xml:lang="en">{"id": "6e6f432d-30c0-464e-babc-8a46c9d7f4b2", "value": "http://localhost:8000/4bb07a47-c935-43f3-ae38-39a11b87a4bb"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "faa8fe8c-de6c-4445-b6c5-4a91128013de", "value": "was invented by"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5ed88543-7348-4f8c-9b45-d4cc6ea9d9bf">
+    <dcterms:identifier xml:lang="en">{"id": "ce495b56-0193-4dcf-8d4b-84be04e1ca52", "value": "http://localhost:8000/5ed88543-7348-4f8c-9b45-d4cc6ea9d9bf"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "091d4934-8694-49b2-86c7-6a4b2104e216", "value": "Knitting machine"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "c79e1e7a-8a36-4c40-88b2-c7088b2d9d65", "value": "Weft knitting machine"}</skos:prefLabel>
+    <skos:related rdf:resource="http://localhost:8000/aabcf1c6-42f5-4bca-92a6-08a0ceab25a9"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/04a09bdd-3668-40b0-a875-15ae09142cd7">
+    <skos:scopeNote xml:lang="en">{"id": "81c7a8be-e025-45cd-8557-edd0dd924bf3", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "11cc49c7-4778-4cf3-a666-efc01b6694df", "value": "http://localhost:8000/04a09bdd-3668-40b0-a875-15ae09142cd7"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7f909aa3-336b-4a03-af5c-0cf693b2d1a0", "value": "Cotton baling press"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/276d09e6-f6f5-4d81-8cca-e4a4abb75692">
+    <skos:prefLabel xml:lang="en">{"id": "243a5481-9a01-43fd-9751-796a88108d68", "value": "Dangon's draw loom "}</skos:prefLabel>
+    <skos:related rdf:resource="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "3417d2d8-e0b7-4e2f-a6f7-a4835ffb9cd3", "value": "http://localhost:8000/276d09e6-f6f5-4d81-8cca-e4a4abb75692"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "f2a94273-4a8d-488f-82bd-fc22c0ebc8e8", "value": "Loom"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cb464da0-ef38-43c7-a4c2-c49c2304f7b9">
+    <skos:prefLabel xml:lang="en">{"id": "4bea5b0d-2faa-4819-a817-a79f29a8c281", "value": "Church"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "40174f23-b7ab-4b3f-b229-8e9a4a64baa5", "value": "http://localhost:8000/cb464da0-ef38-43c7-a4c2-c49c2304f7b9"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "85c7a914-672b-4963-b59c-a91c5b6172ef", "value": "Christian place of worship"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/24426938-88ce-4852-93f8-692541d6df89">
+    <dcterms:identifier xml:lang="en">{"id": "3671b284-9b0f-4745-b9bb-4b1cd0b750d0", "value": "http://localhost:8000/24426938-88ce-4852-93f8-692541d6df89"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e7474fa0-7bcc-4fdd-91a5-f9795a1a1199">
+        <skos:scopeNote xml:lang="en">{"id": "5bbe9f6c-d3b4-4263-90a5-174170f8f801", "value": "Knitting machine"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/aabcf1c6-42f5-4bca-92a6-08a0ceab25a9"/>
+        <skos:prefLabel xml:lang="en">{"id": "645b97d2-516f-44ca-a8c0-13fd8cfda7d9", "value": "Circular knitting machine"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "776ca64f-b41f-4fc4-a261-a6a5930bdb12", "value": "http://localhost:8000/e7474fa0-7bcc-4fdd-91a5-f9795a1a1199"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:related rdf:resource="http://localhost:8000/aabcf1c6-42f5-4bca-92a6-08a0ceab25a9"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "d0a90f2e-4098-42de-b573-b406613867e0", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "ba5078bf-c94c-4fcd-81d3-606f0c6c4336", "value": "Knitting machine"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/5ed88543-7348-4f8c-9b45-d4cc6ea9d9bf"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/992d60f5-7a60-49ce-84a2-a7efc282e08f">
+        <skos:prefLabel xml:lang="en">{"id": "abd8cb2f-1e22-4a4b-b5a8-7352ea875b68", "value": "Warp knitting machine"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "0565177b-b24d-49d4-8b85-e155295a6b2a", "value": "Knitting machine"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/aabcf1c6-42f5-4bca-92a6-08a0ceab25a9"/>
+        <dcterms:identifier xml:lang="en">{"id": "258b65ac-f9e7-4469-8331-f9c3062ad324", "value": "http://localhost:8000/992d60f5-7a60-49ce-84a2-a7efc282e08f"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/36fc0293-a5f9-4135-8207-1c580b815925"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6d802916-d162-4837-9a1a-7c95fce5bcdc">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "1f78932b-3371-4649-b367-7e2de666ac76", "value": "Coat"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b2af22a9-cbec-4c03-b5a3-f29f8bef52db", "value": "Outerwear garment"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "343fcf4c-ebb0-4172-b564-1b0065095140", "value": "http://localhost:8000/6d802916-d162-4837-9a1a-7c95fce5bcdc"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0fa1fc7c-9a24-4d06-aa78-3d207367f306">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fecfdfe0-add9-453a-bce6-ba12c9753daf">
+        <skos:prefLabel xml:lang="en">{"id": "583fce47-9304-4db4-bd78-5959b56f95d6", "value": "Spinner"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "8a2784b8-f5e0-4cb9-b992-fa13539445bf", "value": "Spins fibres into yarn"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "293b3256-37e7-412d-b8c9-f29bf9c284ce", "value": "http://localhost:8000/fecfdfe0-add9-453a-bce6-ba12c9753daf"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8afc01e4-93ac-4127-810b-5ed8d82641a0">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "54651dad-0bfa-4876-a885-784610bebf5b", "value": "Twister"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "174f283d-63e6-4d5e-afc6-69b4e9b8d67a", "value": "http://localhost:8000/8afc01e4-93ac-4127-810b-5ed8d82641a0"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "80ae8e32-b39c-4dc9-98e2-0ca561352ba6", "value": "Twists strands of fibre together"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/a7f53853-914a-40a8-a9df-543ada9448c5"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/53a2db31-70e3-4e5d-88b7-2b82a8e932ae">
+        <dcterms:identifier xml:lang="en">{"id": "4c223736-c21c-42ab-b2fb-66423c88d343", "value": "http://localhost:8000/53a2db31-70e3-4e5d-88b7-2b82a8e932ae"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "01681fc9-be1b-446d-a8a9-548c3534652f", "value": "Passes the shuttle through the loom"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "c2123b3d-4656-4dce-adc8-7d400e503ce0", "value": "Passer"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/24933072-6f19-4c17-ae4b-9ca47604ddd6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/492a0c9b-badb-41b8-89f4-132023c0ca9e">
+        <skos:prefLabel xml:lang="en">{"id": "0b110ebf-091d-4bcd-b55f-d92a71e1c3a5", "value": "Rover"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "05d70fde-8cfe-48d6-a99c-ff6006d6f122", "value": "Attends the roving frame"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "b299cd0b-6f5d-4d0d-b80f-a342fec7b66a", "value": "http://localhost:8000/492a0c9b-badb-41b8-89f4-132023c0ca9e"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/def47670-6c20-4ef2-8956-9593e5ac1768">
+        <skos:scopeNote xml:lang="en">{"id": "56954652-b6a6-4b2a-9b2c-9d2a8ff7e6b8", "value": "Winds yarn onto a bobbin"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "86454717-89b7-4436-af49-00aa70138512", "value": "Reeler"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "380f616a-e6d8-41b1-af1f-4d0b03c4b489", "value": "http://localhost:8000/def47670-6c20-4ef2-8956-9593e5ac1768"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "92cdd136-00da-4087-ac9d-2d2c9c78b1c2", "value": "Manufactures textiles"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c75d4870-b9d5-4c47-94da-c89f9c63ddbd", "value": "Textile maker"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "604254ea-858f-4624-a00f-82fcd7bf1e53", "value": "http://localhost:8000/0fa1fc7c-9a24-4d06-aa78-3d207367f306"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/db7294c6-f62e-47dc-8cf8-f8687fdfa6e0">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "c7f4146c-ab64-48ab-8ab5-c3fe40edfdb6", "value": "Piecer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "41adf3f1-ba52-472e-9b96-10ec2e9ebe4b", "value": "http://localhost:8000/db7294c6-f62e-47dc-8cf8-f8687fdfa6e0"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "32b01e9b-c09f-4aa7-8eaf-ef75366c5846", "value": "Mends broken threads"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6bd96d5c-07d4-4c61-985f-68a2d197af3d">
+        <dcterms:identifier xml:lang="en">{"id": "c751a305-c47a-4d77-a8d0-d28662bc1720", "value": "http://localhost:8000/6bd96d5c-07d4-4c61-985f-68a2d197af3d"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "f0d3df8f-2b4a-4cfc-8d0a-1ae01f262391", "value": "Knitter"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "26b24a0c-ef5f-4a7e-a255-2cb111d16287", "value": "Knits fabric from yarn"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/145b4be4-8a16-42e2-85a8-34befefb6a72">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "9b609e57-7c04-4382-b842-a00b6ef4af2c", "value": "Picker"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "c4aef65f-a1b1-4fb4-9c60-7992fe039513", "value": "http://localhost:8000/145b4be4-8a16-42e2-85a8-34befefb6a72"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "e8db3513-267a-44e3-a25d-eee320aef294", "value": "Casts the shuttle on a loom"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/00000000-0000-0000-0000-000000000004">
+    <skos:narrower rdf:resource="http://localhost:8000/f0796c7e-c916-489f-8def-e6962ea37dc0"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/aba56fa8-eda7-4848-93ff-50395099fc13">
+        <dcterms:identifier xml:lang="en">{"id": "10920354-0404-4f75-9c57-cbd385eae4d5", "value": "http://localhost:8000/aba56fa8-eda7-4848-93ff-50395099fc13"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "b4d7ab9a-c597-4504-81ef-757a75eff19a", "value": "address of"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "dca5539c-dfba-4443-8736-e1af82c15a9b", "value": "http://localhost:8000/00000000-0000-0000-0000-000000000004"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2223c1da-f8d1-4a54-8fb6-a8967eb2a919">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "b6e95a0d-04fd-4945-b0ef-0a4342595982", "value": "is referenced by"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "80eef8f6-1268-489f-96ba-a68673445614", "value": "http://localhost:8000/2223c1da-f8d1-4a54-8fb6-a8967eb2a919"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "81f32cfa-a06b-4722-92e1-0d5d2f477fa8", "value": "For archive documents"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7a8f293f-0fb8-4f7a-9b18-36731c3e76cf">
+        <dcterms:identifier xml:lang="en">{"id": "d37bd9c9-012b-45d8-84a0-1858ba6c98a1", "value": "http://localhost:8000/7a8f293f-0fb8-4f7a-9b18-36731c3e76cf"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "b5d50bc9-0f0e-4f41-bfa0-5c55fd298ec0", "value": "adds type of building"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "3017efbd-4541-4ae3-a922-ebfd5a0b7b6a", "value": "buildingType"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/6b129ef6-e9c1-4687-80a2-225b01819118"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/080f85cb-b431-41cb-baa2-fff6cba6452a">
+        <skos:scopeNote xml:lang="en">{"id": "4ca070e3-cdcc-470a-8811-49ac2ca208cd", "value": "For archive documents"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "2d7e5d0e-5750-4e2d-9fc4-12e898770d49", "value": "http://localhost:8000/080f85cb-b431-41cb-baa2-fff6cba6452a"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "3f2c409d-68af-4459-ba4d-404693279fad", "value": "refers to"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/7b9abbbb-dc3d-4f64-b136-5cde608738ed"/>
+    <skos:prefLabel xml:lang="en-us">{"id": "c12e7e6c-e417-11e6-b14b-0738913905b4", "value": "Resource To Resource Relationship Types"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/47600679-6bbf-43ec-ab74-8e9c7e87bcb6">
+        <dcterms:identifier xml:lang="en">{"id": "e4024936-21da-4a34-bf78-456ae08c553c", "value": "http://localhost:8000/47600679-6bbf-43ec-ab74-8e9c7e87bcb6"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "63812808-a7ef-4888-9487-257c0c85b2dd", "value": "is located in"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1cd5f56f-566a-4ca0-8160-16195c0a7c60">
+        <dcterms:identifier xml:lang="en">{"id": "6071e2a3-3595-4d55-a477-40074a26324c", "value": "http://localhost:8000/1cd5f56f-566a-4ca0-8160-16195c0a7c60"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/100633dd-58e2-4004-8f43-721a0adff80c"/>
+        <skos:prefLabel xml:lang="en">{"id": "46e35dd8-bd84-4f8b-8a1d-917db1236f3e", "value": "owned by"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ba48e263-81fc-4f1a-ae0e-cfd801b490a5">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "60d709ee-8317-4838-93ce-96e2065e339b", "value": "http://localhost:8000/ba48e263-81fc-4f1a-ae0e-cfd801b490a5"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/100633dd-58e2-4004-8f43-721a0adff80c"/>
+        <skos:prefLabel xml:lang="en">{"id": "ac78359f-c132-4b55-949b-3773490acacb", "value": "owned"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/5b9e42d6-5a18-4e5d-a80b-4f372c3fa68b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/00000000-0000-0000-0000-000000000007">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "75255ff3-4a80-4993-bd99-97251c6c784c", "value": "http://localhost:8000/00000000-0000-0000-0000-000000000007"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en-us">{"id": "ac41d9be-79db-4256-b368-2f4559cfbe55", "value": "is related to"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d516af89-d32b-47f7-a012-36c574321dd1">
+        <skos:prefLabel xml:lang="en">{"id": "c6f47cf3-a48e-4afb-9f5c-64fc7cf828f9", "value": "was educated in"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "981d59a5-3d96-4cce-b6ea-2b955e3c644a", "value": "http://localhost:8000/d516af89-d32b-47f7-a012-36c574321dd1"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/5a2d07bf-8f00-4a33-9e22-9cd0a70337b4"/>
+    <dcterms:identifier xml:lang="en">{"id": "903c5ec7-df07-441e-83b8-f652721c8961", "value": "http://localhost:8000/00000000-0000-0000-0000-000000000004"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/c944621e-4609-42fa-80af-939717948079"/>
+    <skos:narrower rdf:resource="http://localhost:8000/9ed62aeb-3184-4895-9424-92a96e0c64d1"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6f175ae7-2c5f-4448-ae62-f2c4431125ad">
+        <dcterms:identifier xml:lang="en">{"id": "05fa4004-47a1-4580-8be5-b4e3433e037f", "value": "http://localhost:8000/6f175ae7-2c5f-4448-ae62-f2c4431125ad"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "bde87ff1-059d-47a3-85c0-c09c932338b8", "value": "lived in"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/c3a870ee-71c8-4f42-821e-41a27e98da89"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ab3c6099-c74a-473e-ac3a-9dbf319f04ba">
+        <dcterms:identifier xml:lang="en">{"id": "c637d6f7-4e5b-43f6-80bc-ddabc396cab2", "value": "http://localhost:8000/ab3c6099-c74a-473e-ac3a-9dbf319f04ba"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "19ad7551-2c79-4a1a-9874-441740911b25", "value": "created by"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/5fe0657e-cb69-4dfe-bbfc-fdad2596e135"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/9aaf3028-9ccb-4ee4-96f8-b499f6c802a2"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/61914106-f06e-4d66-b87e-65b96e4586bc">
+        <dcterms:identifier xml:lang="en">{"id": "6932b8ce-a9fb-4a72-9d8a-cf9e69b9aa11", "value": "http://localhost:8000/61914106-f06e-4d66-b87e-65b96e4586bc"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "aa7bb01a-0c5c-4090-8329-c44a7d85d78b", "value": "includes"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/02f99ea2-2201-432c-8f49-58ab9c45696b">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "061e6b6a-98d8-41fb-a208-61c535344357", "value": "had benefactor"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/836551d8-0f2e-4ce4-9b33-a6578a856ca8"/>
+        <dcterms:identifier xml:lang="en">{"id": "a8343fb4-409a-4821-931a-93088b5810d3", "value": "http://localhost:8000/02f99ea2-2201-432c-8f49-58ab9c45696b"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/4bb07a47-c935-43f3-ae38-39a11b87a4bb"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a0d02137-e378-4da5-88fe-ae1aca616882">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "d89e2a51-54c7-4b19-8c26-93d2be2496f1", "value": "http://localhost:8000/a0d02137-e378-4da5-88fe-ae1aca616882"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "3b1784f4-d4b6-445b-b925-06f9d3cefb07", "value": "founded by"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/71074e3a-69ce-4433-836b-5a63948530eb"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b7371662-5159-4b59-9e62-79243af3bf27">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "8a037254-d6ea-4916-8fcf-3c058f2512fe", "value": "operational base for"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "65502280-3aa8-466e-bd6d-2a092e2216e6", "value": "http://localhost:8000/b7371662-5159-4b59-9e62-79243af3bf27"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "f08412ad-e5ac-4995-abd3-58c088e2db7a", "value": "Organisation that operated from this building"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/037f70ca-cbbc-4331-8c42-cb15aa088d33">
+        <dcterms:identifier xml:lang="en">{"id": "c4378772-5403-4270-8c5a-3d369b15f406", "value": "http://localhost:8000/037f70ca-cbbc-4331-8c42-cb15aa088d33"}</dcterms:identifier>
+        <skos:related rdf:resource="http://localhost:8000/5fe0657e-cb69-4dfe-bbfc-fdad2596e135"/>
+        <skos:prefLabel xml:lang="en">{"id": "1d04b8b0-8071-47d2-ac36-47abebef6e48", "value": "created"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "99f38403-3c5e-481d-b5a1-aecb076823f4", "value": "relationship of creator to object created"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "d749b7ef-0477-423a-b162-e54308fb546e", "value": "http://localhost:8000/00000000-0000-0000-0000-000000000004"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/83f8392b-64e2-4456-b205-f8744d22fce9">
+    <skos:prefLabel xml:lang="en">{"id": "de23a864-a9c5-4f3e-8513-367b418c8247", "value": "Testing"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a05454ba-a8dc-49ed-8bf7-2f1838f3db61", "value": "http://localhost:8000/83f8392b-64e2-4456-b205-f8744d22fce9"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "5f1e5277-13d2-40c8-b3f3-3ea7fd48e53b", "value": "Checking fabric"}</skos:scopeNote>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/2a715885-4aee-4431-bad3-cbb39f652b80">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:related rdf:resource="http://localhost:8000/467eccae-7fc6-4ec9-9100-23daa0505fa9"/>
+        <skos:related rdf:resource="http://localhost:8000/83f8392b-64e2-4456-b205-f8744d22fce9"/>
+        <dcterms:identifier xml:lang="en">{"id": "669d3b0c-e290-4f91-9e7d-ca25e8c31aca", "value": "http://localhost:8000/2a715885-4aee-4431-bad3-cbb39f652b80"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "82aa8cb3-5b03-4904-a93f-888e8bf81bfa", "value": "Textile manufacturing machine"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "ed4b7f72-1a80-47ac-9ab2-acfba4eb9c31", "value": "Yarn testing machine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7a420fd6-b62c-4853-82be-43e17473df77">
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/ea1985d6-4b38-425f-b80d-bb3a2091e699">
+        <skos:prefLabel xml:lang="en">{"id": "b1f580e1-b549-4e66-ac37-25be08d3d41f", "value": "Fulling machine"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "399b499f-4ce5-4baf-9eda-6c736e90680a", "value": "http://localhost:8000/ea1985d6-4b38-425f-b80d-bb3a2091e699"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "391d4072-011b-4636-937f-589ac74b0c9b", "value": "Textile manufacturing machine"}</skos:scopeNote>
+        <skos:related rdf:resource="http://localhost:8000/7a420fd6-b62c-4853-82be-43e17473df77"/>
+      </skos:Concept>
+    </skos:related>
+    <dcterms:identifier xml:lang="en">{"id": "9bf29299-8efd-46a6-88db-c9da56c75fa0", "value": "http://localhost:8000/7a420fd6-b62c-4853-82be-43e17473df77"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "0722c075-5eb8-4835-b706-396ba78df482", "value": "Process of washing and shrinking cloth after it has been woven"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b5b7f474-626c-4b9b-babf-08e4fbd66ab1", "value": "Fulling"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9314c13b-27d9-4431-b6d8-02297114d2af">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "1f94a238-8a85-4107-a539-bd19986f262e", "value": "http://localhost:8000/9314c13b-27d9-4431-b6d8-02297114d2af"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "de6fd8c1-14b7-49c6-b517-1223a9a73b79", "value": "Library"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/208c9517-a8e2-413c-ada3-d89c5d37758b">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/620a031d-93cb-4c49-8a7d-72e21f901cfd">
+        <skos:prefLabel xml:lang="en">{"id": "9716063e-3530-43fc-819c-9a3e6c0d05ec", "value": "University"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "6ce1970d-bc77-4615-afcb-7d2e2a3038c0", "value": "http://localhost:8000/620a031d-93cb-4c49-8a7d-72e21f901cfd"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/3a9f0ed8-be72-444c-b196-595eb6412e59"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "acf61901-d10a-4270-b383-85e9dd80655a", "value": "Educational building"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "157f77b9-1d33-45a7-9ac1-217c1bf74f93", "value": "http://localhost:8000/208c9517-a8e2-413c-ada3-d89c5d37758b"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/d0748101-839d-4a27-937a-566e9e063bba"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/02f3f699-5db0-42a9-82c7-b8dde72800f9">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "0420f944-74f8-4303-b473-dbf01b94a37a", "value": "http://localhost:8000/02f3f699-5db0-42a9-82c7-b8dde72800f9"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "2da2b767-0c52-4aa5-8be6-43ef81194eeb", "value": "Adult education institution"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f8a3fdb9-332c-44cb-b529-83ebe9e7aacf">
+    <skos:prefLabel xml:lang="en">{"id": "5301e8f2-8b9f-4506-8907-45a243a30902", "value": "Bobbin taker-off"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "38199f28-0eba-4a4b-9ba0-56fd69cb7526", "value": "http://localhost:8000/f8a3fdb9-332c-44cb-b529-83ebe9e7aacf"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "735b4e35-4c90-4b3c-bb7d-c73eecc8cbb3", "value": "Removes the bobbin from the loom"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9c779ede-893c-4e17-8379-7a57b958223f">
+    <dcterms:identifier xml:lang="en">{"id": "c0fcb07e-2c03-4c5c-9517-86fb42e91c25", "value": "http://localhost:8000/9c779ede-893c-4e17-8379-7a57b958223f"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "4e781354-6e68-474c-9104-348615ae46d2", "value": "Building where textiles are manufactured"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "183c0eae-db58-49f0-9e4e-1c62d6ca66ea", "value": "Textile mill"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e7a29eae-5411-4043-a353-1599d78dd8b3">
+    <dcterms:identifier xml:lang="en">{"id": "21221e56-b794-4094-9de0-f22ed5cc8335", "value": "http://localhost:8000/e7a29eae-5411-4043-a353-1599d78dd8b3"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a533b070-d2d0-4b85-a71b-8001c4233ff1", "value": "Cord-covering machine"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "abe365ce-440a-42e6-8b10-ed888279675a", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e0398247-768c-4bc9-9737-a95e3ba73b1f">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "80355a5e-7290-4ef6-86bb-c2d2aebfb2c8", "value": "Device"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7d1caa44-29f8-4a9d-b132-d5db625e6592", "value": "http://localhost:8000/e0398247-768c-4bc9-9737-a95e3ba73b1f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "84123935-2e74-45f5-8f62-a85bf332b4fe", "value": "Machine"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/09aba692-b355-4a1f-8d07-89a6d275bbd0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b759c45a-7b6e-4785-9c47-0106b9f6bb72">
+    <skos:prefLabel xml:lang="en">{"id": "279617c4-0f4c-4495-b840-327c904a031d", "value": "Floor covering"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0d0035d4-6051-48fe-856d-1889a4b017d5", "value": "http://localhost:8000/b759c45a-7b6e-4785-9c47-0106b9f6bb72"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "2b1b1948-be4d-4aa7-83ff-7ab24615e5a7", "value": "Decorative or functional covering for floors"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/bf442bb4-1f95-42e4-9b13-24800fed0841">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <dcterms:identifier xml:lang="en">{"id": "b03b98a3-ccc3-4897-964e-d40b1df48147", "value": "http://localhost:8000/bf442bb4-1f95-42e4-9b13-24800fed0841"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "e5c893ec-e358-4e52-8ac9-72805a26781d", "value": "Carpet"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "9cee9366-57f5-4ebf-8a84-2848e86b8070", "value": "Textile floor covering"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1e2054ac-b5c9-4c1e-baf6-b0c1543c208f">
+        <skos:prefLabel xml:lang="en">{"id": "8805d353-443b-4215-b25f-9d99ee703098", "value": "Rug"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "2ba43eb0-eb3c-49c2-936d-a0773d156b17", "value": "Textile floor covering"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "0d749860-2230-4f6b-86da-9a13e0f50fc6", "value": "http://localhost:8000/1e2054ac-b5c9-4c1e-baf6-b0c1543c208f"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9ba20317-73cd-4214-a69d-9526f4b22a06">
+    <skos:prefLabel xml:lang="en">{"id": "df27c944-fbe6-4782-b983-054033c747e3", "value": "Scribbling"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f4b7fbbd-6dc4-4798-ae10-b9f30299231a", "value": "http://localhost:8000/9ba20317-73cd-4214-a69d-9526f4b22a06"}</dcterms:identifier>
+    <skos:related rdf:resource="http://localhost:8000/89063c75-3672-4970-9e3c-3cd6512a647f"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "c849b903-246f-43e7-8318-92e5637435e1", "value": "Process of\u00a0combing fibres to straighten them"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6e467d76-a50c-4626-a37f-1ba6cef3913f">
+    <skos:narrower rdf:resource="http://localhost:8000/6d802916-d162-4837-9a1a-7c95fce5bcdc"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d280eb1a-ff25-4c19-929c-b1c4db9ca86a">
+        <dcterms:identifier xml:lang="en">{"id": "835c2034-e1f8-435d-b720-e9a16e461a89", "value": "http://localhost:8000/d280eb1a-ff25-4c19-929c-b1c4db9ca86a"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7ae5cf8f-1b1d-4326-b4af-4a9e5afbc51d", "value": "Dress"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "f27477a5-e9b9-40a8-8596-b07544df335c", "value": "Covering worn on the body"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower rdf:resource="http://localhost:8000/cefb76b7-ad33-455f-bd96-cc05ce0b0cc9"/>
+    <skos:scopeNote xml:lang="en">{"id": "7d32406f-3683-4784-b1a3-07e69b9eb334", "value": "Wardrobe and dress in general"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "685d2b22-5be8-45e1-9262-ae56fa6e7414", "value": "Costume"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/a42a0501-f7e8-4df6-bc31-4e53cb3e890e"/>
+    <dcterms:identifier xml:lang="en">{"id": "47c4b329-9703-459c-bc3a-17422d9ade28", "value": "http://www.wikidata.org/entity/Q9053464"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7c68fdd8-4d27-4cac-b39b-e2807e313f2d">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "a058cfa7-6b69-4411-8baa-b0b06392ec97", "value": "Woollen cloth with a high sheen"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "c6ecc69b-7982-428c-848a-2c38985d6415", "value": "http://localhost:8000/7c68fdd8-4d27-4cac-b39b-e2807e313f2d"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "e6b79554-cd2a-4f06-98c6-3928a7a54b0c", "value": "Lustre"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8f53cde5-dc63-48a8-a898-500863da01a0">
+    <dcterms:identifier xml:lang="en">{"id": "29b39cec-5426-467f-a076-9e0958da8e1e", "value": "http://localhost:8000/8f53cde5-dc63-48a8-a898-500863da01a0"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2d93dd22-c7e3-4f18-a5d7-721e80b4d77c", "value": "Carding"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "539fcee3-a4dd-4114-aeb2-e66c1340f499", "value": "Process that disentangles cleans and intermixes fibres"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related rdf:resource="http://localhost:8000/ccd34126-a0d6-490b-82d4-8d07bb0e7d9d"/>
+    <skos:related rdf:resource="http://localhost:8000/285c0f3a-b150-441f-a3be-178f86e8afde"/>
+    <skos:related rdf:resource="http://localhost:8000/0795f499-c6a9-4ab9-8e00-5f11dfb08921"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/05697139-d316-4121-9faa-6c30e726c575">
+    <skos:scopeNote xml:lang="en">{"id": "09bf49a5-412f-4e84-9b7a-b20b01e4a3e8", "value": "Impressing designs into material"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "31f9bc16-1eb1-402c-aa33-7577801029ae", "value": "Embossing"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "00594b73-862d-407a-a605-0b5b4c298208", "value": "http://localhost:8000/05697139-d316-4121-9faa-6c30e726c575"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/eb4860b1-3de5-4abf-bbe6-4921120f6870">
+    <skos:prefLabel xml:lang="en">{"id": "b46dcfda-13e4-4d7e-b81f-f39707f84c1a", "value": "Insurance records"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "e20c0878-9b75-46e0-bd3b-c46edb4be416", "value": "Business records"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "62ee23d5-4a0b-46d3-b400-e8e52fc74a01", "value": "http://localhost:8000/eb4860b1-3de5-4abf-bbe6-4921120f6870"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/26aba80e-afc8-44b4-a203-7639c210e024">
+    <dcterms:identifier xml:lang="en">{"id": "73b7a208-8c99-43f7-a5d7-f4f1bd63de6c", "value": "http://localhost:8000/26aba80e-afc8-44b4-a203-7639c210e024"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "da167590-a988-46b2-8a84-aebcf6b1f2c2", "value": "Mungo"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "22514d0f-7f60-40d8-8a80-10a4233fc990", "value": "Textile made from recycled wool"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/66f72c78-a5de-449c-be08-0d2586cb683f">
+    <skos:scopeNote xml:lang="en">{"id": "d42146b7-1442-43c8-baf3-196480cb6249", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "5f561534-32f3-4ef1-9da0-acb7485806a5", "value": "http://localhost:8000/66f72c78-a5de-449c-be08-0d2586cb683f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8504eee2-c439-4326-b017-c57583d7b92a", "value": "Printing machine"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://localhost:8000/3ba42e5a-29dd-432f-b2c7-d26239f60903">
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "72f0c286-3108-4473-9d3a-1e84b93f0f24", "value": "Process for reproducing text and images"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "0a8f525d-7ac8-4238-ae78-1cd568713006", "value": "Printing"}</skos:prefLabel>
+        <skos:related rdf:resource="http://localhost:8000/66f72c78-a5de-449c-be08-0d2586cb683f"/>
+        <dcterms:identifier xml:lang="en">{"id": "da966cba-d110-41e7-8009-7ba2ad148b11", "value": "http://localhost:8000/3ba42e5a-29dd-432f-b2c7-d26239f60903"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a4d2fb4f-d6d8-4995-84f1-3283f510897b">
+    <skos:prefLabel xml:lang="en">{"id": "63b28229-9b4c-4ae1-952c-e72ff98ed19a", "value": "Operational records"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "f3a3c047-dbd5-4937-a0f0-f0fc6adcdbb5", "value": "Business records"}</skos:scopeNote>
+    <skos:narrower rdf:resource="http://localhost:8000/5c2297e6-0ae8-4d08-ae15-9f954cbfebd7"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower rdf:resource="http://localhost:8000/eb4860b1-3de5-4abf-bbe6-4921120f6870"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/16c4626c-d647-4abc-9e8a-7fcedc5e85ff">
+        <dcterms:identifier xml:lang="en">{"id": "4a2cf375-7f6b-43b7-aea8-cdf80b1490c6", "value": "http://localhost:8000/16c4626c-d647-4abc-9e8a-7fcedc5e85ff"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "14af7917-2574-4154-8cd9-3b7822c18cde", "value": "Marketing records"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "1975270b-9579-44af-ac5a-d8ff64207c9f", "value": "Business records"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "6379b280-8ecf-472a-b6c3-4da8205ff6a0", "value": "http://localhost:8000/a4d2fb4f-d6d8-4995-84f1-3283f510897b"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cb4e50ea-371f-4785-9803-896627f14604">
+    <skos:narrower rdf:resource="http://localhost:8000/26aba80e-afc8-44b4-a203-7639c210e024"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f57b878b-9474-461c-a5b6-21258278bcb6">
+        <skos:scopeNote xml:lang="en">{"id": "435d9640-a1cd-4d50-ab75-d6c2f95dbad5", "value": "Textile made from recycled wool"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:prefLabel xml:lang="en">{"id": "587e43d5-093e-41a4-ae4d-a7ca1c1a9a02", "value": "Shoddy"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5105fdf4-38c2-4623-b79f-2f7d79786b89", "value": "http://localhost:8000/f57b878b-9474-461c-a5b6-21258278bcb6"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "8099e30b-b920-4aa7-a185-25177d62e027", "value": "Recycled wool"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "0fd8eaef-c1ad-4e7f-8d3f-4f885daa9f0f", "value": "Textile made from shredded and respun wool"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "a3b838fa-264e-44a3-aa9c-7322ffb93ae9", "value": "http://localhost:8000/cb4e50ea-371f-4785-9803-896627f14604"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6cb40eea-3c2e-4ef5-90d9-81f755a4a760">
+    <skos:scopeNote xml:lang="en">{"id": "2a422e78-7f05-4281-b699-cf1234f5b602", "value": "Recreational space"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "179f36c1-37e3-4075-93d7-e255b3f287ab", "value": "Park"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ce2eaa15-e5ab-408c-ba69-027d4a24a9b0">
+    <skos:scopeNote xml:lang="en">{"id": "2d664a3f-2562-4bcd-9c67-ced07a6dcde2", "value": "Animal fibre"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "53da9293-f583-450b-9354-9bc2c5279068", "value": "http://localhost:8000/ce2eaa15-e5ab-408c-ba69-027d4a24a9b0"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "11fce5f3-1fd8-4739-8536-cca85988d621", "value": "Hair"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/100633dd-58e2-4004-8f43-721a0adff80c">
+    <dcterms:identifier xml:lang="en">{"id": "0aa0aa84-f50b-4257-a8ca-af6b1b3f8946", "value": "http://localhost:8000/100633dd-58e2-4004-8f43-721a0adff80c"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "f18981c8-58b0-4b58-8edb-334112dc940a", "value": "Owner of an organisation or building"}</skos:scopeNote>
+    <skos:related rdf:resource="http://localhost:8000/ba48e263-81fc-4f1a-ae0e-cfd801b490a5"/>
+    <skos:related rdf:resource="http://localhost:8000/1cd5f56f-566a-4ca0-8160-16195c0a7c60"/>
+    <skos:prefLabel xml:lang="en">{"id": "f5f5ae59-2997-4d4c-bd79-e806cd98caed", "value": "Owner"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5459037c-bd37-404c-8cb6-57cb21c625e7">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "510d2705-3405-4bc1-a5bd-95d134eb05d3", "value": "Cleaning using flowing liquid"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "5e5e0b47-9a68-488a-8224-f97ae3bdd9d5", "value": "Washing"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e5aba6c5-f76b-4532-8555-a7f954c938b5", "value": "http://localhost:8000/5459037c-bd37-404c-8cb6-57cb21c625e7"}</dcterms:identifier>
+    <skos:related rdf:resource="http://localhost:8000/590f4060-5a81-4919-8cee-617c5d415836"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b548629e-2474-4c4a-8238-eaa5ddf0b60a">
+    <skos:narrower rdf:resource="http://localhost:8000/ec9dd2c0-200a-4650-abfb-2a6dd5b588cc"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower rdf:resource="http://localhost:8000/cb464da0-ef38-43c7-a4c2-c49c2304f7b9"/>
+    <skos:prefLabel xml:lang="en">{"id": "635888db-3047-4e2d-84b6-1092708e2bbb", "value": "Religious building"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ce3ddf31-cabd-46ef-b24e-a8f4dd86d3ea", "value": "http://localhost:8000/b548629e-2474-4c4a-8238-eaa5ddf0b60a"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0484cc7f-6fd7-4a4f-8245-a6d3b7cd5706">
+    <skos:prefLabel xml:lang="en">{"id": "1b5c6184-6df0-48a4-a213-2975d51eefff", "value": "Scavenger"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "80ff38dc-da55-4e2b-b2b5-31b2861fba1b", "value": "http://localhost:8000/0484cc7f-6fd7-4a4f-8245-a6d3b7cd5706"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "ee361a85-7418-4695-b3d1-09ae56b3d0b8", "value": "Picked up waste from the factory floor for reuse"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a906123d-32e1-474d-914d-b4bc4ae57c52">
+    <skos:scopeNote xml:lang="en">{"id": "e64c1a87-dc84-489a-a2d6-813291ab61c7", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "7a7612da-35a1-48e8-b96c-ee29e8ea0476", "value": "Carding engine"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ee56cd75-65d1-44b7-98a8-72ad4ff2571c", "value": "http://localhost:8000/a906123d-32e1-474d-914d-b4bc4ae57c52"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d6e4db19-797a-406a-a0fe-04e1c4a386c3">
+    <dcterms:identifier xml:lang="en">{"id": "17c27e88-5a30-48c4-8036-5f4ee3ae5798", "value": "http://localhost:8000/d6e4db19-797a-406a-a0fe-04e1c4a386c3"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:altLabel xml:lang="en">{"id": "52d049c0-7195-47ae-9ff6-986e0a9f4366", "value": "Card-cutting machine"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "e9c35cfd-c3fc-413a-889d-7bc8488870b0", "value": "Card-making machine"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "7f59c52a-9f97-4e8b-bd53-b9f5d7488576", "value": "Machine for creating cards for looms"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e470ea40-dff1-44ee-8a6e-6ece2b53cdd9">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "7c65ccca-d512-45c9-a4e3-a12ccf9a5a0d", "value": "http://localhost:8000/e470ea40-dff1-44ee-8a6e-6ece2b53cdd9"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "b201e06f-66a0-4a97-a9db-54804a0f4452", "value": "Fleece"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "7ad1bc33-5488-466e-ac1f-de54142e01c0", "value": "Animal fibre"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ffa4ca12-1621-4e9e-af94-fef1a2bf5036">
+    <skos:scopeNote xml:lang="en">{"id": "393cca22-44db-4bfb-b28e-ed3f3379d6ce", "value": "Loom with a Jacquard machine attached\n"}</skos:scopeNote>
+    <skos:related rdf:resource="http://localhost:8000/18fcc56f-a59d-4653-980a-97708e49b485"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "ecb0d8ab-0daa-405c-ae97-d0f9559155e2", "value": "Jacquard loom"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e5522778-55cc-4d1d-bd4a-434c54108c42", "value": "http://localhost:8000/ffa4ca12-1621-4e9e-af94-fef1a2bf5036"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1b7ef03c-dcd8-4556-ae2e-65b3862376b3">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "04690551-f3c2-4955-ad7c-e17a35a47e46", "value": "Linen"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "28fe2ee9-4c4a-427b-b987-ffb90cfacb5c", "value": "Textile made from flax"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "513fbe63-9cc1-4bc3-8777-c27edff88118", "value": "http://localhost:8000/1b7ef03c-dcd8-4556-ae2e-65b3862376b3"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/228fa6a1-61e3-4176-91bd-e9dfac01c5f1">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c2908b04-3c46-4b2a-aca9-e4caaca6d28c">
+        <skos:prefLabel xml:lang="en">{"id": "a5e26aac-2481-4102-b649-8753f0f2f1a0", "value": "Correspondence"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "5251abab-8832-4632-bc21-584b99514945", "value": "Business records"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "ae404253-a673-45fa-b911-a6b0bbd1b797", "value": "http://localhost:8000/c2908b04-3c46-4b2a-aca9-e4caaca6d28c"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "489a020f-bd22-409a-874d-5b4657abcdc3", "value": "Business records"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "302b8a87-55fe-4846-83cb-d623e9599ba8", "value": "Administrative records"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3fdc9404-188c-4de0-b15f-660c8de3bc4f">
+        <skos:prefLabel xml:lang="en">{"id": "22b10371-eaa3-4c78-8931-bf3ec935f488", "value": "Personnel records"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "d7dcd142-3c87-4481-a4b9-8f12b3dc0f56", "value": "http://localhost:8000/3fdc9404-188c-4de0-b15f-660c8de3bc4f"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "ce4302fd-88ab-40e8-8f1c-28d4786867eb", "value": "Business records"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "e69f9518-d360-445e-a735-79ce34f0a0f4", "value": "http://localhost:8000/228fa6a1-61e3-4176-91bd-e9dfac01c5f1"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/db6d46fa-be83-4976-9b80-b6f0b9d7ae9a">
+    <skos:prefLabel xml:lang="en">{"id": "5056e0f7-13d3-4963-8a24-ad37fc00b6fd", "value": "Raw cotton"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "bf3386b3-6b67-4bb3-a931-0c0fc326f998", "value": "http://localhost:8000/db6d46fa-be83-4976-9b80-b6f0b9d7ae9a"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "20319fb9-59e2-4e7c-89fc-33f55e7afcab", "value": "Fibre harvested form the cotton plant"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/df516a42-ac18-4599-83c6-ba2d7dcffae9">
+    <skos:prefLabel xml:lang="en">{"id": "d9a0da3d-0db8-490b-8355-3eaadcfb8ea9", "value": "Museum"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fc39ca2e-6bf1-4e10-b374-2a844d64e2da", "value": "http://localhost:8000/df516a42-ac18-4599-83c6-ba2d7dcffae9"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/959ec44d-1d15-41f0-8987-a33d76fdb3fd">
+    <dcterms:identifier xml:lang="en">{"id": "fd2b77a2-a434-4ea3-8fbe-543b44d950a3", "value": "http://localhost:8000/959ec44d-1d15-41f0-8987-a33d76fdb3fd"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "81ff257c-ddf8-43e9-9d39-a813b3d7d636", "value": "Fibre"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "f178854a-6d38-4dbb-b3b0-132b3b5cef86", "value": "Strand of natural or synthetic substance"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d05f0923-cbac-4648-84cc-dcad67413366">
+        <skos:narrower rdf:resource="http://localhost:8000/ce2eaa15-e5ab-408c-ba69-027d4a24a9b0"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:narrower rdf:resource="http://localhost:8000/68cb681c-ab06-4e04-b5d6-04fc31beedc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "853cc721-f994-4aa4-91ac-434f6a9d95bc", "value": "http://localhost:8000/d05f0923-cbac-4648-84cc-dcad67413366"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/292927b9-b3a5-4028-9dba-18735d919060"/>
+        <skos:narrower rdf:resource="http://localhost:8000/e470ea40-dff1-44ee-8a6e-6ece2b53cdd9"/>
+        <skos:scopeNote xml:lang="en">{"id": "b4cfaa64-42b7-48e2-a3fd-154056ce228d", "value": "Fibre from animals"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "75910045-516e-4f26-b712-c6a8ab90b4c3", "value": "Animal fibre"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/35bb8961-2ca6-4480-a501-5feaa2efbc78">
+        <skos:narrower rdf:resource="http://localhost:8000/b92d6cad-5734-4d7c-a8e9-7517182be560"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+        <skos:scopeNote xml:lang="en">{"id": "a385783d-ab8f-49bd-abf3-39b31098837e", "value": "Fibre from plants"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/ae7319eb-ab07-4752-8d30-a0e9dd661dcb"/>
+        <skos:narrower rdf:resource="http://localhost:8000/db6d46fa-be83-4976-9b80-b6f0b9d7ae9a"/>
+        <skos:related rdf:resource="http://localhost:8000/63ece6f9-7fa3-482b-bdf0-25845c71bd69"/>
+        <skos:prefLabel xml:lang="en">{"id": "85c8c062-f239-4c88-a2aa-6c8d2f5969fe", "value": "Plant fibre"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "7c66ee44-a46f-45ed-96eb-9f129d7f2b8e", "value": "http://localhost:8000/35bb8961-2ca6-4480-a501-5feaa2efbc78"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/292927b9-b3a5-4028-9dba-18735d919060">
+    <skos:prefLabel xml:lang="en">{"id": "0de9435a-de1b-4410-8c28-a729155dc38a", "value": "Silk"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d085d394-a995-454d-a9d2-1c1f17b6e565", "value": "http://localhost:8000/292927b9-b3a5-4028-9dba-18735d919060"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "a943dde3-8cac-481c-bbc7-837be2e656bf", "value": "Animal fibre"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1446ccfc-336a-444d-bb51-aa3f46ea8dd0">
+    <dcterms:identifier xml:lang="en">{"id": "26e72c7b-ae8a-459a-8d83-b4eba247be93", "value": "http://localhost:8000/1446ccfc-336a-444d-bb51-aa3f46ea8dd0"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "45cd27f8-77bc-4047-b122-6dc450148ae9", "value": "Cloth with a pile"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "428e15bd-1de5-4c08-b2e2-93810beb4988", "value": "Velvet"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/06dd261f-b3c1-42cd-8da1-ff8a305e55c2">
+    <skos:prefLabel xml:lang="en">{"id": "b719e8aa-4fc2-4d8d-ab0b-4f21fd2f746e", "value": "Plush"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "dec0c886-a446-4165-8df8-f87be63326ea", "value": "Warp pile fabric with a very long pile"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "a662646b-0fa6-4ea7-86c6-a8f3752ef417", "value": "http://localhost:8000/06dd261f-b3c1-42cd-8da1-ff8a305e55c2"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0ad0ba81-1e35-4602-ad29-063a34cac1d3">
+    <skos:scopeNote xml:lang="en">{"id": "fd50b56e-3b76-4daa-9119-deccfbabb7ee", "value": "Labourer in a mill"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7bdcf5e1-9608-4c28-bfbf-42896e6a0c64", "value": "http://localhost:8000/0ad0ba81-1e35-4602-ad29-063a34cac1d3"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "c7b058ce-8d16-4699-9c09-39875888b774", "value": "Mill labourer"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/00908b95-47a0-4d08-9cff-72b45ae6517f">
+    <skos:scopeNote xml:lang="en">{"id": "47afe973-a478-4541-9449-624a318e5d2e", "value": "Covering"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "aad28079-8857-4710-94e3-5f880ab48c4d", "value": "Blanket"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d52f13e5-76be-4545-b310-e5dd45fc4e9c", "value": "http://localhost:8000/00908b95-47a0-4d08-9cff-72b45ae6517f"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5fe0657e-cb69-4dfe-bbfc-fdad2596e135">
+    <skos:related rdf:resource="http://localhost:8000/037f70ca-cbbc-4331-8c42-cb15aa088d33"/>
+    <skos:related rdf:resource="http://localhost:8000/ab3c6099-c74a-473e-ac3a-9dbf319f04ba"/>
+    <dcterms:identifier xml:lang="en">{"id": "6434da95-2f56-4d8f-992e-bf28609392f6", "value": "http://localhost:8000/5fe0657e-cb69-4dfe-bbfc-fdad2596e135"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "02c58677-3efb-49ee-862f-c98a7a90e323", "value": "Creator"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "aaa39434-2c1c-4622-a6c5-016857ba358d", "value": "Person or organisation that created or manufactured the thing"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/17c05423-4983-488b-bfb6-c9f479fba67f">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/75436656-19bb-43c9-9b6d-d562d1b2115a">
+        <skos:scopeNote xml:lang="en">{"id": "d0687db2-32af-4797-ad60-a6dd61e65a14", "value": "Replaces bobbins on the loom"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "623adac3-08bc-4026-a346-f47b52b2f689", "value": "http://localhost:8000/75436656-19bb-43c9-9b6d-d562d1b2115a"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "e3c1fcfb-bb75-4ad0-8c3c-db0dd8cb3f87", "value": "Doffer"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:narrower rdf:resource="http://localhost:8000/0484cc7f-6fd7-4a4f-8245-a6d3b7cd5706"/>
+    <skos:narrower rdf:resource="http://localhost:8000/f8a3fdb9-332c-44cb-b529-83ebe9e7aacf"/>
+    <skos:prefLabel xml:lang="en">{"id": "cf30cbc9-2e43-4e14-aa51-5fea648a43b1", "value": "Mill apprentice"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "00107b58-f20f-43a9-a630-d1ad9b00d90e", "value": "Apprentice in a mill"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "4714973a-b16e-482a-a750-448a22dcc4dc", "value": "http://localhost:8000/17c05423-4983-488b-bfb6-c9f479fba67f"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/d72cdd07-3c78-48a4-a8f1-dc254cf18360"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a57941f9-0eba-4703-a3e1-15cb3e20e937">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "e8472b36-c040-4c23-8e7d-7094211e6ff3", "value": "Street"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/777d6e9b-19d6-4155-80d9-24f33d6d68e7">
+    <skos:scopeNote xml:lang="en">{"id": "7758c8c8-3b7e-4cc3-8734-753cd7e45ce2", "value": "Textile from plants"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "fecf35dd-5ea1-47dd-9cd8-fdba3a68120d", "value": "Cotton"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "65cbc5f7-118f-49f3-886d-5aaba31ea679", "value": "http://localhost:8000/777d6e9b-19d6-4155-80d9-24f33d6d68e7"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a77dca14-1655-4258-ac2c-4b7be28e0335">
+    <dcterms:identifier xml:lang="en">{"id": "6667d9c2-cb7b-48a0-88b0-a8831d279420", "value": "http://localhost:8000/a77dca14-1655-4258-ac2c-4b7be28e0335"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "25547aeb-d6b6-413a-ba82-4708f8911dd4", "value": "Woven cloth of silk fiber"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b96f7aac-7109-493e-b8fe-3fa875ceb16a", "value": "Silk"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/15564e6d-3f49-4620-bb28-75ca0d6ef415">
+    <dcterms:identifier xml:lang="en">{"id": "280da679-61a6-4d2b-a73a-be49df20d268", "value": "http://localhost:8000/15564e6d-3f49-4620-bb28-75ca0d6ef415"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "4d2e04a4-19e8-4653-9133-806fae859f76", "value": "Tentering"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "82a9453f-129d-49bc-aecc-19f13b6e9efa", "value": "Process of drying textiles"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/33b150a5-4ffb-4f3c-bf8f-81f98a5b6f85">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:scopeNote xml:lang="en">{"id": "77364402-3654-4855-a458-e0a68ef15721", "value": "Textile manufacturing machine"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "d0ff58d6-1b33-462e-8dd5-c02f716f26b0", "value": "http://localhost:8000/33b150a5-4ffb-4f3c-bf8f-81f98a5b6f85"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8a9c6a10-f38d-476d-be37-591f8a765908", "value": "Slubbing frame"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1c1acd09-85ad-4a0f-8b9b-0b1167e8e68b">
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <skos:prefLabel xml:lang="en">{"id": "461fe4aa-3076-49d7-84b2-d71bfcd709ba", "value": "Spinning wheel"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "18c73bd8-28a4-4e30-bd56-4943528f2bd5", "value": "http://localhost:8000/1c1acd09-85ad-4a0f-8b9b-0b1167e8e68b"}</dcterms:identifier>
+    <skos:related rdf:resource="http://localhost:8000/3c74d6fb-0241-4caf-bc19-6c40189236f2"/>
+    <skos:scopeNote xml:lang="en">{"id": "67b446f6-a05d-4dc7-a3a5-ae66427a265e", "value": "Textile manufacturing machine"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8fd2244a-7ace-4ff4-884f-0f0cd8506084">
+    <skos:prefLabel xml:lang="en">{"id": "34a738d8-bdd9-49bf-9e6f-c93b3e40b248", "value": "Twine"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "57a90cf1-a92b-41f7-b954-7a83a4ddcffd", "value": "Light string or strong thread"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "f19b0260-4c81-4a17-a984-f9778bdaff6f", "value": "http://localhost:8000/8fd2244a-7ace-4ff4-884f-0f0cd8506084"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/618c830f-d76a-4394-8215-6a1ad55b992f">
+    <skos:prefLabel xml:lang="en">{"id": "0294f5b5-18fd-446a-800d-3e3cc24c85fb", "value": "Worsted"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "09e4ed51-69f5-49a9-bc31-2cfadfb61b5d", "value": "http://localhost:8000/618c830f-d76a-4394-8215-6a1ad55b992f"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "ba48015d-a09c-46fd-a7c5-fda7fab51cc9", "value": "Woollen cloth"}</skos:scopeNote>
+    <skos:narrower rdf:resource="http://localhost:8000/7c68fdd8-4d27-4cac-b39b-e2807e313f2d"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/13a0d17f-0797-490e-98cf-6ac1a266a628">
+    <skos:prefLabel xml:lang="en">{"id": "ac6207d8-9a2b-4a6e-878d-f3380c70cb04", "value": "Archive"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "91b346e8-d849-4286-8cd3-97da20faad54", "value": "http://localhost:8000/13a0d17f-0797-490e-98cf-6ac1a266a628"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/98e16056-311f-417e-8557-5d7a87305842">
+    <skos:prefLabel xml:lang="en">{"id": "c3ed1146-6d09-4489-88ad-33eaab2b7321", "value": "Mill owner"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b4a7e722-d2d4-42e8-93a1-cb4c5fcc136b", "value": "Owner of a mill or factory"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+    <dcterms:identifier xml:lang="en">{"id": "22ca1573-702d-49f5-93db-31ba1e226bbe", "value": "http://localhost:8000/98e16056-311f-417e-8557-5d7a87305842"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c41f4fed-23d7-4f5c-88b3-65f6fbe29d32">
+    <skos:scopeNote xml:lang="en">{"id": "016a5b5b-3e4b-44d5-af88-ff07965b111f", "value": "Building used as a person's primary residence"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7c691ea1-282e-4277-b03b-759bf1128071", "value": "http://localhost:8000/c41f4fed-23d7-4f5c-88b3-65f6fbe29d32"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "0de9ad1e-53d6-4fc7-b944-2ca4fd533271", "value": "Residential building"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
+  </skos:Concept>
+</rdf:RDF>
