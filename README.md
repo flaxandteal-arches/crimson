@@ -168,7 +168,13 @@ The Bulk Data Manager does not show by default. You will need to activate it by 
 https://arches.readthedocs.io/en/stable/administering/bulk-data-manager/
 
 ### Importing the Import Single CSV with Processing
-You will need to follow the instructions in this repo to install the module:
+You need to run the following command to import the module in the data manager:
+
+```
+make manage CMD="packages -o load_package -a arches_doorstep"
+```
+
+There is additional info in the arches doorstep repo if there are any issues:
 
 https://github.com/flaxandteal/arches_doorstep.git
 
